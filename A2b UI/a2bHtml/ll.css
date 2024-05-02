@@ -1,0 +1,131 @@
+Responsive Media Queries
+@media screen and (max-width: 1440px) {
+  /* Adjusting font sizes and paddings for large desktops */
+  .quotecolor{
+    padding-left: 0;
+  }
+  .quotecolor ul{
+    padding-right: 20px;
+  }
+  .navbar {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Adjustments for tablets and smaller desktops */
+  .quotecolor{
+    padding-left: 0;
+  }
+  .quotecolor ul{
+    padding-right: 20px;
+  }
+  .navbar a {
+    padding: 12px 14px;
+  }
+  .food {
+    padding-left: 180px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width:424px){
+  /* Adjustments for tablets */
+  .quotecolor{
+    padding-left: 0;
+    /* width: max-content; */
+    /* margin-left: 10px; */
+    width: fit-content;
+    padding-right: 0;
+    
+  }
+  .quotecolor ul li{
+  padding-right: 0;
+
+  margin-right: 0;
+  }
+  .food{
+    margin-left:45px;
+  }
+  .navbar {
+    font-size: 13px;
+  }
+  .navbar a {
+    padding: 10px 12px;
+  }
+  .footer {
+    flex-direction: row;
+    padding-right: 20px;
+    /* justify-content: center; */
+  }
+  .text1{
+    padding-right: 70px;
+  }
+  .text {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Adjustments for large smartphones */
+  .quotecolor{
+    padding-left: 0;
+    width: max-content;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .quotecolor ul{
+    max-width: 50%;
+  }
+  .quotecolor h3,span{
+width: max-content;
+  }
+
+  .navbar {
+    font-size: 12px;
+  }
+  .navbar a {
+    padding: 8px 10px;
+  }
+  .food {
+    display: block;
+  }
+  .footer {
+    width: 800px;
+    flex-direction: row;
+    padding-right: 20px;
+    /* justify-content: center; */
+  }
+  .text1{
+    padding-right: 70px;
+  }
+  .text {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Adjustments for small smartphones */
+  .navbar {
+    font-size: 11px;
+  }
+  .navbar a {
+    padding: 6px 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Adjustments for extra-small smartphones */
+  .navbar {
+    font-size: 10px;
+  }
+  .navbar a {
+    padding: 5px 6px;
+  }
+  .footer {
+    flex-direction: row;
+  }
+  .text1 {
+    padding-right: 20px;
+  }
+}
