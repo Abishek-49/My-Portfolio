@@ -1,0 +1,544 @@
+/* body {
+
+  background-color: wheat;
+  background-size: cover;
+  margin: 0%;
+  font-family: 'Inter';
+}
+
+.navbar {
+
+  font-style: italic;
+  font-size: 15px;
+  padding: 2px;
+  background-color: #333;
+  position: fixed;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar a {
+
+  font-weight: 500;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+
+  float: left;
+
+}
+
+.dropdown .dropbtn {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  margin-left: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+
+.a2b {
+
+
+  font-style: italic;
+  padding-top: 100px;
+  padding-left: 30px;
+
+
+}
+
+.logoname {
+
+  padding-left: 20px;
+  color: rgb(79, 70, 236);
+}
+
+.logoname1 {
+
+  color: red;
+
+}
+
+.logoname2 {
+
+  color: rgb(54, 192, 54);
+  font-size: medium;
+}
+
+.quotecolor {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: aliceblue;
+  color: black;
+  padding-left: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: small;
+}
+
+
+.adayar {
+  color: red;
+  font-style: italic;
+
+}
+
+.grand {
+  color: red;
+  font-style: italic;
+}
+
+.diwali {
+  color: red;
+  font-style: italic;
+}
+
+.food {
+
+  margin-left: 1%;
+  padding-left: 210px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food div {
+
+  padding-top: 45px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 190px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 170px;
+  background-color: aliceblue;
+  font-style: italic;
+
+}
+
+
+.combo {
+  color: red;
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 20px;
+
+}
+
+.footer {
+
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: white;
+
+}
+
+.mailfooter {
+  padding-left: 5px;
+}
+
+.text {
+
+  padding-left: 211px;
+
+}
+
+.copyrightslogo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.text1 {
+
+  padding-left: 3px;
+  padding-right: 200px;
+
+} */
+
+/* Base Styles (as given) */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'inter';
+background-color: wheat;
+}
+.container {
+max-width: 95%;
+margin: 0 auto;
+}
+.section1{
+  font-style: italic;
+  font-size: 15px;
+  background-color: #333;
+  position: fixed;
+  width: 1263px;
+}
+
+.section1 .container .navigation{
+display: flex;
+flex-direction: row-reverse;
+font-weight: 500;
+}
+.section1 .container .navbar1{
+padding: 20px 15px;
+}
+.section1 .container .navbar1 a{
+text-decoration: none;
+color: white;
+border-radius: 1px;
+padding: 20px 20px;
+}
+.section1 .container .navbar2 button{
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-style: italic;
+ background-color: #333;
+ border-radius: 1px;
+ padding: 20px 15px;
+}
+.section1 .container .navbar2{
+  flex-grow: 1;
+}
+
+.section1 .container .navigation .navbar1 a:hover
+ {
+  background-color: red;
+}
+.section1 .container .navigation .navbar2 button:hover
+{
+    background-color: red;  
+  
+}
+.section1 .container .navigation .navbar2 .dropdown-content{
+  margin-left: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 20px 20px 20px 20px rgba(24, 17, 17, 0.2);
+  z-index: 1;
+}
+.section1 .container .navigation .navbar2 .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+.section1 .container .navigation .navbar2 .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.section1 .container .navigation .navbar2:hover .dropdown-content {
+  display: flex;
+}
+
+
+.section2 .container .a2b h2{
+  color: rgb(79, 70, 236);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.section2 .container .a2b h2 > span{
+  color: red;
+}
+.section2 .container .a2b > span{
+  font-size: 1.2rem;
+  color: rgb(54, 192, 4);;
+  margin-left: 30px;
+  
+}
+.a2b {
+  font-style: italic;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.logoname {
+  padding-left: 20px;
+  color: rgb(79, 70, 236);
+}
+
+.logoname1 {
+  color: red;
+}
+
+.logoname2 {
+  color: rgb(54, 192, 54);
+  font-size: medium;
+}
+
+.quotecolor {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: aliceblue;
+  color: black;
+  padding-left: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: small;
+}
+
+.adayar {
+  color: red;
+  font-style: italic;
+}
+
+.grand {
+  color: red;
+  font-style: italic;
+}
+
+.diwali {
+  color: red;
+  font-style: italic;
+}
+
+.food {
+  margin-left: 1%;
+  padding-left: 210px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food div {
+  padding-top: 45px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 190px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 170px;
+  background-color: aliceblue;
+  font-style: italic;
+}
+
+.combo {
+  color: red;
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.footer {
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+.mailfooter {
+  padding-left: 5px;
+}
+
+.text {
+  padding-left: 211px;
+}
+
+.copyrightslogo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.text1 {
+  padding-left: 3px;
+  padding-right: 200px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1440px) {
+  /* Adjusting font sizes and paddings for large desktops */
+  .quotecolor{
+    padding-left: 0;
+  }
+  .quotecolor ul{
+    padding-right: 20px;
+  }
+  .navbar {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Adjustments for tablets and smaller desktops */
+  .quotecolor{
+    padding-left: 0;
+  }
+  .quotecolor ul{
+    padding-right: 20px;
+  }
+  .navbar a {
+    padding: 12px 14px;
+  }
+  .food {
+    padding-left: 180px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width:424px){
+  /* Adjustments for tablets */
+  .quotecolor{
+    padding-left: 0;
+    /* width: max-content; */
+    /* margin-left: 10px; */
+    width: fit-content;
+    padding-right: 0;
+    
+  }
+  .quotecolor ul li{
+  padding-right: 0;
+
+  margin-right: 0;
+  }
+  .food{
+    margin-left:45px;
+  }
+  .navbar {
+    font-size: 13px;
+  }
+  .navbar a {
+    padding: 10px 12px;
+  }
+  .footer {
+    flex-direction: row;
+    padding-right: 20px;
+    /* justify-content: center; */
+  }
+  .text1{
+    padding-right: 70px;
+  }
+  .text {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Adjustments for large smartphones */
+  .quotecolor{
+    padding-left: 0;
+    width: max-content;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .quotecolor ul{
+    max-width: 50%;
+  }
+  .quotecolor h3,span{
+width: max-content;
+  }
+
+  .navbar {
+    font-size: 12px;
+  }
+  .navbar a {
+    padding: 8px 10px;
+  }
+  .food {
+    display: block;
+  }
+  .footer {
+    width: 800px;
+    flex-direction: row;
+    padding-right: 20px;
+    /* justify-content: center; */
+  }
+  .text1{
+    padding-right: 70px;
+  }
+  .text {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Adjustments for small smartphones */
+  .navbar {
+    font-size: 11px;
+  }
+  .navbar a {
+    padding: 6px 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Adjustments for extra-small smartphones */
+  .navbar {
+    font-size: 10px;
+  }
+  .navbar a {
+    padding: 5px 6px;
+  }
+  .footer {
+    flex-direction: row;
+  }
+  .text1 {
+    padding-right: 20px;
+  }
+}

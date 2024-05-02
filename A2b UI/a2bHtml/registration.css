@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'inter';
+background-color: white;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+.navbar {
+
+  font-style: italic;
+  font-size: 15px;
+  padding: 2px;
+  background-color: #333;
+  position: fixed;
+  margin: 0;
+  width: 100%;
+
+
+}
+
+.navbar a {
+  font-weight: 500;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+
+  float: left;
+
+}
+
+.dropdown .dropbtn {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+
+  margin-left: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+
+}
+
+
+.fname {
+
+  padding-right: 30px;
+}
+
+.mname {
+  padding-left: 60px;
+  padding-right: 30px;
+
+}
+
+.lname {
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+.email {
+  padding-right: 71px;
+}
+
+.address {
+  padding-left: 200px;
+  padding-right: 70px;
+
+}
+
+.mobl {
+  padding-right: 35px;
+}
+
+.gender {
+  padding-left: 232px;
+  padding-right: 75px;
+}
+
+.menu {
+  padding-right: 70px;
+}
+
+.menuitems {
+  padding-left: 308px;
+  padding-right: 49px;
+}
+
+.slotdate {
+  padding-right: 30px;
+}
+
+.slottime {
+  padding-left: 280px;
+  padding-right: 20px;
+}
+
+input[disabled] {
+  margin-right: 213.4px;
+  margin-left: 105px;
+}
+
+input[type=submit] {
+
+  margin-left: 495px;
+
+}
+
+/* @media screen and (width:768px) {
+  .form {
+    font-size: small;
+  }
+
+  .fname {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .mname {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .lname {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  input[type=text]{
+    width: 151px;
+  }
+
+  .email {
+    padding-right: 0px;
+    width: 20px;
+  }
+
+  input[type=email] {
+    width: 180px;
+  }
+
+  .address {
+    padding-right: 0px;
+    padding-left: 83px;
+    width: 20px;
+    padding-bottom: 60px;
+  }
+
+  .textarea {
+    width: 345px;
+  }
+
+  .mobl {
+    padding-right: 0PX;
+  }
+
+  .gender {
+    padding-left: 40px;
+    padding-right: 25px;
+  }
+
+  .menu {
+    padding-right: 32px;
+  }
+
+  .menuitems {
+    padding-left: 111px;
+    padding-right: 0px;
+  }
+
+  input[list] {
+    width: 300px;
+  }
+
+  .slotdate {
+    padding-right: 0px;
+  }
+
+  input[type=date] {
+    width: 300px;
+  }
+
+  input[disabled] {
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 5px;
+  }
+
+  .slottime {
+    padding-left: 83px;
+    padding-right: 0px;
+  }
+
+  input[type=submit] {
+
+    margin-left: 295px;
+
+  }
+ 
+  
+} */
+/* @media screen and (max-width:1024px) {
+.footer {
+
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  display: flex;
+ padding-right: 250px;
+  background-color: #333;
+  color: white;
+}
+} */
+
+.footer {
+
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  display: flex;
+  width: 800px;
+  background-color: #333;
+  color: white;
+
+
+}
+
+.mailfooter {
+
+  padding-left: 5px;
+}
+
+.text {
+
+  padding-left: 211px;
+
+}
+
+.copyrightslogo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.text1 {
+
+  padding-left: 3px;
+  padding-right: 200px;
+
+}
