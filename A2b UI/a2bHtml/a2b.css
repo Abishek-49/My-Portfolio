@@ -15,7 +15,8 @@ max-width: 95%;
 margin: 0 auto;
 }
 .section1{
-  font-style: italic;
+  letter-spacing: 1.2px;
+  /* font-style: italic; */
   font-size: 1rem;
   background-color: #333;
   position: fixed;
@@ -40,14 +41,16 @@ padding: 20px 20px;
   text-decoration: none;
   border: none;
   color: white;
+  letter-spacing: 1.2px;
   font-size: 1rem;
-  font-style: italic;
+  /* font-style: italic; */
  background-color: #333;
  border-radius: 1px;
  padding: 20px 15px;
 }
 .section1 .container .navbar2{
   flex-grow: 1;
+  
 }
 
 .section1 .container .navigation .navbar1 a:hover
@@ -60,6 +63,7 @@ padding: 20px 20px;
   
 }
 .section1 .container .navigation .navbar2 .dropdown-content{
+  letter-spacing: 1.2px;
   margin-left: 10px;
   display: none;
   position: absolute;
@@ -86,19 +90,24 @@ padding: 20px 20px;
 
 .section2 .container .a2b h2{
   color: rgb(79, 70, 236);
+  letter-spacing: 1.5px;
   margin-bottom: 5px;
   font-weight: 600;
 }
 .section2 .container .a2b h2 > span{
   color: red;
+ 
 }
 .section2 .container .a2b > span{
   font-size: 1.2rem;
-  color: rgb(54, 192, 4);;
+  letter-spacing: 1.5px;
+  color: rgb(54, 192, 4);
   margin-left: 30px;
   
 }
 .section3{
+  word-spacing: 2.1px;
+  letter-spacing: 0.3px;
   background:aliceblue ;
   margin: 70px 150px;
   padding: 20px 0;
@@ -116,6 +125,7 @@ font-weight: 600;
 .section3 .container .welcomeMessage ul li>span{
 color: red;
 font-weight: 600;
+font-style: italic;
 }
 .section4 {
 margin-bottom: 100px;
@@ -130,20 +140,22 @@ background-color: aliceblue;
 width: 400px;
 margin:20px 100px;
 
+
 }
 .section4 .container .food .menuItems img{
   width:250px;
   margin-left: 50px;
 }
 .section4 .container .food .menuItems figcaption{
+  letter-spacing: 1px;
   font-weight: 600;
-  font-style: italic;
-  width: 200px;
+  /* font-style: italic; */
+  width: 224px;
   margin-left: 75px;
   line-height: 40px;
 }
 .section4 .container .food .menuItems details{
-  font-style: italic;
+  /* font-style: italic; */
   margin-left: 75px;
   width: max-content;
 }
@@ -160,10 +172,13 @@ margin:20px 100px;
 }
 .section4 .container .food .menuItems details span+ul{
 padding-left: 20px;
+word-spacing: 1px;
 }
 
 .section5{
-  font-style: italic;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  /* font-style: italic; */
   font-size: 1rem;
   background-color: #333;
   width: 1263px;
