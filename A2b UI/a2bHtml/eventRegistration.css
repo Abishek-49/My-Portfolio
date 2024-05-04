@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'inter';
+  background-color: rgb(252, 231, 190);
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.section1 {
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  background-color: #333;
+  width: 1263px;
+
+}
+
+.section1 .container .navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 500;
+}
+
+.section1 .container .navbar1 {
+  padding: 20px 15px;
+}
+
+.section1 .container .navbar1 a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1px;
+  padding: 20px 20px;
+}
+
+.section1 .container .navbar2 button {
+  text-decoration: none;
+  border: none;
+  color: white;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  background-color: #333;
+  border-radius: 1px;
+  padding: 20px 15px;
+}
+
+.section1 .container .navbar2 {
+  flex-grow: 1;
+
+}
+
+.section1 .container .navigation .navbar1 a:hover {
+  background-color: red;
+}
+
+.section1 .container .navigation .navbar2 button:hover {
+  background-color: red;
+
+}
+
+.section1 .container .navigation .navbar2 .dropdown-content {
+  letter-spacing: 1.2px;
+  margin-left: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 20px 20px 20px 20px rgba(24, 17, 17, 0.2);
+  z-index: 1;
+}
+
+.section1 .container .navigation .navbar2 .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section1 .container .navigation .navbar2 .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.section1 .container .navigation .navbar2:hover .dropdown-content {
+  display: flex;
+  width: 600px;
+}
+
+
+.formDetails {
+  margin-top: 20px;
+
+}
+
+.formDetails .container fieldset legend {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.formDetails .container fieldset .section2 {
+  margin: 30px 0;
+}
+
+.formDetails .container fieldset .section2 label {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section3 {
+  margin: 30px 0;
+}
+
+.formDetails .container fieldset .section3 label {
+  margin-right: 61px;
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section4 {
+  margin: 30px 0;
+}
+
+.formDetails .container fieldset .section4 label {
+  margin-right: 61px;
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section5 {
+  margin: 30px 0;
+}
+
+.formDetails .container fieldset .section5 label {
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section5 label:nth-child(3) {
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section5 select {
+  margin-left: 20px;
+  width: 240px;
+}
+
+.formDetails .container fieldset .section6 {
+  margin: 30px 0;
+}
+
+.formDetails .container fieldset .section6 label {
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.formDetails .container fieldset .section6 label:nth-child(3) {
+  padding-left: 67px;
+}
+
+.formDetails .container fieldset .section7 input:first-child {
+  margin-bottom: 30px;
+  margin-left: 50px;
+  color: rgb(255, 23, 23);
+}
+
+.formDetails .container fieldset .section7 input:last-child {
+  margin-left: 100px;
+  color: rgb(255, 23, 23);
+}
+
+.formDetails .container fieldset input[type=submit] {
+  margin-top: 10px;
+  background-color: antiquewhite;
+  font-size: 1.3rem;
+}
+
+.section8 {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background-color: #333;
+  width: 1263px;
+  color: white;
+}
+
+.section8 .container .footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.section8 .container .footer img {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media screen and (max-width:1024px) {
+  .section1 {
+    font-size: 1.3rem;
+  }
+
+  .section1 .container .navigation .navbar2 button {
+    font-size: 1.4rem;
+  }
+
+  .formDetails {
+    width: 1200px;
+    margin: 70px 0 110px 20px;
+
+  }
+
+  .formDetails .container fieldset legend {
+    margin-bottom: 50px;
+  }
+
+  .formDetails,
+  input,
+  select,
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  .formDetails .container fieldset input[type=submit] {
+    margin: 90px 0 65px 490px
+  }
+
+
+  .formDetails .container fieldset .section2 label {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .formDetails .container fieldset .section2 #fname {
+    margin-right: 70px;
+  }
+
+  /* .formDetails .container fieldset .section2 #mname{
+
+} */
+  .formDetails .container fieldset .section2 #lname {
+    margin-top: 30px;
+  }
+
+  .formDetails .container fieldset .section3 #email {
+    margin-right: 500px;
+    margin-bottom: 30px;
+  }
+
+  .formDetails .container fieldset .section3 label:nth-child(3) {
+    margin-right: 35px;
+
+  }
+
+  .formDetails .container fieldset .section4 #mobl {
+    margin-right: 70px;
+  }
+
+  .formDetails .container fieldset .section5 label:nth-child(3) {
+    margin-right: 19px;
+  }
+
+  .section8 .container .footer {
+    font-size: 1.2rem;
+
+  }
+}
+
+@media screen and (max-width:426px) {
+  .section1 .container .navigation .navbar2:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+  }
+
+  .formDetails {
+    margin-top: 500px;
+  }
+
+  .formDetails,
+  input,
+  select,
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  .formDetails .container fieldset legend {
+    font-size: 2rem;
+  }
+
+  .section8 {
+    margin-top: 535px;
+  }
+
+}

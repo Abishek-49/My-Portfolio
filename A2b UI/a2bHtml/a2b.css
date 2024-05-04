@@ -1,4 +1,3 @@
-/* Base Styles (as given) */
 * {
   box-sizing: border-box;
 }
@@ -8,61 +7,65 @@ body {
   padding: 0;
   font-size: 100%;
   font-family: 'inter';
-background-color: wheat;
+  background-color: wheat;
 }
+
 .container {
-max-width: 95%;
-margin: 0 auto;
+  max-width: 95%;
+  margin: 0 auto;
 }
-.section1{
+
+.section1 {
   letter-spacing: 1.2px;
-  /* font-style: italic; */
   font-size: 1rem;
   background-color: #333;
   position: fixed;
   width: 1263px;
 }
 
-.section1 .container .navigation{
-display: flex;
-flex-direction: row-reverse;
-font-weight: 500;
+.section1 .container .navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 500;
 }
-.section1 .container .navbar1{
-padding: 20px 15px;
+
+.section1 .container .navbar1 {
+  padding: 20px 15px;
 }
-.section1 .container .navbar1 a{
-text-decoration: none;
-color: white;
-border-radius: 1px;
-padding: 20px 20px;
+
+.section1 .container .navbar1 a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1px;
+  padding: 20px 20px;
 }
-.section1 .container .navbar2 button{
+
+.section1 .container .navbar2 button {
   text-decoration: none;
   border: none;
   color: white;
   letter-spacing: 1.2px;
   font-size: 1rem;
-  /* font-style: italic; */
- background-color: #333;
- border-radius: 1px;
- padding: 20px 15px;
-}
-.section1 .container .navbar2{
-  flex-grow: 1;
-  
+  background-color: #333;
+  border-radius: 1px;
+  padding: 20px 15px;
 }
 
-.section1 .container .navigation .navbar1 a:hover
- {
+.section1 .container .navbar2 {
+  flex-grow: 1;
+
+}
+
+.section1 .container .navigation .navbar1 a:hover {
   background-color: red;
 }
-.section1 .container .navigation .navbar2 button:hover
-{
-    background-color: red;  
-  
+
+.section1 .container .navigation .navbar2 button:hover {
+  background-color: red;
+
 }
-.section1 .container .navigation .navbar2 .dropdown-content{
+
+.section1 .container .navigation .navbar2 .dropdown-content {
   letter-spacing: 1.2px;
   margin-left: 10px;
   display: none;
@@ -71,488 +74,290 @@ padding: 20px 20px;
   box-shadow: 20px 20px 20px 20px rgba(24, 17, 17, 0.2);
   z-index: 1;
 }
+
 .section1 .container .navigation .navbar2 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   text-align: left;
 }
+
 .section1 .container .navigation .navbar2 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
 .section1 .container .navigation .navbar2:hover .dropdown-content {
   display: flex;
 }
 
-.section2{
+.section2 {
   padding-top: 100px;
 }
 
-.section2 .container .a2b h2{
+.section2 .container .a2b h2 {
   color: rgb(79, 70, 236);
   letter-spacing: 1.5px;
   margin-bottom: 5px;
   font-weight: 600;
 }
-.section2 .container .a2b h2 > span{
+
+.section2 .container .a2b h2>span {
   color: red;
- 
+
 }
-.section2 .container .a2b > span{
+
+.section2 .container .a2b>span {
   font-size: 1.2rem;
   letter-spacing: 1.5px;
   color: rgb(54, 192, 4);
   margin-left: 30px;
-  
+
 }
-.section3{
+
+.section3 {
   word-spacing: 2.1px;
   letter-spacing: 0.3px;
-  background:aliceblue ;
+  background: aliceblue;
   margin: 70px 150px;
   padding: 20px 0;
 }
-.section3 .container .welcomeMessage ul li{
+
+.section3 .container .welcomeMessage ul li {
   line-height: 40px;
 }
-.section3 .container .welcomeMessage ul li:nth-child(2){
-margin-left: 40px;
-font-weight: 600;
+
+.section3 .container .welcomeMessage ul li:nth-child(2) {
+  margin-left: 40px;
+  font-weight: 600;
 }
-.section3 .container .welcomeMessage ul li:nth-child(3n+1){
-font-weight: 600;
+
+.section3 .container .welcomeMessage ul li:nth-child(3n+1) {
+  font-weight: 600;
 }
-.section3 .container .welcomeMessage ul li>span{
-color: red;
-font-weight: 600;
-font-style: italic;
+
+.section3 .container .welcomeMessage ul li>span {
+  color: red;
+  font-weight: 600;
+  font-style: italic;
 }
+
 .section4 {
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
-.section4 .container .food{
+
+.section4 .container .food {
   display: flex;
   flex-wrap: wrap;
 }
-.section4 .container .food .menuItems{
-padding: 50px 0px 10px 25px;
-background-color: aliceblue;
-width: 400px;
-margin:20px 100px;
+
+.section4 .container .food .menuItems {
+  padding: 50px 0px 10px 25px;
+  background-color: aliceblue;
+  width: 400px;
+  margin: 20px 100px;
 
 
 }
-.section4 .container .food .menuItems img{
-  width:250px;
+
+.section4 .container .food .menuItems img {
+  width: 250px;
   margin-left: 50px;
 }
-.section4 .container .food .menuItems figcaption{
+
+.section4 .container .food .menuItems figcaption {
   letter-spacing: 1px;
   font-weight: 600;
-  /* font-style: italic; */
   width: 224px;
   margin-left: 75px;
   line-height: 40px;
 }
-.section4 .container .food .menuItems details{
-  /* font-style: italic; */
+
+.section4 .container .food .menuItems details {
   margin-left: 75px;
   width: max-content;
 }
-.section4 .container .food .menuItems details summary{
+
+.section4 .container .food .menuItems details summary {
   margin-left: 20px;
   width: 145px;
   line-height: 40px;
 }
-.section4 .container .food .menuItems details summary + span{
+
+.section4 .container .food .menuItems details summary+span {
   margin-left: 20px;
   line-height: 40px;
   color: red;
   font-weight: 600;
 }
-.section4 .container .food .menuItems details span+ul{
-padding-left: 20px;
-word-spacing: 1px;
+
+.section4 .container .food .menuItems details span+ul {
+  padding-left: 20px;
+  word-spacing: 1px;
 }
 
-.section5{
+.section5 {
   word-spacing: 1px;
   letter-spacing: 1px;
-  /* font-style: italic; */
   font-size: 1rem;
   background-color: #333;
   width: 1263px;
   color: white;
 }
 
-.section5 .container .footer{
+.section5 .container .footer {
   display: flex;
-justify-content:space-between;
+  justify-content: space-between;
 
 }
-.section5 .container .footer img{
-width: 20px;
-height: 20px;
+
+.section5 .container .footer img {
+  width: 20px;
+  height: 20px;
 }
 
-@media screen and (max-width:768px){
-  .section1{
-    font-size: 1.5rem;
-    width: 1398px;
-  }
-  .section1 .container .navigation .navbar2 button{
-    font-size: 1.5rem;
-  }
-  .section2 .container .a2b img{
-    width: 330px;
-  }
-  .section2 .container .a2b> h2{
-    margin-left: 20px;
-    font-size: 1.6rem;
-    line-height: 0;
-  }
-  .section2 .container .a2b h2+span{
-    font-size: 1.6rem;
-    padding-left: 25px;
-    line-height: 50px;
-    font-weight: 700px;
-  }
-.section3{
-  font-size: 1.3rem;
-  margin-left: 136px;
-  width: 1100px;
-  padding: 30px 170px;
-}
-.section3 .container .welcomeMessage{
-  margin-left: 0;
-  padding-left: 0;
-}
-.section3 .container .welcomeMessage ul{
-  width: 800px;
-  margin-left: 0;
-  padding-left: 0;
-}
-.section4{
-margin-left: 38px;
-font-size: 1.3rem;
-width: 1300px; 
-padding: 50px 10px 10px 25px;
-}
-.section4 .container .food .menuItems figcaption{
-width: 300px;
-margin-left: 50px;
-}
-.section4 .container .food .menuItems details{
-  margin-left: 5px; 
-}
-.section4 .container .food .menuItems details summary{
-  width: 300px;
-  margin-left: 50px;
-}
-.section5{
-  width: 1355px;
-}
-.section5 .container .footer{
-font-size: 1.3rem;
 
-}
-}
-@media screen and (max-width:1024px){
-  .section1{
+@media screen and (max-width:1024px) {
+  .section1 {
     font-size: 1.3rem;
     width: 1299px;
   }
-  .section1 .container .navigation .navbar2 button{
+
+  .section1 .container .navigation .navbar2 button {
     font-size: 1.4rem;
   }
-  .section2 .container .a2b img{
+
+  .section2 .container .a2b img {
     width: 330px;
   }
-  .section2 .container .a2b> h2{
+
+  .section2 .container .a2b>h2 {
     margin-left: 20px;
     font-size: 1.6rem;
     line-height: 0;
   }
-  .section2 .container .a2b h2+span{
+
+  .section2 .container .a2b h2+span {
     font-size: 1.3rem;
     padding-left: 25px;
     line-height: 50px;
     font-weight: 700px;
   }
-  .section3{
+
+  .section3 {
     font-size: 1.2rem;
     margin-left: 100px;
     width: 1100px;
     padding: 30px 100px;
   }
-  .section4{
+
+  .section4 {
     margin-left: 0px;
     font-size: 1.1rem;
-    width: 1300px; 
+    width: 1300px;
     padding: 50px 10px 10px 25px;
-    }
-    .section4 .container .food .menuItems figcaption{
-      width: 300px;
-      margin-left: 67px;
-    }
-    .section4 .container .food .menuItems details summary{
-      width: 160px;
-    }
-    .section4 .container .food .menuItems details{
-      margin-left: 30px; 
-    }
-    .section5{
-      width: 1300px;
-    }
-    .section5 .container .footer{
+  }
+
+  .section4 .container .food .menuItems figcaption {
+    width: 300px;
+    margin-left: 67px;
+  }
+
+  .section4 .container .food .menuItems details summary {
+    width: 160px;
+  }
+
+  .section4 .container .food .menuItems details {
+    margin-left: 30px;
+  }
+
+  .section5 {
+    width: 1300px;
+  }
+
+  .section5 .container .footer {
     font-size: 1.2rem;
-    
-    }
-}
-/* @media screen and (max-width:2560px){
-.section1{
-  font-size: 1.2rem;
-  width: 1439px
-}
-.section1 .container .navigation .navbar2 button{
-  font-size: 1.29rem;
-}
-.section3 .container .welcomeMessage ul{
-  font-size: 1.1rem;
-  margin-left: 90px;
-}
-.section4{
-  margin-left: 90px;
-}
-.section5{
-  width: 1439px;
-}
-.section5 .footer{
-  font-size: 1.1rem;
-}
-} */
-/* @media screen and (max-width:1299px)and (max-width:1020px){
-  .section1{
-    width: 1300px;
+
   }
-  .section4{
+}
+
+@media screen and (max-width:768px) {
+  .section1 {
+    font-size: 1.5rem;
+    width: 1398px;
+  }
+
+  .section1 .container .navigation .navbar2 button {
+    font-size: 1.5rem;
+  }
+
+  .section2 .container .a2b img {
+    width: 330px;
+  }
+
+  .section2 .container .a2b>h2 {
     margin-left: 20px;
+    font-size: 1.6rem;
+    line-height: 0;
   }
-  .section5{
+
+  .section2 .container .a2b h2+span {
+    font-size: 1.6rem;
+    padding-left: 25px;
+    line-height: 50px;
+    font-weight: 700px;
+  }
+
+  .section3 {
+    font-size: 1.3rem;
+    margin-left: 136px;
+    width: 1100px;
+    padding: 30px 170px;
+  }
+
+  .section3 .container .welcomeMessage {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .section3 .container .welcomeMessage ul {
+    width: 800px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .section4 {
+    margin-left: 38px;
+    font-size: 1.3rem;
     width: 1300px;
+    padding: 50px 10px 10px 25px;
   }
-} */
 
+  .section4 .container .food .menuItems figcaption {
+    width: 300px;
+    margin-left: 50px;
+  }
 
+  .section4 .container .food .menuItems details {
+    margin-left: 5px;
+  }
 
+  .section4 .container .food .menuItems details summary {
+    width: 300px;
+    margin-left: 50px;
+  }
 
+  .section5 {
+    width: 1355px;
+  }
 
+  .section5 .container .footer {
+    font-size: 1.3rem;
 
-
-/* body {
-
-  background-color: wheat;
-  background-size: cover;
-  margin: 0%;
-  font-family: 'Inter';
+  }
 }
 
-.navbar {
-
-  font-style: italic;
-  font-size: 15px;
-  padding: 2px;
-  background-color: #333;
-  position: fixed;
-  margin: 0;
-  width: 100%;
+@media screen and (max-width:320px) {
+  .section2 {
+    width: 385px;
+  }
 }
-
-.navbar a {
-
-  font-weight: 500;
-
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-
-  float: left;
-
-}
-
-.dropdown .dropbtn {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  margin: 0;
-}
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  margin-left: 10px;
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: flex;
-}
-
-
-.a2b {
-
-
-  font-style: italic;
-  padding-top: 100px;
-  padding-left: 30px;
-
-
-}
-
-.logoname {
-
-  padding-left: 20px;
-  color: rgb(79, 70, 236);
-}
-
-.logoname1 {
-
-  color: red;
-
-}
-
-.logoname2 {
-
-  color: rgb(54, 192, 54);
-  font-size: medium;
-}
-
-.quotecolor {
-  margin-top: 70px;
-  margin-bottom: 70px;
-  margin-left: 150px;
-  margin-right: 150px;
-  background-color: aliceblue;
-  color: black;
-  padding-left: 150px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: small;
-}
-
-
-.adayar {
-  color: red;
-  font-style: italic;
-
-}
-
-.grand {
-  color: red;
-  font-style: italic;
-}
-
-.diwali {
-  color: red;
-  font-style: italic;
-}
-
-.food {
-
-  margin-left: 1%;
-  padding-left: 210px;
-  padding-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.food div {
-
-  padding-top: 45px;
-  width: 100px;
-  margin-left: 10px;
-  margin-right: 190px;
-  margin-bottom: 80px;
-  padding-left: 20px;
-  padding-right: 170px;
-  background-color: aliceblue;
-  font-style: italic;
-
-}
-
-
-.combo {
-  color: red;
-  font-weight: 600;
-  font-style: italic;
-  padding-left: 20px;
-
-}
-
-.footer {
-
-  font-style: italic;
-  font-size: 14px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: flex;
-  width: 100%;
-  background-color: #333;
-  color: white;
-
-}
-
-.mailfooter {
-  padding-left: 5px;
-}
-
-.text {
-
-  padding-left: 211px;
-
-}
-
-.copyrightslogo {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  width: 20px;
-  height: 20px;
-}
-
-.text1 {
-
-  padding-left: 3px;
-  padding-right: 200px;
-
-} */
