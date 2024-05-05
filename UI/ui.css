@@ -1,0 +1,1322 @@
+body {
+    font-family: 'Outfit';
+}
+
+.navigation {
+    display: flex;
+    background-color: white;
+    margin-bottom: 0.3%;
+    box-shadow: 9px 9px 9px 9px rgb(236, 235, 235);
+    width: 100%;
+
+}
+
+.nav1 {
+    padding: 0% 32.1% 0% 11%;
+    color: blueviolet;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.last1{
+    margin: 0 3px;
+    border-top: 1px solid rgb(250, 245, 245);
+}
+
+@media screen and (max-width:1025px) {
+
+    .navigation {
+        width: 1310px;
+
+    }
+
+    .paragraph {
+        width: 1204.5px !important;
+        padding-bottom: 5% !important;
+        padding-right: 10%;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1232px !important;
+    }
+
+    .paragraph3 {
+        width: 1189px !important;
+    }
+
+    .paragraph4 {
+        width: 1276.9px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1170px !important;
+    }
+
+    .paragraph7 {
+        width: 1270px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1245px !important;
+    }
+
+    .paragraph10 {
+        width: 1275px !important;
+    }
+
+    .last {
+        width: 1290px !important;
+    }
+
+    .paragraph11 {
+        width: 1270px !important;
+    }
+
+    .paragraph12 {
+        width: 1270px !important;
+    }
+
+    .paragraph13 {
+        width: 1210px !important;
+        padding-left: 5px;
+    }
+
+    .paragraph14 {
+        width: 1290px !important;
+        padding-left: 5px;
+    }
+
+    .project {
+        width: 1300px !important;
+
+    }
+
+    .career {
+        width: 1290px;
+    }
+
+}
+
+@media screen and (max-width:968px) {
+
+    .navigation {
+        width: 1301.9px;
+
+    }
+
+    .paragraph {
+        width: 1204px !important;
+        padding-bottom: 5% !important;
+        padding-right: 10%;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1232px !important;
+    }
+
+    .paragraph3 {
+        width: 1190px !important;
+    }
+
+    .paragraph4 {
+        width: 1276.9px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1172px !important;
+    }
+
+    .paragraph7 {
+        width: 1270px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1242px !important;
+    }
+
+    .paragraph10 {
+        width: 1275px !important;
+    }
+
+    .last {
+        width: 1270px;
+    }
+
+    .paragraph11 {
+        width: 1270px;
+    }
+
+}
+
+
+@media screen and (max-width:868px) {
+
+    .navigation {
+        width: 1303px;
+
+    }
+
+    .paragraph {
+        width: 1213.9px !important;
+        padding-bottom: 5% !important;
+        padding-right: 10%;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1232px !important;
+    }
+
+    .paragraph3 {
+        width: 1202px !important;
+    }
+
+    .paragraph4 {
+        width: 1276.9px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1185px !important;
+    }
+
+    .paragraph7 {
+        width: 1270px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1249px !important;
+    }
+
+    .paragraph10 {
+        width: 1275px !important;
+    }
+
+    .last {
+        width: 1270px;
+    }
+
+    .paragraph11 {
+        width: 1270px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .navigation {
+        width: 1303px;
+
+    }
+
+    .paragraph {
+        width: 1225px !important;
+        padding-bottom: 5% !important;
+        padding-right: 10%;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1232px !important;
+    }
+
+    .paragraph3 {
+        width: 1214.5px !important;
+    }
+
+    .paragraph4 {
+        width: 1276.9px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1193px !important;
+    }
+
+    .paragraph7 {
+        width: 1285px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1253px !important;
+    }
+
+    .paragraph10 {
+        width: 1275px !important;
+    }
+
+    .last {
+        width: 1270px;
+    }
+
+    .paragraph11 {
+        width: 1270px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:700px) {
+
+    .navigation {
+        width: 1305.5px;
+
+    }
+
+    .paragraph {
+        width: 1228px !important;
+        padding-bottom: 5% !important;
+        padding-right: 1% !important;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1239px !important;
+    }
+
+    .paragraph3 {
+        width: 1226px !important;
+    }
+
+    .paragraph4 {
+        width: 1279px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1211px !important;
+        padding-left: 3%;
+    }
+
+    .paragraph7 {
+        width: 1279px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1263px !important;
+    }
+
+    .paragraph10 {
+        width: 1279px !important;
+    }
+
+    .last {
+        width: 1276px;
+    }
+
+    .paragraph11 {
+        width: 1277px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .navigation {
+        width: 1305.5px;
+
+    }
+
+    .paragraph {
+        width: 1234.9px !important;
+        padding-bottom: 5% !important;
+        padding-right: 2% !important;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1240px !important;
+    }
+
+    .paragraph3 {
+        width: 1235.9px !important;
+    }
+
+    .paragraph4 {
+        width: 1279px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+        padding-left: 3%;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1219px !important;
+        padding-left: 10% !important;
+    }
+
+    .paragraph7 {
+        width: 1280px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+    }
+
+    .paragraph9 {
+        width: 1269px !important;
+    }
+
+    .paragraph10 {
+        width: 1279px !important;
+    }
+
+    .last {
+        width: 1276px;
+    }
+
+    .paragraph11 {
+        width: 1277px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .navigation {
+        width: 1305px;
+
+    }
+
+    .paragraph {
+        width: 1234.9px !important;
+        padding-bottom: 5% !important;
+        padding-right: 4.6% !important;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1245px !important;
+    }
+
+    .paragraph3 {
+        width: 1249px !important;
+    }
+
+    .paragraph4 {
+        width: 1279px !important;
+    }
+
+    .wrap {
+        width: 1150px !important;
+        padding-left: 5%;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1218.9px !important;
+        padding-left: 13% !important;
+    }
+
+    .paragraph7 {
+        width: 1280px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+        padding-left: 5%;
+    }
+
+    .paragraph9 {
+        width: 1275px !important;
+
+    }
+
+    .paragraph10 {
+        width: 1279px !important;
+    }
+
+    .last {
+        width: 1276px;
+    }
+
+    .paragraph11 {
+        width: 1277px;
+    }
+
+
+
+}
+
+@media screen and (max-width:468px) {
+
+    .navigation {
+        width: 1305px;
+
+    }
+
+    .paragraph {
+        width: 1235px !important;
+        padding-bottom: 5% !important;
+        padding-right: 8.5% !important;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1253px !important;
+    }
+
+    .paragraph3 {
+        width: 1261px !important;
+    }
+
+    .paragraph4 {
+        width: 1281px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+        padding-left: 5%;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1226px !important;
+        padding-left: 16% !important;
+    }
+
+    .paragraph7 {
+        width: 1280px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+        padding-left: 10%;
+    }
+
+    .paragraph9 {
+        width: 1280px !important;
+    }
+
+    .paragraph10 {
+        width: 1279px !important;
+    }
+
+    .last {
+        width: 1279px;
+    }
+
+    .paragraph11 {
+        width: 1279px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .navigation {
+        width: 1305px;
+
+    }
+
+    .paragraph {
+        width: 1235px !important;
+        padding-bottom: 5% !important;
+        padding-right: 8.5% !important;
+    }
+
+    .half1 {
+        padding-left: 64px !important;
+    }
+
+    .half2 {
+        margin-left: 140px;
+    }
+
+    .paragraph .p3 {
+        width: 500px !important;
+    }
+
+    .paragraph2 {
+        width: 1253px !important;
+    }
+
+    .paragraph3 {
+        width: 1261px !important;
+    }
+
+    .paragraph4 {
+        width: 1281px !important;
+    }
+
+    .wrap {
+        width: 1140px !important;
+        padding-left: 5%;
+    }
+
+    .viewall {
+        width: 1200px;
+        padding-left: 5%;
+    }
+
+    .paragraph6 {
+        width: 1226px !important;
+        padding-left: 16% !important;
+    }
+
+    .paragraph7 {
+        width: 1280px !important;
+    }
+
+    .wrap1 {
+        width: 1100px !important;
+        padding-left: 10%;
+    }
+
+    .paragraph9 {
+        width: 1280px !important;
+    }
+
+    .paragraph10 {
+        width: 1279px !important;
+    }
+
+    .last {
+        width: 1279px;
+    }
+
+    .paragraph11 {
+        width: 1279px;
+    }
+
+}
+
+.show {
+
+    text-align: center;
+
+}
+
+.click {
+    cursor: pointer;
+}
+
+.dropdown {
+    margin-left: 350px;
+
+}
+
+.dropdown ul {
+    background-color: white;
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 2px 17px 28px 0px rgb(152, 152, 152);
+
+}
+
+.dropdown li {
+    padding: 10px 30px;
+}
+
+.dropdown li:hover {
+    background-color: rgb(222, 218, 218);
+    transition: 0.4s;
+}
+
+.nav2 {
+    margin: 2.5% 0% 0% 0%;
+    width: 35%;
+    font-size: 15.2px;
+    color: black;
+
+}
+
+.nav2 a {
+    color: black;
+    padding: 0% 2% 0% 2%;
+    text-decoration: none;
+}
+
+.paragraph {
+    display: flex;
+    padding: 3% 0% 12% 10.5%;
+    background-color: rgb(244, 244, 250);
+    width: 89.5%
+}
+
+.half1 {
+    padding: 10% 0% 0% 0%;
+
+}
+
+.cv-img {
+    margin: 0% 29% 0% 0%;
+    width: 470px;
+    height: 460px;
+    line-height: 10%;
+    float: right;
+    border-radius: 40px;
+}
+
+.cv-img2 {
+    width: 320px;
+    height: 360px;
+    padding-top: 5px;
+    border-radius: 40px;
+
+}
+
+.paragraph .p1 {
+
+    font-weight: 590;
+    font-size: 14px;
+    color: rgb(105, 102, 102);
+}
+
+.name1 {
+    font-size: 30px;
+    color: rgb(123, 120, 120);
+}
+
+.name2 {
+    font-size: 30px;
+    color: rgb(54, 52, 52);
+}
+
+.paragraph .p3 {
+    width: 68%;
+    color: rgb(123, 120, 120);
+    padding-bottom: 20px;
+
+}
+
+.paragraph button {
+    width: 17%;
+    height: 45px;
+    border-radius: 12px;
+}
+
+.p-btn1 {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-right: 1%;
+}
+
+.p-btn2 {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: rgb(244, 244, 255);
+}
+
+.paragraph2 {
+    padding: 5.5% 0% 8% 6%;
+    display: flex;
+    background-color: white;
+    width: 94%
+}
+
+.paragraph2 div {
+    margin: 0% 0% 0% 5%;
+}
+
+.paragraph2 .p1 {
+    color: rgb(123, 120, 120);
+    font-weight: 600;
+}
+
+.paragraph2 .p2 {
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+    width: 83.3%;
+
+}
+
+.paragraph2 .p3 {
+    width: 80%;
+    color: rgb(123, 120, 120);
+    padding-bottom: 20px;
+}
+
+.p2-btn1 {
+    width: 20%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.paragraph3 {
+    padding: 5% 0% 6.6% 12%;
+    background-color: rgb(244, 244, 250);
+    width: 88%
+}
+
+.paragraph3 .p1 {
+    color: rgb(123, 120, 120);
+    font-weight: 600;
+}
+
+.paragraph3 .p2 {
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+    width: 70%;
+}
+
+.paragraph3 .p3 {
+    width: 80%;
+    color: rgb(123, 120, 120);
+    padding-bottom: 20px;
+}
+
+.p3-btn1 {
+    width: 16%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+
+}
+
+.paragraph4 {
+    background-color: white;
+    width: 100%;
+
+
+}
+
+.paragraph4 .p1 {
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(123, 120, 120);
+    font-weight: 600;
+
+}
+
+.paragraph4 .p2 {
+    text-align: center;
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+
+}
+
+.paragraph5 {
+    background-color: rgb(244, 244, 250);
+    margin: 1%;
+    padding: 2%;
+    border-radius: 12px;
+    width: 100%
+}
+
+.icon {
+    color: blueviolet;
+}
+
+.paragraph5 .p1 {
+    float: right;
+    font-size: 50px;
+    color: rgb(229, 226, 226);
+}
+
+.paragraph5 .p2 {
+    color: rgb(54, 52, 52);
+    font-weight: 600;
+}
+
+.paragraph5 .p3 {
+    color: rgb(123, 120, 120);
+    width: 85%;
+}
+
+.paragraph5 .p4 {
+    font-size: 14px;
+    color: rgb(54, 52, 52);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2.5px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0% 10% 0% 10%;
+}
+
+.arrow {
+    display: flex;
+}
+
+.paragraph6 {
+    display: flex;
+    background-color: rgb(244, 244, 250);
+    padding: 3% 5% 5% 9%;
+    width: 86%;
+
+}
+
+.achievements {
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+
+}
+
+.num {
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.alignment {
+    width: 148px;
+}
+
+.paragraph7 {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+.paragraph7 .p1 {
+    color: rgb(123, 120, 120);
+    font-weight: 600;
+}
+
+.paragraph7 .p2 {
+    color: rgb(54, 52, 52);
+
+    font-size: 32px;
+}
+
+.paragraph8 {
+    background-color: rgb(244, 244, 250);
+    margin: 1%;
+    padding: 2%;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.paragraph8 .img3 {
+    object-fit: cover;
+    object-position: top;
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+}
+
+.wrap1 {
+    display: flex;
+    margin: 0% 14% 5% 14%;
+}
+
+.paragraph8 .side {
+    display: flex;
+}
+
+.paragraph8 .p1 {
+    color: rgb(123, 120, 120);
+}
+
+.paragraph8 .p2 {
+    padding-left: 3%;
+    color: rgb(54, 52, 52);
+    font-weight: 600;
+}
+
+.paragraph8 span {
+    color: rgb(123, 120, 120);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.paragraph9 {
+    padding: 4% 4% 5.5% 2.5%;
+    text-align: center;
+    background-color: rgb(244, 244, 250);
+    width: 93.5%;
+}
+
+.paragraph9 .p1 {
+    color: rgb(54, 52, 52);
+    font-size: 29px;
+
+}
+
+.paragraph9 .p2 {
+    color: rgb(54, 52, 52);
+    font-size: 29px;
+
+}
+
+.paragraph9 .p3 {
+    color: rgb(123, 120, 120);
+    font-size: 15px;
+    width: 850px;
+    padding-left: 11.7%;
+}
+
+.paragraph9 .img4 {
+    width: 600px;
+    border-radius: 14px;
+}
+
+.paragraph10 {
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+    background-color: white;
+    width: 93.5%;
+    padding-left: 30px;
+}
+
+.paragraph10 .p1 {
+    color: rgb(123, 120, 120);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.paragraph10 .p2 {
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+}
+
+.paragraph10 button {
+
+    width: 10%;
+    height: 43px;
+    border-radius: 12px;
+}
+
+.paragraph11 {
+    display: flex;
+}
+
+.paragraph11 .p1 {
+    color: rgb(123, 120, 120);
+    padding-left: 40%;
+    width: 100%;
+}
+
+.paragraph11 .lasthalf1 {
+    margin: 1%;
+    padding-left: 60%;
+    color: rgb(123, 120, 120);
+}
+
+.last {
+    margin: 0;
+    border-top: 1px solid rgb(237, 229, 229);
+}
+
+.paragraph12 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.paragraph12 div {
+    padding: 40px 100px 0px 70px;
+    margin: 40px;
+    background-color: rgb(244, 244, 250);
+    color: rgb(123, 120, 120);
+    border-radius: 20px;
+    font-size: 30px;
+    height: 100px;
+
+
+}
+
+.paragraph12 div:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.2s;
+}
+
+.paragraph12 p {
+    color: rgb(54, 52, 52);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline blueviolet 2.5px
+}
+
+.paragraph13 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+.paragraph13 ul li {
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+.school {
+    color: black;
+    font-weight: 500;
+    text-decoration: underline black 2px;
+
+}
+
+.paragraph13 div {
+    padding: 20px 100px 20px 100px;
+    margin: 30px 40px 20px 40px;
+    background-color: rgb(244, 244, 250);
+    color: rgb(123, 120, 120);
+    border-radius: 10px;
+    font-size: 20px;
+
+
+    display: none;
+}
+
+.paragraph13 .education {
+    display: block;
+
+}
+
+.career {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(54, 52, 52);
+    font-weight: 500;
+
+}
+
+.paragraph14 {
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+.paragraph14 .nav {
+    text-align: center;
+    margin: 0.5px;
+    padding: 0;
+
+}
+
+.paragraph14 .nav div {
+    background-color: rgb(244, 244, 250);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin: 0;
+    font-size: 20px;
+    color: rgb(54, 52, 52);
+    font-weight: 500;
+}
+
+.nav div:hover {
+    background-color: rgb(154, 237, 237);
+    cursor: pointer;
+
+}
+
+.paragraph14 p {
+    color: rgb(123, 120, 120);
+    display: none;
+}
+
+.paragraph14 .pp {
+    display: block;
+}
+
+.project div {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(54, 52, 52);
+    font-weight: 500;
+}
+
+.project p {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(123, 120, 120);
+    font-weight: 500;
+}
