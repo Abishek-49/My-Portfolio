@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: white;
+    font-family: 'Outfit';
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+header{
+background-color: white;
+top: 0;
+position: fixed;
+width: 100%;
+z-index: 1000;
+box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+/* word-spacing: 2px; */
+letter-spacing: 1px; 
+}
+header .section1 .container .navigation{
+padding: 5px 0;
+display: flex;
+}
+header .section1 .container .navigation .nav1{ 
+   display: flex;
+   align-items: center;
+   font-size: 1.4rem;
+}
+header .section1 .container .navigation .nav1 span{
+    color: blueviolet;
+ }
+header .section1 .container .navigation .nav1 h5{
+    font-weight: 100;
+}
+header .section1 .container .navigation .nav2{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+header .section1 .container .navigation .nav2 a{
+margin-left: 15px;
+color: black;
+text-decoration: none;
+font-size: 1.1rem;
+position: relative;
+}
+header .section1 .container .navigation .nav2 a::after{
+ content: '';
+ width: 0;
+ height: 3px;
+ left: 0;
+ bottom: -6px;
+ background: blueviolet;
+ position: absolute;
+ transition: 0.5s;
+}
+header .section1 .container .navigation .nav2 a:hover::after{
+  width: 100%;
+    }
+
+
+main .section1{ 
+background-color: rgb(244, 244, 250);
+margin-top: 55px;
+padding-top: 140px;
+padding-bottom: 50px;
+word-spacing: 2px;
+letter-spacing: 1px;
+}
+main .section1 .container .whoAmI{
+ display: flex;
+}
+main .section1 .container .whoAmI .bio h4{  
+    font-weight: 100;
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio h1{
+    font-size: 2rem;
+}
+
+main .section1 .container .whoAmI .bio h1 span:first-child{
+    color: grey;  
+}
+main .section1 .container .whoAmI .bio p{
+    color: rgb(83, 82, 82);  
+    width: 82%;
+    line-height: 30px;
+    font-size: 0.9rem;
+    
+}
+
+main .section1 .container .whoAmI .bio button{
+    margin: 10px 0;
+    border-radius: 10px;
+border: 1px solid blueviolet;
+width: 12%;
+height: 9.5%;
+background-color: rgb(244, 244, 250);
+color: blueviolet;
+}
+
+main .section1 .container .whoAmI .bio p+button{
+    background-color: blueviolet;
+    color: white;
+}
+
+main .section1 .container .whoAmI .myPic{
+margin-left: auto;
+margin: 30px 0;
+}
+
+main .section1 .container .whoAmI .myPic img{
+width: 270px;
+border-radius: 15px;
+box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2{
+    margin-top: 50px;
+    padding-top: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+main .section2 .container .skill{
+    display: flex;
+    
+}
+
+main .section2 .container .skill .logoGroup{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+main .section2 .container .skill .logoGroup .logoGroup1{
+    margin: 20px 0;
+}
+main .section2 .container .skill .logoGroup .logoGroup1 img,.logoGroup3 img{
+    width: 240px;
+    border-radius: 15px;
+box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+main .section2 .container .skill .logoGroup .logoGroup2{
+    margin: 20px 0;
+    padding: 10px 30px 10px 30px;
+background-color: rgb(255, 246, 246);
+box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+border-radius: 15px;
+}
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,.logoGroup2 img:nth-child(2){
+    width: 50px;
+}
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3){
+    width: 62px;
+}
+main .section2 .container .skill .logoGroup .logoGroup3{
+    margin: 20px 0;
+}
+main .section2 .container .skill .expertise{
+    margin-left: auto;
+    width: 70%;
+}
+main .section2 .container .skill .expertise h4{
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+main .section2 .container .skill .expertise li::first-letter{
+font-weight: 800;
+}
+.section2 .container .skill .expertise li,.expertise p{
+    color: rgb(83, 82, 82);  
+    width: 82%;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+main .section2 .container .skill .expertise button{
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    margin: 12px 0;
+}
+main .section3 {
+    background-color: rgb(244, 244, 250);
+padding-top: 100px;
+word-spacing: 2px;
+letter-spacing: 1px;
+line-height: 30px;
+font-size: 0.9rem;
+}
+main .section3 .container .education .marksheets{
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+}
+main .section3 .container .education .marksheets img{
+ width: 200px;
+ box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+
+   }
+   main .section3 .container .education .marksheets img:first-child{
+    margin: 20px 0;
+    border-radius: 15px;
+   }
+   main .section3 .container .education .marksheets img:nth-child(2),.marksheets img:nth-child(3),.marksheets img:last-child{
+    margin: 20px 0;
+    padding: 20px 20px;
+    border-radius: 15px;
+   }
+main .section3 .container .education{
+    display: flex;
+   }
+   main .section3 .container .education .school{
+    margin-left: 140px;
+   }
+   main .section3 .container .education .school h4{
+    margin: 20px 0;
+ font-weight: 100;
+ color: grey;
+ font-size: 1.1rem;
+    
+   }
+   main .section3 .container .education .school h2{
+    margin: 40px 0 ;
+   }
+   main .section3 .container .education .school p{
+    
+    color: grey;
+     width: 70%;
+     margin-top: 30px;
+           
+          }
+main .section3 .container .education .school span{
+ font-size: 1.3rem;
+ font-weight: 600; 
+}
+main .section3 .container .education .school li{
+    margin-top: 10px;
+    color: grey;
+   }
+   main .section3 .container .education .school a{
+    display: inline-block;
+    padding: 5px 13px;
+/* margin-top: 50px; */
+margin-left: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+
+   }
+
+main .section3 .container .education .school .highSchool,.higherSecondary1,.higherSecondary2{
+    margin-top: 55px;
+   }
+ 
+
+
+   
+   /* main .section3 .container .education {
+    margin-top: 420px;
+    display: flex;
+    flex-direction: column;
+   } */
+ 
+
