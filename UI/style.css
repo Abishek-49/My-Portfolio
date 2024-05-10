@@ -92,9 +92,9 @@ main .section1 .container .whoAmI .bio h1 span:first-child{
 }
 main .section1 .container .whoAmI .bio p{
     color: rgb(83, 82, 82);  
-    width: 82%;
+    width: 85%;
     line-height: 30px;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     
 }
 
@@ -180,7 +180,7 @@ font-weight: 800;
     color: rgb(83, 82, 82);  
     width: 82%;
     line-height: 30px;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
 }
 main .section2 .container .skill .expertise button{
     border-radius: 10px;
@@ -189,7 +189,7 @@ main .section2 .container .skill .expertise button{
     background-color: blueviolet;
     border: none;
     color: white;
-    margin: 12px 0;
+    /* margin: 12px 0; */
 }
 main .section3 {
     background-color: rgb(244, 244, 250);
@@ -197,26 +197,27 @@ padding-top: 100px;
 word-spacing: 2px;
 letter-spacing: 1px;
 line-height: 30px;
-font-size: 0.9rem;
+/* font-size: 0.9rem; */
 }
 main .section3 .container .education .marksheets{
-    margin: 70px 0;
+    margin: 65px 0;
     display: flex;
     flex-direction: column;
 }
 main .section3 .container .education .marksheets img{
- width: 200px;
+ width: 250px;
  box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-
+ border-radius: 15px;
    }
    main .section3 .container .education .marksheets img:first-child{
-    margin: 20px 0;
-    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
    }
-   main .section3 .container .education .marksheets img:nth-child(2),.marksheets img:nth-child(3),.marksheets img:last-child{
+   main .section3 .container .education .marksheets img:nth-child(2),.education .marksheets img:nth-child(3),.education .marksheets img:last-child{
     margin: 20px 0;
     padding: 20px 20px;
-    border-radius: 15px;
+
    }
 main .section3 .container .education{
     display: flex;
@@ -232,14 +233,18 @@ main .section3 .container .education{
     
    }
    main .section3 .container .education .school h2{
-    margin: 40px 0 ;
+    margin-top: 50px;
    }
+
    main .section3 .container .education .school p{
     
-    color: grey;
-     width: 70%;
-     margin-top: 30px;
+    color: rgb(83, 82, 82);  
+     /* width: 70%; */
+     margin: 25px 0;
            
+          }
+          main .section3 .container .education .school p+a{
+            margin-left: 0;
           }
 main .section3 .container .education .school span{
  font-size: 1.3rem;
@@ -247,7 +252,7 @@ main .section3 .container .education .school span{
 }
 main .section3 .container .education .school li{
     margin-top: 10px;
-    color: grey;
+    color: rgb(83, 82, 82);  
    }
    main .section3 .container .education .school a{
     display: inline-block;
@@ -262,17 +267,110 @@ margin-left: 25px;
 
    }
 
-main .section3 .container .education .school .highSchool,.higherSecondary1,.higherSecondary2{
-    margin-top: 55px;
+main .section3 .container .education .school .highSchool{
+    margin-top: 120px;
    }
- 
-
-
-   
-   /* main .section3 .container .education {
-    margin-top: 420px;
+   main .section3 .container .education .school .higherSecondary1{
+    margin-top: 130px;
+   }
+   main .section3 .container .education .school .higherSecondary2{
+    margin-top: 130px;
+   }
+ main .section4{
+    padding-top: 100px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+ }
+   main .section4 .container .ugDegree{
+    display: flex;
+   }
+   main .section4 .container .ugDegree .marksheets{
+    margin: 45px 0;
     display: flex;
     flex-direction: column;
-   } */
+   }
+   main .section4 .container .ugDegree .marksheets img{
+    margin-top: 100px;
+    padding: 20px 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+   }
+   main .section4 .container .ugDegree .marksheets img:first-child, .ugDegree 
+   .marksheets img:nth-child(2){
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+   }
+ 
+   main .section4 .container .ugDegree .semesters{
+    margin-left: 140px;
+   }
+   main .section4 .container .ugDegree .semesters h4{
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+   }
+   main .section4 .container .ugDegree .semesters h2{
+    margin-top: 50px;
+   }
+   main .section4 .container .ugDegree .semesters p{
+    color: rgb(83, 82, 82);  
+    /* width: 70%; */
+    margin: 20px 0;
+   }
+   main .section4 .container .ugDegree .semesters p+a{
+    margin-left: 0;
+   }
+   main .section4 .container .ugDegree .semesters span{
+    font-size: 1.3rem;
+    font-weight: 600; 
+   }
+   main .section4 .container .ugDegree .semesters li{
+       margin-top: 10px;
+       color: rgb(83, 82, 82);  
+      }
+      main .section4 .container .ugDegree .semesters a{
+       display: inline-block;
+       padding: 5px 13px;
+   /* margin-top: 60px; */
+   margin-left: 25px;
+       text-decoration: none;
+       border-radius: 10px;
+       background-color: blueviolet;
+       border: none;
+       color: white;
+   
+      }
+      main .section4 .container .ugDegree .semesters .degree{
+        margin-top: 210px;
+      }
+      main .section4 .container .ugDegree .semesters .sem1{
+margin-top: 210px;
+      }
+   
+      main .section4 .container .ugDegree .semesters .sem2{
+        margin-top: 160px;
+      }
+      main .section4 .container .ugDegree .semesters .sem3{
+        margin-top: 200px;
+      }
+      main .section4 .container .ugDegree .semesters .sem4{
+        margin-top: 165px;
+      }
+      main .section4 .container .ugDegree .semesters .sem5{
+        margin-top: 145px;
+      }
+      main .section4 .container .ugDegree .semesters .sem6{
+        margin-top: 170px;
+      }
+      main .section4 .container .ugDegree .semesters .sem7{
+        margin-top: 175px;
+      }
+      main .section4 .container .ugDegree .semesters .sem8{
+        margin-top: 230PX;
+      }
  
 
