@@ -192,8 +192,7 @@ main .section2 .container .skill .expertise button{
     /* margin: 12px 0; */
 }
 main .section3 {
-    background-color: rgb(244, 244, 250);
-padding-top: 100px;
+padding-top: 50px;
 word-spacing: 2px;
 letter-spacing: 1px;
 line-height: 30px;
@@ -277,7 +276,7 @@ main .section3 .container .education .school .highSchool{
     margin-top: 130px;
    }
  main .section4{
-    padding-top: 100px;
+    padding-top: 50px;
     word-spacing: 2px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -373,4 +372,50 @@ margin-top: 210px;
         margin-top: 230PX;
       }
  
+main .switching{
+    padding-top: 100px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+main .switching .switch{
+display: flex;
+justify-content:space-evenly;
+}
 
+main .switching .switch i{
+text-align: center;
+    color: blueviolet;
+}
+main .switching .switch span{
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: relative;
+}
+main .switching .switch span::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background: blueviolet;
+    position: absolute;
+    transition: 0.5s;
+}
+main .switching .switch span:hover:after{
+    width: 100%;
+}
+main .switching .container .switch .switch1,.switch .switch2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 250);
+    border-radius: 20px;
+padding: 30px 105px;
+cursor: pointer;
+}
+
+
+main .switching .container .switch .switch1:hover, .switch2:hover{
+    background-color:  rgb(154, 237, 237);
+    transition: 0.3s;
+}
