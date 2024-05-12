@@ -22,7 +22,6 @@ position: fixed;
 width: 100%;
 z-index: 1000;
 box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-/* word-spacing: 2px; */
 letter-spacing: 1px; 
 }
 header .section1 .container .navigation{
@@ -65,8 +64,6 @@ header .section1 .container .navigation .nav2 a::after{
 header .section1 .container .navigation .nav2 a:hover::after{
   width: 100%;
     }
-
-
 main .section1{ 
 background-color: rgb(244, 244, 250);
 margin-top: 55px;
@@ -94,7 +91,6 @@ main .section1 .container .whoAmI .bio p{
     color: rgb(83, 82, 82);  
     width: 85%;
     line-height: 30px;
-    /* font-size: 0.9rem; */
     
 }
 
@@ -180,7 +176,6 @@ font-weight: 800;
     color: rgb(83, 82, 82);  
     width: 82%;
     line-height: 30px;
-    /* font-size: 0.9rem; */
 }
 main .section2 .container .skill .expertise button{
     border-radius: 10px;
@@ -189,14 +184,12 @@ main .section2 .container .skill .expertise button{
     background-color: blueviolet;
     border: none;
     color: white;
-    /* margin: 12px 0; */
 }
 main .section3 {
 padding-top: 50px;
 word-spacing: 2px;
 letter-spacing: 1px;
 line-height: 30px;
-/* font-size: 0.9rem; */
 }
 main .section3 .container .education .marksheets{
     margin: 65px 0;
@@ -238,7 +231,6 @@ main .section3 .container .education{
    main .section3 .container .education .school p{
     
     color: rgb(83, 82, 82);  
-     /* width: 70%; */
      margin: 25px 0;
            
           }
@@ -256,7 +248,6 @@ main .section3 .container .education .school li{
    main .section3 .container .education .school a{
     display: inline-block;
     padding: 5px 13px;
-/* margin-top: 50px; */
 margin-left: 25px;
     text-decoration: none;
     border-radius: 10px;
@@ -317,7 +308,6 @@ main .section3 .container .education .school .highSchool{
    }
    main .section4 .container .ugDegree .semesters p{
     color: rgb(83, 82, 82);  
-    /* width: 70%; */
     margin: 20px 0;
    }
    main .section4 .container .ugDegree .semesters p+a{
@@ -334,7 +324,6 @@ main .section3 .container .education .school .highSchool{
       main .section4 .container .ugDegree .semesters a{
        display: inline-block;
        padding: 5px 13px;
-   /* margin-top: 60px; */
    margin-left: 25px;
        text-decoration: none;
        border-radius: 10px;
@@ -382,38 +371,37 @@ main .switching .switch{
 display: flex;
 justify-content:space-evenly;
 }
-
+main .switching .switch h5{
+    font-size: 1.2rem;
+    color: rgb(83, 82, 82);  
+    margin: 10px 0;
+}
 main .switching .switch i{
-text-align: center;
     color: blueviolet;
 }
-main .switching .switch span{
-    font-size: 0.7rem;
-    font-weight: 600;
-    position: relative;
-}
-main .switching .switch span::after{
+main .switching .switch .switch1::after, .switch2::after{
     content: '';
     width: 0;
-    height: 3px;
-    left: 0;
-    bottom: -6px;
+top: 68%;
+    height: 2.5px;
+    left: 26%;
     background: blueviolet;
     position: absolute;
     transition: 0.5s;
 }
-main .switching .switch span:hover:after{
-    width: 100%;
+main .switching .switch .switch1:hover::after, .switch2:hover::after{
+    width: 46.9%;
+
 }
 main .switching .container .switch .switch1,.switch .switch2{
     display: flex;
-    flex-direction: column;
+    align-items: center;
     background-color: rgb(244, 244, 250);
     border-radius: 20px;
 padding: 30px 105px;
 cursor: pointer;
+position: relative;
 }
-
 
 main .switching .container .switch .switch1:hover, .switch2:hover{
     background-color:  rgb(154, 237, 237);
