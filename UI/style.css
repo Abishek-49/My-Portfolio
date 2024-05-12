@@ -208,7 +208,7 @@ main .section3 .container .education .marksheets img{
    }
    main .section3 .container .education .marksheets img:nth-child(2),.education .marksheets img:nth-child(3),.education .marksheets img:last-child{
     margin: 20px 0;
-    padding: 20px 20px;
+    padding: 20px;
 
    }
 main .section3 .container .education{
@@ -282,7 +282,7 @@ main .section3 .container .education .school .highSchool{
    }
    main .section4 .container .ugDegree .marksheets img{
     margin-top: 100px;
-    padding: 20px 20px;
+    padding: 20px;
     width: 300px;
     box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
     border-radius: 15px;
@@ -362,12 +362,15 @@ margin-top: 210px;
       }
  
 main .switching{
-    padding-top: 100px;
+    
+    padding-top: 105px;
     word-spacing: 2px;
     letter-spacing: 1px;
     line-height: 30px;
 }
 main .switching .switch{
+    background-color: rgb(244, 244, 250);
+    border-radius: 25px;
 display: flex;
 justify-content:space-evenly;
 }
@@ -396,7 +399,6 @@ main .switching .switch .switch1:hover::after, .switch2:hover::after{
 main .switching .container .switch .switch1,.switch .switch2{
     display: flex;
     align-items: center;
-    background-color: rgb(244, 244, 250);
     border-radius: 20px;
 padding: 30px 105px;
 cursor: pointer;
@@ -406,4 +408,63 @@ position: relative;
 main .switching .container .switch .switch1:hover, .switch2:hover{
     background-color:  rgb(154, 237, 237);
     transition: 0.3s;
+}
+
+main .section5{
+    background-color: rgb(244, 244, 250);
+    padding-top: 70px;
+    margin-top: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;  
+}
+main .section5 .container .awards{
+    display: flex;
+}
+main .section5 .container .awards .awardsImage{
+    display: flex;
+  flex-direction: column;
+}
+main .section5 .container .awards .awardsImage img{
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+
+}
+main .section5 .container .awards .awardsImage img:nth-child(2),.awardsImage img:nth-child(3){
+    padding: 20px 0;
+}
+main .section5 .container .awards .awardsDetail{
+margin-left: 140px;
+}
+main .section5 .container .awards .awardsDetail h4{
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+main .section5 .container .awards .awardsDetail h2{
+    margin-top: 60px;
+}
+main .section5 .container .awards .awardsDetail h2:nth-of-type(2){
+    margin-top: 125px;
+}
+main .section5 .container .awards .awardsDetail h2:nth-of-type(3){
+    margin-top: 110px;
+}
+main .section5 .container .awards .awardsDetail p{
+    color: rgb(83, 82, 82);  
+}
+
+main .section5 .container .awards .awardsDetail a{
+    display: inline-block;
+    padding: 5px 13px;
+margin-left: 0;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
 }
