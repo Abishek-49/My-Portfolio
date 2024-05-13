@@ -367,7 +367,35 @@ td,
   width: 20px;
   height: 20px;
 }
+@media screen and (max-width:2560px) {
+  .section1 {
+    width: 1520px;
+  }
+  .section2+h6{
+    margin-left: 600px;
+  }
+  .section3 .container .aboutItems img{
+    margin-left: 510px;
+  }
+  .section3 .container .aboutItems figcaption{
+    margin-left: 600px;
+  }
+  .section3 .container .details details summary{
+padding-left: 550px;
+  }
+  .section4 .container .food .menuItems{
+    margin-left: 200px;
+    margin-right: 40px;
+    flex-wrap: nowrap;
+  }
+  .section4 .container .food .menuItems details summary{
+    width: 160px;
+  }
+  .section5 {
+    width: 1519px;
+  }
 
+}
 
 @media screen and (max-width:1024px) {
   .section1 {
