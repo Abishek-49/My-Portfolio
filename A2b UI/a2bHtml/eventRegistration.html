@@ -8,42 +8,55 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>Event Registration</title>
 
-
 </head>
-
 <body>
-    <section class="section1">
-        <div class="container">
-            <div class="navigation">
+    <header>
+        <section class="section1">
+            <div class="container">
+              <div class="navigation">
                 <div class="navbar1">
-                    <a href="home.html">Home</a>
+                  <a href="eventRegistration.html">Event Registration</a>
+                  <a href="home.html">Home</a>
                 </div>
                 <div class="navbar2">
-                    <button>
-                        Menu
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="breakfast.html">Breakfast</a>
-                        <a href="lunch.html">Lunch</a>
-                        <a href="dinner.html">Dinner</a>
-                        <a href="sweets&snacks.html">Sweets & Snacks</a>
-                    </div>
+                  <button>
+                    Menu
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="breakfast.html">Breakfast</a>
+                    <a href="lunch.html">Lunch</a>
+                    <a href="dinner.html">Dinner</a>
+                    <a href="sweets&snacks.html">Sweets & Snacks</a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
+          </section>
+        </header>
+
+        <main>
+        
+            <section class="section1">
+              <div class="container">
+                <div class="a2b">
+                  <img src="images/a2b-image...webp">
+                  <h2>Adayar <span>Anandha</span> Bhavan</h2>
+                  <h4>Pure Veg. Since - 1979</h4>
+                </div>
+              </div>
+            </section>       
 
 
-    <div class="formDetails">
+                <div class="formDetails">
 
-        <form class="container">
-
-            <fieldset>
-
-                <legend>Event Registration Form</legend>
-
-
-                <div class="section2">
+                    <form>
+            
+                        <fieldset>
+                            <div class="container">
+            
+                            <legend>Event Registration Form</legend>
+                            
+                <div class="name">
 
                     <label for="fname">First Name :</label>
                     <input type="text" id="fname" name="fname" placeholder="abb" size="28" autocomplete="on" required>
@@ -57,210 +70,123 @@
 
                 </div>
 
-
-
-                <div class="section3">
+                <div class="section">
+                            
+                <div class="section2Label">
 
                     <label for="email" class="email">Email :</label>
-                    <input type="email" id="email" name="email" title="abc@example.com"
-                        placeholder="type your email address here" size="30" required>
-
-                    <label for="address" class="address">Address :</label>
-                    <textarea class="textarea" name="address" id="address" title="your current place where you live"
-                        cols="64" rows="1" placeholder="pls!! type your present residing address here.."
-                        required></textarea>
-
-                </div>
-
-                <div class="section4">
-
+        
                     <label for="mobl" class="mobl">Mobile No :</label>
-                    <input type="tel" id="mobl" name="mobl" title="Example - 9195500550"
-                        placeholder="Enter your phn No here" size="25" pattern="[0-9]{10}" required>
-
-                    <label for="gender" class="gender">Gender :</label>
-                    <input type="radio" id="male" value="Male" name="gender" required>
-                    <label for="male">Male</label>
-
-                    <input type="radio" id="female" value="female" name="gender" required>
-                    <label for="female">Female</label>
-
-                </div>
-
-                <div class="section5">
-
+                
                     <label for="menu" class="menu">Menu :</label>
 
-
-                    <select name="menu" id="menu" required>
-
-                        <option value="breakfast">Breakfast</option>
-                        <option value="lunch">Lunch</option>
-                        <option value="dinner">Dinner</option>
-                        <option value="dinner">Sweets & Snacks</option>
-
-                    </select>
-
-                    <label for="menuitems" class="menuitems">Menu Items :</label>
-                    <input list="menuitems" size="50" required>
-                    <datalist id="menuitems">
-
-                        <option value="idly">
-                        <option value="dosa">
-                        <option value="SouthIndianMeals">
-                        <option value="VarietyRice">
-                        <option value="Chappathi"></option>
-                        <option value="Paratha"></option>
-                    </datalist>
-
-                </div>
-
-                <div class="section6">
-
                     <label for="slotdate" class="slotdate">Event Date :</label>
-                    <input type="date" name="slotdate" id="slotdate" min="2024-01-09" max="2024-01-25"
-                        style="width: 150px;" required>
-
-
-                    <label for="slottime" class="slottime">Event Slot Time :</label>
-                    <input type="time" name="slottime" id="slottime" style="width: 150px;" required>
-
 
                 </div>
-                <div class="section7">
-                    <input type="text" id="slotdate" name="slotdate"
+
+<div class="section2Input">
+
+    <input type="email" id="email" name="email" title="abc@example.com"
+    placeholder="type your email address here" size="30" required>
+
+    <input type="tel" id="mobl" name="mobl" title="Example - 9195500550"
+    placeholder="Enter your phn No here" size="25" pattern="[0-9]{10}" required>
+
+    <select name="menu" id="menu" required>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="dinner">Sweets & Snacks</option>
+    </select>
+
+    <input type="date" name="slotdate" id="slotdate" min="2024-01-09" max="2024-01-25"
+    style="width: 150px;" required>
+
+    <input type="text" id="slotdate" name="slotdate"
                         value='" You can only select btwn 9th to 25th jan. "' size="34" disabled>
 
-                    <input type="text" id="slottime" name="slottime"
-                        value='" Starts from mrng 10:30 am till eve 7:30 pm IST "' size="40" disabled>
+
+</div>
+
+                <div class="section3Label">
+
+                    <label for="address" class="address">Address :</label>
+                   
+
+                    
+                        <label for="gender" class="gender">Gender :</label>
+            
+    
+                   
+                        <label for="menuitems" class="menuitems">Menu Items :</label>
+
+                        <label for="slottime" class="slottime">Event Slot Time :</label>
+
+         
+
                 </div>
 
-                <input type="submit" value="submit">
 
-            </fieldset>
-        </form>
-    </div>
-
-
-
-
-    <!-- <form>
-
-        <fieldset class="form" style="color: black;">
-
-            <legend style="color: black;background-color:rgb(255, 247, 237);">Event Registration Form</legend>
-            <br><br><br>
-
-            <section class="section1">
-
-                <label for="fname" class="fname">First Name :</label>
-                <input type="text" id="fname" name="fname" placeholder="abb" size="28" autocomplete="on" required>
-
-                <label for="mname" class="mname">Middle Name :</label>
-                <input type="text" id="mname" name="mname" title="Not mandatory" size="28" autocomplete="on">
-
-
-                <label for="lname" class="lname">Last Name :</label>
-                <input type="text" id="lname" name="lname" placeholder="vie" size="28" autocomplete="on" required>
-
-            </section><br>
-
-            <section class="section2">
-
-                <label for="email" class="email">Email :</label>
-                <input type="email" id="email" name="email" title="abc@example.com"
-                    placeholder="type your email address here" size="30" required>
-
-                <label for="address" class="address">Address :</label>
-                <textarea class="textarea" name="address" id="address" title="your current place where you live"
+                <div class="section3Input">
+                    <textarea class="textarea" name="address" id="address" title="your current place where you live"
                     cols="64" rows="1" placeholder="pls!! type your present residing address here.."
                     required></textarea>
 
-            </section><br>
+                    <div class="gender">
+            
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" value="Male" name="gender" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" value="female" name="gender" required>
 
-            <section class="section3">
+                </div>
 
-                <label for="mobl" class="mobl">Mobile No :</label>
-                <input type="tel" id="mobl" name="mobl" title="Example - 9195500550"
-                    placeholder="Enter your phn No here" size="25" pattern="[0-9]{10}" required>
+                    <input list="menuitems" size="50" required>
+                        <datalist id="menuitems">
+    
+                            <option value="idly">
+                            <option value="dosa">
+                            <option value="SouthIndianMeals">
+                            <option value="VarietyRice">
+                            <option value="Chappathi"></option>
+                            <option value="Paratha"></option>
+                            </datalist>
 
-                <label for="gender" class="gender">Gender :</label>
-                <input type="radio" id="male" value="Male" name="gender" required>
-                <label for="male">Male</label>
+                            <input type="time" name="slottime" id="slottime" style="width: 150px;" required>
 
-                <input type="radio" id="female" value="female" name="gender" required>
-                <label for="female">Female</label>
-
-            </section><br>
-
-            <section class="section4">
-
-                <label for="menu" class="menu">Menu :</label>
-
-
-                <select name="menu" id="menu" required>
-
-                    <option value="breakfast">Breakfast</option>
-                    <option value="lunch">Lunch</option>
-                    <option value="dinner">Dinner</option>
-                    <option value="dinner">Sweets & Snacks</option>
-
-                </select>
-
-                <label for="menuitems" class="menuitems">Menu Items :</label>
-                <input list="menuitems" size="50" required>
-                <datalist id="menuitems">
-
-                    <option value="idly">
-                    <option value="dosa">
-                    <option value="SouthIndianMeals">
-                    <option value="VarietyRice">
-                    <option value="Chappathi"></option>
-                    <option value="Paratha"></option>
-                </datalist>
-
-            </section><br>
-
-            <section class="section5">
-
-                <label for="slotdate" class="slotdate">Event Date :</label>
-                <input type="date" name="slotdate" id="slotdate" min="2024-01-09" max="2024-01-25" style="width: 150px;"
-                    required>
-        
-
-                <label for="slottime" class="slottime">Event Slot Time :</label>
-                <input type="time" name="slottime" id="slottime" style="width: 150px;" required>
-      
-
-            </section><br>
-            <section class="section6">
-                <input style="color:  rgb(255, 23, 23);" type="text" id="slotdate" name="slotdate"
-                    value='" You can only select btwn 9th to 25th jan. "' size="34" disabled>
-
-                <input style="color: rgb(255, 23, 23);" type="text" id="slottime" name="slottime"
-                    value='" Starts from mrng 10:30 am till eve 7:30 pm IST "' size="40" disabled>
-            </section>
+                            <input type="text" id="slottime" name="slottime"
+                            value='" Starts from mrng 10:30 am till eve 7:30 pm IST "' size="40" disabled>
+             
+    
+                   
 
 
-            <br><br>
-            <input
-                style="width: 100px;height: 30px; color: black;background-color:antiquewhite;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: italic;font-size: medium;"
-                type="submit" value="submit">
-
-        </fieldset>
-    </form> -->
-
-
-    <section class="section8">
-        <div class="container">
-            <div class="footer">
-                <p>Mail us on : a2b@gmail.com</p>
-                <p>Copyright <img src="images/c2.png" alt="copyrights"> 2023 , Adayar Anandha Bhavan All Rights
-                    Reserved.</p>
-                <p>Call us on : 9500199056</p>
+                </div>
             </div>
+
+            <div class="submit">
+                <input type="submit" value="submit"> 
+            </div>
+                       
         </div>
-    </section>
+            </fieldset>
+        </form>
+    </div>
+</main>   
+
+<footer>
+    <section class="section1">
+        <div class="container">
+          <div class="footer">
+            <p>Mail us on : a2b@gmail.com</p>
+            <p>Copyright <img src="images/c2.png" alt="copyrights"> 2023 , Adayar Anandha Bhavan All Rights Reserved.</p>
+            <p>Call us on : 9500199056</p>
+          </div>
+        </div>
+      </section>
+    
+  </footer>
+
 </body>
 
 </html>

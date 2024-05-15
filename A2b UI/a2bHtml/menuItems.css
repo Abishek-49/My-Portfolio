@@ -174,7 +174,6 @@ main .section2 .container .aboutItems img{
 
 .section2 .container .details{
   color: black;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,6 +186,7 @@ main .section2 .container .aboutItems img{
   word-spacing: 3px;
 }
 .section2 .container .details summary{
+  cursor: pointer;
   list-style: none;
   color: rgb(16, 179, 16);
   font-weight: 900;
@@ -194,23 +194,204 @@ main .section2 .container .aboutItems img{
 .section2 .container .details ol{
   padding-bottom: 10px;
 }
+.section2 .container .details details .idlyTable tr:nth-child(even),
+.dosaTable tr:nth-child(even),.mealsTable tr:nth-child(even),.varietyriceTable tr:nth-child(even),.chappathiTable tr:nth-child(even),.parathaTable tr:nth-child(even),.samosaTable tr:nth-child(even),.ladduTable tr:nth-child(even){
+  /* padding: 10px 145px; */
+  background-color: rgba(150, 212, 212, 0.4);
+  border: 1px solid black;
+}
+
+.section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+  padding: 10px 145px;
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .dosaTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .mealsTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .varietyriceTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .chappathiTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .parathaTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .ladduTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+.section2 .container .details details .samosaTable th,td:nth-child(odd),td:nth-child(even){
+  border: 1px solid black;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+@media (max-width:1024px) {
+  header .section1{
+    font-size: 0.9rem;
+  }
+  header .section1 .container .navbar2 button{
+    font-size: 0.9rem;
+  }
+  main .section1 .container .a2b h2{
+    font-size: 1.3rem;
+  }
+  main .section1 .container .a2b h4{
+    font-size: 1.1rem;
+  }
+  main .section1 + h3{
+    font-size: 1.1rem;
+  }
+  main .section2 .container .aboutItems p{
+    font-size: 1rem;
+  }
+  main .section2 .container .aboutItems p span{
+    font-size: 1.2rem;
+  }
+  main .section2 .container .details {
+    font-size: 0.9rem;
+  }
+  footer .section1{
+    font-size: 0.7rem;
+  }
+  footer .section1 .container .footer p img{
+    width: 20px;
+    height: 20px;
+  }
+  
+}
+
+@media (max-width:768px) {
+  header .section1{
+    font-size: 0.8rem;
+  }
+  header .section1 .container .navbar2 button{
+    font-size: 0.8rem;
+  }
+  main .section1 .container .a2b h2{
+    font-size: 1.2rem;
+  }
+  main .section1 .container .a2b h4{
+    font-size: 1rem;
+  }
+  main .section1 + h3{
+    font-size: 1rem;
+  }
+  main .section2 .container .aboutItems p{
+    font-size: 0.9rem;
+  }
+  main .section2 .container .aboutItems p span{
+    font-size: 1.1rem;
+  }
+  main .section2 .container .details {
+    font-size: 0.8rem;
+  }
+  footer .section1{
+    font-size: 0.6rem;
+  }
+  footer .section1 .container .footer p img{
+    width: 20px;
+    height: 20px;
+  }
+  
+}
+
+@media (max-width:476px) {
+  header .section1{
+    font-size: 0.7rem;
+  }
+  header .section1 .container .navbar2 button{
+    font-size: 0.7rem;
+  }
+  main .section1 .container .a2b h2{
+    font-size: 1.1rem;
+  }
+  main .section1 .container .a2b h4{
+    font-size: 0.9rem;
+  }
+  main .section1 + h3{
+    font-size: 0.9rem;
+  }
+  main .section2 .container .aboutItems p{
+    font-size: 0.8rem;
+  }
+  main .section2 .container .aboutItems p span{
+    font-size: 1rem;
+  }
+  main .section2 .container .details {
+    font-size: 0.7rem;
+  }
+  footer .section1{
+    font-size: 0.5rem;
+  }
+  footer .section1 .container .footer p img{
+    width: 15px;
+    height: 15px;
+  }
+  
+}
+
+
+@media (max-width:844px) {
+  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+    padding: 10px 100px;
+    border: 1px solid black;
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+}
+@media (max-width:651px) {
+  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+    padding: 10px 60px;
+    border: 1px solid black;
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+}
+@media (max-width:497px) {
+  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+}
+@media (max-width:454px) {
+  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+}
+/* .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+  background-color: rgba(150, 212, 212, 0.4);
+} */
 /* .section2 .container .details details .table1 tr:first-child th:nth-child(1){
   display: flex;
 justify-content: center;
 
 
 } */
-.section2 .container .details details .table1,
-.table2,
-.table3,
-.table4,
-.table5,
-.table6,
-.table7 {
+.section2 .container .details details .idlyTable,
+.dosaTable,
+.mealsTable,
+.varietyriceTable,
+.chappathiTable,
+.parathaTable,
+.ladduTable,
+.samosaTable {
+ 
   border-collapse: collapse;
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 /* width: 600px;
 height: 300px; */
 /* flex-basis: 600px; */
@@ -219,54 +400,60 @@ height: 300px; */
   /* height: 120px; */
   /* margin-bottom: 20px; */
 }
-.section2 .container .details details .table1 tr th,td
+/* .section2 .container .details details .idlyTable tr th,td
 {
   padding: 10px 145px;
 }
-.section2 .container .details details .table2 tr th,td
+.section2 .container .details details .dosaTable tr th,td
 {
   padding: 10px 145px;
 }
-  /* .section2 .container .details details .table3 tr th,td
+  .section2 .container .details details .mealsTable tr th,td
   {
-    padding: 10px 25px;
+    padding: 10px 145px;
   }
-  .section2 .container .details details .table4 tr th,td
+  .section2 .container .details details .varietyriceTable tr th,td
   {
-    padding: 10px 25px;
+    padding: 10px 145px;
   }
-  .section2 .container .details details .table5 tr th,td
+  .section2 .container .details details .chappathiTable tr th,td
   {
-    padding: 10px 25px;
+    padding: 10px 145px;
   }
-  .section2 .container .details details .table6 tr th,td
+  .section2 .container .details details .parathaTable tr th,td
   {
-    padding: 10px 25px;
+    padding: 10px 145px;
   }
-  .section2 .container .details details .table7 tr th,td
+  .section2 .container .details details .ladduTable tr th,td
   {
-    padding: 10px 25px;
+    padding: 10px 145px;
+  }
+  .section2 .container .details details .samosaTable tr th,td
+  {
+    padding: 10px 145px;
   } */
-.section2 .container .details details .table1 caption,
-.table2 caption,
-.table3 caption,
-.table4 caption,
-.table5 caption,
-.table6 caption,
-.table7 caption {
+.section2 .container .details details .idlyTable caption,
+.dosaTable caption,
+.mealsTable caption,
+.varietyriceTable caption,
+.chappathiTable caption,
+.parathaTable caption,
+.ladduTable caption,
+.samosaTable caption {
   color: rgb(79, 70, 236);
   font-weight: 600;
   
   /* margin-bottom: 20px; */
 }
 
-.section2 .container .details details .table1 tr td img,
-.table2 tr td img,
-.table3 tr td img,
-.table4 tr td img,
-.table5 tr td img,
-.table6 tr td img,
-.table7 tr td img {
+.section2 .container .details details .idlyTable tr td img,
+.dosaTable tr td img,
+.mealsTable tr td img,
+.varietyriceTable tr td img,
+.chappathiTable tr td img,
+.parathaTable tr td img,
+.ladduTable tr td img,
+.samosaTable tr td img {
   width: 12px;
 }
 
@@ -522,11 +709,10 @@ footer .section1{
   position: fixed;
   bottom: 0;
   z-index: 1000;
-  margin: 0;
   box-shadow: 0px 0px 10px 10px rgb(32, 32, 32);
 }
 
-footer .section1 .container .footer{
+footer .section1 .container .footer {
   display: flex;
   justify-content:space-between;
 
