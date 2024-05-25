@@ -46,132 +46,151 @@
               </div>
             </section>       
 
-
-                <div class="formDetails">
-
-                    <form>
-            
+                    <form class="section2" name="submit-to-google-sheet">
                         <fieldset>
                             <div class="container">
             
                             <legend>Event Registration Form</legend>
                             
-                <div class="name">
+                <section class="name">
 
-                    <label for="fname">First Name :</label>
+                  <div class="fname">
+
+                    <label for="fname">First Name</label>
                     <input type="text" id="fname" name="fname" placeholder="abb" size="28" autocomplete="on" required>
+                  </div>
 
-                    <label for="mname">Middle Name :</label>
+                  <div class="mname">
+
+                    <label for="mname">Middle Name</label>
                     <input type="text" id="mname" name="mname" title="Not mandatory" size="28" autocomplete="on">
+                  </div>
 
-
-                    <label for="lname">Last Name :</label>
+                    <div class="lname">
+                    <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lname" placeholder="vie" size="28" autocomplete="on" required>
+                  </div>
 
+                </section>
+
+                <section class="details">
+
+                <div class="emailAndAddress">
+
+                  <div class="email">
+                  <label for="email" class="email">Email</label>
+                  <input type="email" id="email" name="email" title="abc@example.com"
+                  placeholder="type your email address here" required>
                 </div>
 
-                <div class="section">
-                            
-                <div class="section2Label">
+           
+                  <div class="address">
 
-                    <label for="email" class="email">Email :</label>
-        
-                    <label for="mobl" class="mobl">Mobile No :</label>
+                    <label for="address" class="address">Address</label>
+                    <textarea class="textarea" name="address" id="address" title="your current place where you live"
+                   placeholder="pls!! type your present residing address here.."
+                    required></textarea>
+                  </div>
+                 
+                  </div>
+
+
+                  <div class="moblAndGender">
+           
+                  <div class="mobl">
+                    <label for="mobl" class="mobl">Mobile No</label>
+                  <input type="tel" id="mobl" name="mobl" title="Example - 9195500550"
+                  placeholder="Enter your phn No here" size="25" pattern="[0-9]{10}" required>
+                </div>
+
+               
+                <div class="gender">
+                  <label for="gender">Gender</label>
+                  <input type="radio" id="male" value="Male" name="gender" required>
+                  <label for="male">Male</label>
+                  <input type="radio" id="female" value="female" name="gender" required>
+                  <label for="female">Female</label>
+
+              </div>
+            </div>
+                    
                 
-                    <label for="menu" class="menu">Menu :</label>
+                   
 
-                    <label for="slotdate" class="slotdate">Event Date :</label>
 
-                </div>
+               <div class="menuAndMenuitems">
 
-<div class="section2Input">
-
-    <input type="email" id="email" name="email" title="abc@example.com"
-    placeholder="type your email address here" size="30" required>
-
-    <input type="tel" id="mobl" name="mobl" title="Example - 9195500550"
-    placeholder="Enter your phn No here" size="25" pattern="[0-9]{10}" required>
-
+                <div class="menu">
+                <label for="menu" class="menu">Menu</label>
+                
     <select name="menu" id="menu" required>
-        <option value="breakfast">Breakfast</option>
-        <option value="lunch">Lunch</option>
-        <option value="dinner">Dinner</option>
-        <option value="dinner">Sweets & Snacks</option>
-    </select>
-
-    <input type="date" name="slotdate" id="slotdate" min="2024-01-09" max="2024-01-25"
-    style="width: 150px;" required>
-
-    <input type="text" id="slotdate" name="slotdate"
-                        value='" You can only select btwn 9th to 25th jan. "' size="34" disabled>
-
-
+      <option value="breakfast">Breakfast</option>
+      <option value="lunch">Lunch</option>
+      <option value="dinner">Dinner</option>
+      <option value="dinner">Sweets & Snacks</option>
+  </select>
 </div>
 
-                <div class="section3Label">
+<div class="menuitems">
+  <label for="menuitems" class="menuitems">Menu Items</label>
+  <input list="menuitems" size="50" class="menuitems" name="menuitems" required>
+  <datalist id="menuitems" name="menuitems">
 
-                    <label for="address" class="address">Address :</label>
-                   
+      <option value="idly">
+      <option value="dosa">
+      <option value="SouthIndianMeals">
+      <option value="VarietyRice">
+      <option value="Chappathi"></option>
+      <option value="Paratha"></option>
+      </datalist>
+</div>
 
-                    
-                        <label for="gender" class="gender">Gender :</label>
-            
-    
-                   
-                        <label for="menuitems" class="menuitems">Menu Items :</label>
+               </div>
 
-                        <label for="slottime" class="slottime">Event Slot Time :</label>
 
-         
+               <div class="eventdateAndEventslottime">
 
+                <div class="eventDate">
+                  <label for="slotdate" class="slotdate">Event Date</label>
+                  <input type="date" name="slotdate" id="slotdate" min="2024-01-09" max="2024-01-25"
+                  style="width: 150px;" required>
+                 </div>
+
+                 <div class="eventSlottime">
+                  <label for="slottime" class="slottime">Event Slot Time</label>
+                  <input type="time" name="slottime" id="slottime" style="width: 150px;" required>
+                 </div>
                 </div>
 
+                <div class="disabled">
 
-                <div class="section3Input">
-                    <textarea class="textarea" name="address" id="address" title="your current place where you live"
-                    cols="64" rows="1" placeholder="pls!! type your present residing address here.."
-                    required></textarea>
+                  <div class="disble1">
+                    <input type="text" id="slotdate" name="slotdate"
+                    value='" You can only select btwn 9th to 25th jan. "' size="34" disabled>
+                  </div>
 
-                    <div class="gender">
-            
-                    <label for="male">Male</label>
-                    <input type="radio" id="male" value="Male" name="gender" required>
-                    <label for="female">Female</label>
-                    <input type="radio" id="female" value="female" name="gender" required>
-
+                  <div class="disable2">
+                    <input type="text" id="slottime" name="slottime"
+                    value='" Starts from mrng 10:30 am till eve 7:30 pm IST "' size="40" disabled>
+                  </div>
+               
                 </div>
 
-                    <input list="menuitems" size="50" required>
-                        <datalist id="menuitems">
-    
-                            <option value="idly">
-                            <option value="dosa">
-                            <option value="SouthIndianMeals">
-                            <option value="VarietyRice">
-                            <option value="Chappathi"></option>
-                            <option value="Paratha"></option>
-                            </datalist>
+               
+           
+<div class="submit">
+  <button type="submit">
+    submit
+  </button>
+</div>
 
-                            <input type="time" name="slottime" id="slottime" style="width: 150px;" required>
+                </section> 
 
-                            <input type="text" id="slottime" name="slottime"
-                            value='" Starts from mrng 10:30 am till eve 7:30 pm IST "' size="40" disabled>
-             
-    
-                   
-
-
-                </div>
-            </div>
-
-            <div class="submit">
-                <input type="submit" value="submit"> 
-            </div>
-                       
         </div>
+      </div>
             </fieldset>
         </form>
-    </div>
+
 </main>   
 
 <footer>
@@ -187,6 +206,18 @@
     
   </footer>
 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx9fm1cSoIEv-hwTGT-GDLnFWoJ9uxPUoZ0x6Y9FZwsTNryNLWsX2hnavCCbbO-Jjw2/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+  </script>
+  
 </body>
 
 </html>

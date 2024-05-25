@@ -328,4 +328,24 @@ main .section3{
     font-size: 0.5rem;
   
   }
+  header .section1 .container .navigation .navbar2:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+  }
+  header .section1 .container .navigation .navbar2 .dropdown-content a {
+padding: 8px 10px;
+  }
+
+
 }
+@media screen and (max-width:355px){
+  header .section1 .container .navigation .navbar2 .dropdown-content{
+    margin-left: 0;
+    }
+header .section1 .container .navigation .navbar2 .dropdown-content  a:last-child {
+  padding-left: 0;
+  padding-right: 0;
+ 
+    }
+  }
+

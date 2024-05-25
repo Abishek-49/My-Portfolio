@@ -71,7 +71,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  box-shadow: 20px 20px 20px 20px rgba(24, 17, 17, 0.2);
+  box-shadow: 00px 20px 0px 20px rgba(24, 17, 17, 0.2);
   z-index: 1;
 }
 
