@@ -1,17 +1,20 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   padding: 0;
   margin: 0;
   font-size: 100%;
   font-family: 'Inter';
-  background-color:#3f3e3e;
+  background-color: #3f3e3e;
 }
+
 .container {
   max-width: 95%;
   margin: 0 auto;
 }
+
 header .section1 {
   letter-spacing: 1.2px;
   background-color: #333;
@@ -20,7 +23,6 @@ header .section1 {
   width: 100%;
   z-index: 1000;
   box-shadow: 0px 0px 10px 10px rgb(32, 32, 32);
-  /* width: 1263px; */
 }
 
 header .section1 .container .navigation {
@@ -36,11 +38,11 @@ header .section1 .container .navbar1 {
 header .section1 .container .navbar1 a {
   text-decoration: none;
   color: white;
-display: flex;
-align-items: center;
-border-radius: 2px;
-margin: 0 10px;
-padding: 0 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  margin: 0 10px;
+  padding: 0 20px;
 }
 
 header .section1 .container .navbar2 button {
@@ -49,7 +51,8 @@ header .section1 .container .navbar2 button {
   color: white;
   letter-spacing: 1.2px;
   font-size: 1rem;
-background-color: #333; ;
+  background-color: #333;
+  ;
   border-radius: 1px;
   padding: 20px 15px;
 }
@@ -93,19 +96,21 @@ header .section1 .container .navigation .navbar2:hover .dropdown-content {
   flex-direction: column;
 }
 
-main .section1{
+main .section1 {
   /* width: 100%; */
-  padding:30px 0;
+  padding: 30px 0;
   margin: 55px 0;
   letter-spacing: 1.5px;
-  
+
 }
-main .section1 .container .a2b{
+
+main .section1 .container .a2b {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
 }
-main .section1 .container .a2b img{
+
+main .section1 .container .a2b img {
   width: 300px;
 }
 
@@ -121,273 +126,340 @@ main .section1 .container .a2b h2>span {
 
 main .section1 .container .a2b>h4 {
   font-size: 1.2rem;
-  margin:0 0 10px 0;
+  margin: 0 0 10px 0;
   color: rgb(54, 192, 4);
   font-weight: 100;
 
 }
 
-main .section1+h3{
+main .section1+h3 {
   font-size: 1.3rem;
-text-align: center;
-text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
   color: rgb(227, 10, 10);
   font-weight: 500;
   letter-spacing: 1.5px;
 }
 
-main .section2{
+main .section2 {
   color: white;
-  padding:30px 0;
+  padding: 30px 0;
   margin: 55px 0;
   line-height: 30px;
   letter-spacing: 0.8px;
 }
 
-main .section2 .container .aboutItems{
-display: flex;
-flex-direction: column;
-align-items: center;
+main .section2 .container .aboutItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
-main .section2 .container .aboutItems p{
-  /* border-radius: 1px;
-  background-color:aliceblue; */
+
+main .section2 .container .aboutItems p {
   color: white;
   font-size: 1.1rem;
   word-spacing: 2.5px;
   margin: 17px 0 90px 0;
 }
-main .section2 .container .aboutItems p span{
+
+main .section2 .container .aboutItems p span {
   font-size: 1.3rem;
   font-weight: 600;
   color: rgb(79, 70, 236);
   font-style: italic;
 }
-main .section2 .container .aboutItems img{
+
+main .section2 .container .aboutItems img {
   width: 300px;
   padding: 20px 20px;
   background-color: aliceblue;
   box-shadow: 0px 0px 20px 3px rgb(0, 0, 0);
 }
+
 .section2 .container .aboutItems figcaption {
   color: rgb(227, 10, 10);
   font-weight: 600;
 }
 
-.section2 .container .details{
+.section2 .container .details {
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:#ddd;
+  background-color: #ddd;
   margin-top: 40px;
   margin-bottom: 70px;
-  /* padding-bottom: 3px; */
   padding: 0 20px 3px 20px;
   line-height: 30px;
   word-spacing: 3px;
 }
-.section2 .container .details summary{
+
+.section2 .container .details summary {
   cursor: pointer;
   list-style: none;
   color: rgb(16, 179, 16);
   font-weight: 900;
 }
-.section2 .container .details ol{
+
+.section2 .container .details ol {
   padding-bottom: 10px;
 }
+
 .section2 .container .details details .idlyTable tr:nth-child(even),
-.dosaTable tr:nth-child(even),.mealsTable tr:nth-child(even),.varietyriceTable tr:nth-child(even),.chappathiTable tr:nth-child(even),.parathaTable tr:nth-child(even),.samosaTable tr:nth-child(even),.ladduTable tr:nth-child(even){
-  /* padding: 10px 145px; */
+.dosaTable tr:nth-child(even),
+.mealsTable tr:nth-child(even),
+.varietyriceTable tr:nth-child(even),
+.chappathiTable tr:nth-child(even),
+.parathaTable tr:nth-child(even),
+.samosaTable tr:nth-child(even),
+.ladduTable tr:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
   border: 1px solid black;
 }
 
-.section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+.section2 .container .details details .idlyTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   padding: 10px 145px;
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .dosaTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .dosaTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .mealsTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .mealsTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .varietyriceTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .varietyriceTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .chappathiTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .chappathiTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .parathaTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .parathaTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .ladduTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .ladduTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
-.section2 .container .details details .samosaTable th,td:nth-child(odd),td:nth-child(even){
+
+.section2 .container .details details .samosaTable th,
+td:nth-child(odd),
+td:nth-child(even) {
   border: 1px solid black;
   background-color: rgba(150, 212, 212, 0.4);
 }
 
 @media (max-width:1024px) {
-  header .section1{
+  header .section1 {
     font-size: 0.9rem;
   }
-  header .section1 .container .navbar2 button{
+
+  header .section1 .container .navbar2 button {
     font-size: 0.9rem;
   }
-  main .section1 .container .a2b h2{
+
+  main .section1 .container .a2b h2 {
     font-size: 1.3rem;
   }
-  main .section1 .container .a2b h4{
+
+  main .section1 .container .a2b h4 {
     font-size: 1.1rem;
   }
-  main .section1 + h3{
+
+  main .section1+h3 {
     font-size: 1.1rem;
   }
-  main .section2 .container .aboutItems p{
+
+  main .section2 .container .aboutItems p {
     font-size: 1rem;
   }
-  main .section2 .container .aboutItems p span{
+
+  main .section2 .container .aboutItems p span {
     font-size: 1.2rem;
   }
+
   main .section2 .container .details {
     font-size: 0.9rem;
   }
-  footer .section1{
+
+  footer .section1 {
     font-size: 0.7rem;
   }
-  footer .section1 .container .footer p img{
+
+  footer .section1 .container .footer p img {
     width: 20px;
     height: 20px;
   }
-  
+
 }
 
 @media (max-width:768px) {
-  header .section1{
+  header .section1 {
     font-size: 0.8rem;
   }
-  header .section1 .container .navbar2 button{
+
+  header .section1 .container .navbar2 button {
     font-size: 0.8rem;
   }
-  main .section1 .container .a2b h2{
+
+  main .section1 .container .a2b h2 {
     font-size: 1.2rem;
   }
-  main .section1 .container .a2b h4{
+
+  main .section1 .container .a2b h4 {
     font-size: 1rem;
   }
-  main .section1 + h3{
+
+  main .section1+h3 {
     font-size: 1rem;
   }
-  main .section2 .container .aboutItems p{
+
+  main .section2 .container .aboutItems p {
     font-size: 0.9rem;
   }
-  main .section2 .container .aboutItems p span{
+
+  main .section2 .container .aboutItems p span {
     font-size: 1.1rem;
   }
+
   main .section2 .container .details {
     font-size: 0.8rem;
   }
-  footer .section1{
+
+  footer .section1 {
     font-size: 0.6rem;
   }
-  footer .section1 .container .footer p img{
+
+  footer .section1 .container .footer p img {
     width: 20px;
     height: 20px;
   }
-  
+
 }
 
 @media (max-width:476px) {
-  header .section1{
+  header .section1 {
     font-size: 0.7rem;
   }
-  header .section1 .container .navbar2 button{
+
+  header .section1 .container .navbar2 button {
     font-size: 0.7rem;
   }
-  main .section1 .container .a2b h2{
+
+  main .section1 .container .a2b h2 {
     font-size: 1.1rem;
   }
-  main .section1 .container .a2b h4{
+
+  main .section1 .container .a2b h4 {
     font-size: 0.9rem;
   }
-  main .section1 + h3{
+
+  main .section1+h3 {
     font-size: 0.9rem;
   }
-  main .section2 .container .aboutItems p{
+
+  main .section2 .container .aboutItems p {
     font-size: 0.8rem;
   }
-  main .section2 .container .aboutItems p span{
+
+  main .section2 .container .aboutItems p span {
     font-size: 1rem;
   }
+
   main .section2 .container .details {
     font-size: 0.7rem;
   }
-  footer .section1{
+
+  footer .section1 {
     font-size: 0.5rem;
   }
-  footer .section1 .container .footer p img{
+
+  footer .section1 .container .footer p img {
     width: 15px;
     height: 15px;
   }
-  
+
 }
 
 
 @media (max-width:844px) {
-  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+
+  .section2 .container .details details .idlyTable th,
+  td:nth-child(odd),
+  td:nth-child(even) {
     padding: 10px 100px;
     border: 1px solid black;
     background-color: rgba(150, 212, 212, 0.4);
   }
 }
+
 @media (max-width:651px) {
-  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+
+  .section2 .container .details details .idlyTable th,
+  td:nth-child(odd),
+  td:nth-child(even) {
     padding: 10px 60px;
     border: 1px solid black;
     background-color: rgba(150, 212, 212, 0.4);
   }
 }
+
 @media (max-width:497px) {
-  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+
+  .section2 .container .details details .idlyTable th,
+  td:nth-child(odd),
+  td:nth-child(even) {
     padding: 10px 30px;
     border: 1px solid black;
     background-color: rgba(150, 212, 212, 0.4);
   }
 }
+
 @media (max-width:454px) {
-  .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
+
+  .section2 .container .details details .idlyTable th,
+  td:nth-child(odd),
+  td:nth-child(even) {
     padding: 10px 10px;
     border: 1px solid black;
     background-color: rgba(150, 212, 212, 0.4);
   }
 }
+
 @media (max-width:337px) {
-  .section2 .container .details details .mealsTable tr td:last-child{
-display: flex;
-flex-wrap: wrap;
-gap:0.6em;
+  .section2 .container .details details .mealsTable tr td:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
   }
 }
-/* .section2 .container .details details .idlyTable th,td:nth-child(odd),td:nth-child(even){
-  background-color: rgba(150, 212, 212, 0.4);
-} */
-/* .section2 .container .details details .table1 tr:first-child th:nth-child(1){
-  display: flex;
-justify-content: center;
 
-
-} */
 .section2 .container .details details .idlyTable,
 .dosaTable,
 .mealsTable,
@@ -396,52 +468,14 @@ justify-content: center;
 .parathaTable,
 .ladduTable,
 .samosaTable {
- 
   border-collapse: collapse;
   width: 100%;
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-/* width: 600px;
-height: 300px; */
-/* flex-basis: 600px; */
- align-items: center;
+  align-items: center;
+}
 
-  /* height: 120px; */
-  /* margin-bottom: 20px; */
-}
-/* .section2 .container .details details .idlyTable tr th,td
-{
-  padding: 10px 145px;
-}
-.section2 .container .details details .dosaTable tr th,td
-{
-  padding: 10px 145px;
-}
-  .section2 .container .details details .mealsTable tr th,td
-  {
-    padding: 10px 145px;
-  }
-  .section2 .container .details details .varietyriceTable tr th,td
-  {
-    padding: 10px 145px;
-  }
-  .section2 .container .details details .chappathiTable tr th,td
-  {
-    padding: 10px 145px;
-  }
-  .section2 .container .details details .parathaTable tr th,td
-  {
-    padding: 10px 145px;
-  }
-  .section2 .container .details details .ladduTable tr th,td
-  {
-    padding: 10px 145px;
-  }
-  .section2 .container .details details .samosaTable tr th,td
-  {
-    padding: 10px 145px;
-  } */
 .section2 .container .details details .idlyTable caption,
 .dosaTable caption,
 .mealsTable caption,
@@ -452,8 +486,6 @@ height: 300px; */
 .samosaTable caption {
   color: rgb(79, 70, 236);
   font-weight: 600;
-  
-  /* margin-bottom: 20px; */
 }
 
 .section2 .container .details details .idlyTable tr td img,
@@ -467,251 +499,7 @@ height: 300px; */
   width: 12px;
 }
 
-/* .section2 .container .details details .table1,
-th,
-tr,
-td,
-.table2,
-.table3,
-.table4,
-.table5,
-.table6,
-.table7 {
-
-  border: 2px solid black;
-  text-align: center;
-  border-collapse: collapse;
-
-
-} */
-
-/* .section3 .container .aboutItems p {
-  font-size: 1.1rem;
-  letter-spacing: 0.2px;
-  line-height: 26px;
-  word-spacing: 2.5px;
-  margin-bottom: 50px;
-
-}
-
-.section3 .container .aboutItems span {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: rgb(79, 70, 236);
-  font-style: italic;
-}
-
-.section3 .container .aboutItems img {
-  margin-left: 420px;
-  object-fit: cover;
-  width: 300px;
-  height: 180px;
-}
-
-.section3 .container .aboutItems figcaption {
-  color: rgb(227, 10, 10);
-  margin-left: 530px;
-  letter-spacing: 1.5px;
-  font-weight: 600;
-}
-
-.section3 .container .details {
-
-  background-color: antiquewhite;
-  margin-top: 40px;
-  padding-bottom: 3px;
-  margin-bottom: 70px;
-
-}
-
-.section3 .container .details details summary {
-  padding-left: 450px;
-  padding-top: 3px;
-  padding-bottom: 5px;
-}
-
-.section3 .container .details details summary span {
-  color: rgb(16, 179, 16);
-  font-weight: 600;
-  word-spacing: 2px;
-  letter-spacing: 1px
-}
-
-.section3 .container .details details ol {
-  padding-bottom: 10px;
-  line-height: 30px;
-  word-spacing: 2px;
-}
-
-.section3 .container .details details .table1,
-.table2,
-.table3,
-.table4,
-.table5,
-.table6,
-.table7 {
-  margin-left: 100px;
-  width: 1000px;
-  height: 120px;
-  background-color: aliceblue;
-  margin-bottom: 20px;
-}
-
-.section3 .container .details details .table1 caption,
-.table2 caption,
-.table3 caption,
-.table4 caption,
-.table5 caption,
-.table6 caption,
-.table7 caption {
-  color: rgb(79, 70, 236);
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.section3 .container .details details .table1 tr td img,
-.table2 tr td img,
-.table3 tr td img,
-.table4 tr td img,
-.table5 tr td img,
-.table6 tr td img,
-.table7 tr td img {
-  width: 12px;
-}
-
-.section3 .container .details details .table1,
-th,
-tr,
-td,
-.table2,
-.table3,
-.table4,
-.table5,
-.table6,
-.table7 {
-
-  border: 1.3px solid black;
-  text-align: center;
-  border-collapse: collapse;
-
-
-}
-
-.section3 .container .details details .table1 tr:nth-child(2) td:last-child {
-  color: rgb(222, 25, 25);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table1 tr:nth-child(3) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table1 tr:nth-child(4) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-
-.section3 .container .details details .table2 tr:nth-child(2) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table2 tr:nth-child(3) td:last-child {
-
-  color: rgb(222, 25, 25);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table2 tr:nth-child(4) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-
-.section3 .container .details details .table3 tr:nth-child(2) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table3 tr:nth-child(3) td:last-child {
-
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table3 tr:nth-child(4) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-
-.section3 .container .details details .table4 tr:nth-child(2) td:last-child {
-  color: rgb(222, 25, 25);
-  font-weight: 600
-}
-
-.section3 .container .details details .table4 tr:nth-child(3) td:last-child {
-
-  color: rgb(222, 25, 25);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table4 tr:nth-child(4) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-
-.section3 .container .details details .table5 tr:nth-child(2) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-  ;
-}
-
-.section3 .container .details details .table5 tr:nth-child(3) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table5 tr:nth-child(4) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table6 tr:nth-child(2) td:last-child {
-  color: rgb(222, 25, 25);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table6 tr:nth-child(3) td:last-child {
-  color: rgb(222, 25, 25);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table6 tr:nth-child(4) td:last-child {
-  color: rgb(245, 166, 30);
-  font-weight: 600;
-}
-
-
-.section3 .container .details details .table7 tr:nth-child(2) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table7 tr:nth-child(3) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-}
-
-.section3 .container .details details .table7 tr:nth-child(4) td:last-child {
-  color: rgb(17, 199, 17);
-  font-weight: 600;
-} */
-
-footer .section1{
+footer .section1 {
   letter-spacing: 1.2px;
   background-color: #333;
   color: white;
@@ -724,7 +512,7 @@ footer .section1{
 
 footer .section1 .container .footer {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 
 }
 

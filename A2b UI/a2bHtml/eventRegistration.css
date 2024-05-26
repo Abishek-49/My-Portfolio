@@ -23,7 +23,6 @@ header .section1 {
   width: 100%;
   z-index: 1000;
   box-shadow: 0px 0px 10px 10px rgb(32, 32, 32);
-  /* width: 1263px; */
 }
 
 header .section1 .container .navigation {
@@ -133,506 +132,450 @@ main .section1 .container .a2b>h4 {
 }
 
 
-main .section2{
+main .section2 {
   padding: 40px 0 70px 0;
   margin: 60px 0 60px 0;
 
   color: white;
 }
-main .section2 fieldset{
+
+main .section2 fieldset {
   padding: 0;
 }
 
-main .section2 fieldset .container legend{
+main .section2 fieldset .container legend {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
-main .section2 fieldset .container .name{
+
+main .section2 fieldset .container .name {
   display: flex;
   gap: 15em;
   margin: 40px 0;
 }
-main .section2 fieldset .container .details .emailAndAddress{
-display: flex;
-gap: 30em;
-margin: 40px 0;
-}
-main .section2 fieldset .container .details .emailAndAddress input{
-width: 220px;
-  }
-main .section2 fieldset .container .details .emailAndAddress .address .textarea{
- width: 450px;
-  }
-  main .section2 fieldset .container .details .moblAndGender{
-    display: flex;
-    gap: 27em;
-    margin: 40px 0;
-  }
-  main .section2 fieldset .container .details .moblAndGender .gender{
+
+main .section2 fieldset .container .details .emailAndAddress {
   display: flex;
-gap: 2em;
+  gap: 30em;
+  margin: 40px 0;
+}
+
+main .section2 fieldset .container .details .emailAndAddress input {
+  width: 220px;
+}
+
+main .section2 fieldset .container .details .emailAndAddress .address .textarea {
+  width: 450px;
+}
+
+main .section2 fieldset .container .details .moblAndGender {
+  display: flex;
+  gap: 27em;
+  margin: 40px 0;
+}
+
+main .section2 fieldset .container .details .moblAndGender .gender {
+  display: flex;
+  gap: 2em;
+}
+
+main .section2 fieldset .container .details .menuAndMenuitems {
+  display: flex;
+  gap: 34em;
+  margin: 40px 0;
+}
+
+main .section2 fieldset .container .details .eventdateAndEventslottime {
+  display: flex;
+  gap: 44em;
+  margin: 40px 0;
+}
+
+main .section2 fieldset .container .details .disabled {
+  display: flex;
+  gap: 32em;
+  margin: 40px 0;
+}
+
+main .section2 fieldset .container .submit {
+  margin: 60px 0 5px 0;
+}
+
+main .section2 fieldset .container button[type="submit"] {
+  background-color: rgb(54, 192, 4);
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+footer .section1 {
+  letter-spacing: 1.2px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px 10px rgb(32, 32, 32);
+}
+
+footer .section1 .container .footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer .section1 .container .footer img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width:1202px) {
+  main .section2 fieldset .container .name {
+    gap: 3em;
   }
-  main .section2 fieldset .container .details .menuAndMenuitems{
-    display: flex;
-    gap: 34em;
-    margin: 40px 0;
+
+  main .section2 fieldset .container .details .emailAndAddress {
+    gap: 20em;
   }
-  main .section2 fieldset .container .details .eventdateAndEventslottime{
-    display: flex;
-    gap: 44em;
-    margin: 40px 0;
+
+  main .section2 fieldset .container .details .emailAndAddress .address .textarea {
+    width: 400px;
   }
-  main .section2 fieldset .container .details .disabled{
-    display: flex;
-    gap: 32em;
-    margin: 40px 0;
+
+  main .section2 fieldset .container .details .moblAndGender {
+    gap: 19em;
   }
-  main .section2 fieldset .container .submit{
-margin:60px 0 5px 0;
+
+  main .section2 fieldset .container .details .menuAndMenuitems {
+    gap: 26em;
   }
-  main .section2 fieldset .container button[type="submit"]{
-background-color: rgb(54, 192, 4);
-border: none;
-border-radius: 2px;
-padding: 5px 20px;
-cursor: pointer;
+
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    gap: 22em;
+  }
+
+  main .section2 fieldset .container .details .disabled {
+
+    gap: 20em;
+
+  }
+}
+
+@media (max-width:982px) {
+
+  header .section1 {
+    font-size: 0.9rem;
+  }
+
+  header .section1 .container .navbar2 button {
+    font-size: 0.9rem;
+  }
+
+  main .section1 {
+    font-size: 0.9rem;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress {
+    gap: 10em;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress .address .textarea {
+    width: 370px;
+  }
+
+  main .section2 fieldset .container .details .moblAndGender {
+    gap: 9em;
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems {
+    gap: 16em;
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems .menuitems input {
+    width: 340px;
+  }
+
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    gap: 12.2em;
+  }
+
+  main .section2 fieldset .container .details .disabled {
+
+    gap: 11em;
+
   }
 
   footer .section1 {
-    letter-spacing: 1.2px;
-    background-color: #333;
-    color: white;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-    box-shadow: 0px 0px 10px 10px rgb(32, 32, 32);
+    font-size: 0.8rem;
+
   }
-  
-  footer .section1 .container .footer {
-    display: flex;
-    justify-content: space-between;
-  
-  }
-  
+
   footer .section1 .container .footer img {
-    width: 25px;
-    height: 25px;
-  }
 
-  @media (max-width:1202px) {
-    main .section2 fieldset .container .name{
-      gap: 3em;
-    }
-    main .section2 fieldset .container .details .emailAndAddress{
-      gap: 20em;
-      }
-      main .section2 fieldset .container .details .emailAndAddress .address .textarea{
-       width: 400px;
-        }
-        main .section2 fieldset .container .details .moblAndGender{
-          gap: 19em;
-        }
-        main .section2 fieldset .container .details .menuAndMenuitems{
-          gap: 26em;
-        }
-        main .section2 fieldset .container .details .eventdateAndEventslottime{
-          gap: 22em;
-        }
-        main .section2 fieldset .container .details .disabled{
-      
-          gap: 20em;
-         
-        }
+    width: 20px;
+    height: 20px;
   }
+}
 
-  @media (max-width:982px){
-
-    header .section1{
-      font-size: 0.9rem;
-    }
-    header .section1 .container .navbar2 button{
-      font-size: 0.9rem;
-  }
-    main .section1{
-      font-size: 0.9rem;
-    }
-    main .section2 fieldset .container .details .emailAndAddress{
-      gap: 10em;
-      }
-      main .section2 fieldset .container .details .emailAndAddress .address .textarea{
-       width: 370px;
-        }
-        main .section2 fieldset .container .details .moblAndGender{
-          gap: 9em;
-        }
-        main .section2 fieldset .container .details .menuAndMenuitems{
-          gap: 16em;
-        }
-        main .section2 fieldset .container .details .menuAndMenuitems .menuitems input{
-          width: 340px;
-        }
-        main .section2 fieldset .container .details .eventdateAndEventslottime{
-          gap: 12.2em;
-        }
-        main .section2 fieldset .container .details .disabled{
-      
-          gap: 11em;
-         
-        }
-        footer .section1{
-          font-size: 0.8rem;
-        
-        }
-        footer .section1 .container .footer img{
-        
-          width: 20px;
-          height: 20px;
-        }
-  }
-  @media (max-width:806px){
-    main .section2 fieldset .container .name{
+@media (max-width:806px) {
+  main .section2 fieldset .container .name {
     font-size: 0.8rem;
     gap: 12em;
-    }
-    main .section2 fieldset .container .name input{
+  }
+
+  main .section2 fieldset .container .name input {
     width: 100px;
-      }
-      main .section2 fieldset .container .details .emailAndAddress{
-      font-size: 0.8rem;
-    
-        }
-            main .section2 fieldset .container .details .moblAndGender{
-              font-size: 0.8rem;
-             }
-
-            main .section2 fieldset .container .details .menuAndMenuitems{
-             font-size: 0.8rem;
-            }
-            main .section2 fieldset .container .details .eventdateAndEventslottime{
-              font-size: 0.8rem;
-            }
-            main .section2 fieldset .container .details .disabled input{
-      
-              font-size: 0.7rem;
-             
-            }
-    
-  }
-  @media (max-width:754px){
-    header .section1{
-      font-size: 0.8rem;
-    }
-    header .section1 .container .navbar2 button{
-      font-size: 0.8rem;
-  }
-    main .section1{
-      font-size: 0.8rem;
-    }
-    main .section1 .container .a2b>h4{
-      font-size: 0.9rem;
-    }
-    main .section2 fieldset .container .details .emailAndAddress .address .textarea{
-      width: 270px;
-       }
-       main .section2 fieldset .container .details .menuAndMenuitems .menuitems input{
-       width: 200px;
-       }
-       main .section2 fieldset .container .details .disabled{
-      
-       gap: 5em;
-       
-      }
-      footer .section1{
-        font-size: 0.7rem;
-      
-      }
-      footer .section1 .container .footer img{
-      
-        width: 15px;
-        height: 15px;
-      }
-  }
-  @media (max-width:654px){
-    main .section2 fieldset .container .name{
-      font-size: 0.8rem;
-      gap: 3em;
-      }
-      main .section2 fieldset .container .details .emailAndAddress{
-       gap: 2em;
-      
-          }
-          main .section2 fieldset .container .details .emailAndAddress #email{
-        width: 180px;
-        /* flex-wrap: wrap; */
-           
-               }
-          main .section2 fieldset .container .details .moblAndGender{
-            gap: 2em;
-           
-          }
-          main .section2 fieldset .container .details .moblAndGender #mobl{
-           width: 150px;
- 
-          }
-          main .section2 fieldset .container .details .menuAndMenuitems{
-            gap: 6em;
-
-          }
-          main .section2 fieldset .container .details .eventdateAndEventslottime{
-            gap: 2em;
-          }
-          main .section2 fieldset .container .details .disabled{
-        
-            gap: 2em;
-           
-          }
-          footer .section1{
-            font-size: 0.6rem;
-          
-          }
-        
-  }
-  @media (max-width:543px){
-    header .section1{
-      font-size: 0.7rem;
-    }
-    header .section1 .container .navbar2 button{
-      font-size: 0.7rem;
-  }
-    main .section1{
-      font-size: 0.7rem;
-    }
-    main .section1 .container .a2b>h4{
-      font-size: 0.8rem;
-    }
-    main .section2 fieldset .container legend{
-      font-size: 0.9rem;
-    }
-    main .section2 fieldset .container .name,input{
-      font-size: 0.7rem;
-      gap: 3em;
-      }
-      main .section2 fieldset .container .details .emailAndAddress,.emailAndAddress input,.textarea{
-     font-size: 0.7rem;
-       
-           }
-           main .section2 fieldset .container .details .moblAndGender,.moblAndGender input{
-        font-size: 0.7rem;
-           
-          }
-          main .section2 fieldset .container .details .menuAndMenuitems,#menu{
-         font-size: 0.7rem;
-
-          }
-          main .section2 fieldset .container .details .eventdateAndEventslottime{
-            font-size: 0.7rem;
-          }
-          main .section2 fieldset .container .details .disabled,#slotdate,#slottime{
-        
-            font-size: 0.5rem;
-            gap: 10em;
-           
-          }
-          footer .section1{
-            font-size: 0.5rem;
-          
-          }
-  }
-  @media (max-width:502px){
-    main .section2 fieldset .container legend{
-      font-size: 0.8rem;
-    }
-    main .section2 fieldset .container .name,.name input{
-      font-size: 0.6rem;
-      }
-      main .section2 fieldset .container .details .emailAndAddress,.emailAndAddress input,.textarea{
-        font-size: 0.6rem;
-
-              }
-              main .section2 fieldset .container .details .emailAndAddress #email{
-                width: 135px;
-              }
-              main .section2 fieldset .container .details .emailAndAddress #address{
-                width: 235px;
-              }
-              main .section2 fieldset .container .details .moblAndGender,.moblAndGender input{
-                font-size: 0.6rem;
-                   
-                  }
-                  main .section2 fieldset .container .details .moblAndGender #mobl{
-                    width: 110px;
-                  }
-                  main .section2 fieldset .container .details .menuAndMenuitems,#menu{
-                    font-size: 0.6rem;
-           
-                     }
-                     main .section2 fieldset .container .details .eventdateAndEventslottime{
-                      font-size: 0.6rem;
-                    }
-                    main .section2 fieldset .container .details .disabled,#slotdate,#slottime{
-                  
-                      font-size: 0.5rem;
-                      gap: 5em;
-                     
-                    }
-  }
-  @media (max-width:418px){
-    main .section2 fieldset .container .details .emailAndAddress #address{
-      width: 185px;
-    }
-    main .section2 fieldset .container .details .disabled,#slotdate,#slottime{
-                  
-      font-size: 0.5rem;
-      gap: 2em;
-     
-    }
   }
 
+  main .section2 fieldset .container .details .emailAndAddress {
+    font-size: 0.8rem;
 
-/* main .formDetails {
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 290px;
+  }
+
+  main .section2 fieldset .container .details .moblAndGender {
+    font-size: 0.8rem;
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems {
+    font-size: 0.8rem;
+  }
+
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    font-size: 0.8rem;
+  }
+
+  main .section2 fieldset .container .details .disabled input {
+
+    font-size: 0.7rem;
+
+  }
+
 }
 
-main .formDetails fieldset .container legend {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
+@media (max-width:754px) {
+  header .section1 {
+    font-size: 0.8rem;
+  }
+
+  header .section1 .container .navbar2 button {
+    font-size: 0.8rem;
+  }
+
+  main .section1 {
+    font-size: 0.8rem;
+  }
+
+  main .section1 .container .a2b>h4 {
+    font-size: 0.9rem;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress .address .textarea {
+    width: 270px;
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems .menuitems input {
+    width: 200px;
+  }
+
+  main .section2 fieldset .container .details .disabled {
+
+    gap: 5em;
+
+  }
+
+  footer .section1 {
+    font-size: 0.7rem;
+
+  }
+
+  footer .section1 .container .footer img {
+
+    width: 15px;
+    height: 15px;
+  }
 }
 
-main .formDetails fieldset .container .name {
-  display: flex;
-  margin: 50px 0;
-  justify-content: space-between;
-}
+@media (max-width:654px) {
+  main .section2 fieldset .container .name {
+    font-size: 0.8rem;
+    gap: 3em;
+  }
 
-main .formDetails fieldset .container .section2Label {
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
- 
-}
+  main .section2 fieldset .container .details .emailAndAddress {
+    gap: 2em;
 
-main .formDetails fieldset .container .section2Input {
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
-  margin-left: auto;
-}
+  }
 
-main .formDetails fieldset .container .section3Label {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  gap: 3em;
-}
+  main .section2 fieldset .container .details .emailAndAddress #email {
+    width: 180px;
 
-main .formDetails fieldset .container .section3Input {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  gap: 3em;
-}
+  }
 
-main .formDetails fieldset .container .section3Input .gender {
-  display: flex;
-  gap: 3em;
-}
+  main .section2 fieldset .container .details .moblAndGender {
+    gap: 2em;
 
-main .formDetails fieldset .container .section {
-  display: flex;
-}
+  }
 
-main .formDetails fieldset .container .section .section2Input input:last-child,
-.section3Input input:last-child {
-
-  color: rgb(201, 11, 11);
-}
-
-main .formDetails fieldset .container .submit input[type=submit] {
-  padding: 5px 20px;
-  justify-content: flex-end;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background-color: rgb(255, 248, 238);
-  border-radius: 2px;
-  border: none;
-} */
-
-/* @media (max-width:1044px) {
-  main .formDetails fieldset .section .section2Input #email {
+  main .section2 fieldset .container .details .moblAndGender #mobl {
     width: 150px;
 
   }
 
-  main .formDetails fieldset .section .section2Input #mobl {
-    width: 150px;
+  main .section2 fieldset .container .details .menuAndMenuitems {
+    gap: 6em;
 
   }
 
-  main .formDetails fieldset .section .section3Input .gender {
-    gap: 1em;
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    gap: 2em;
+  }
+
+  main .section2 fieldset .container .details .disabled {
+
+    gap: 2em;
 
   }
 
-  main .formDetails fieldset .section .section2Input #menu {
-    width: 150px;
-
-  }
-  main .formDetails fieldset .section .section3Input .menuitems{
-    width: 150px;
-        
-          }
-  main .formDetails fieldset .section .section3Input #address {
-    width: 350px;
+  footer .section1 {
+    font-size: 0.6rem;
 
   }
 
 }
 
-  @media (max-width:909px){
-    main .formDetails fieldset .container .name {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 0.9rem; 
-    }
-    main .formDetails fieldset .container .section{
-      font-size: 0.9rem;
-    }
-    main .formDetails fieldset .container .name input{
-width: 150px;
-    }
+@media (max-width:543px) {
+  header .section1 {
+    font-size: 0.7rem;
   }
 
-
-  @media (max-width:855px){
-
-    main .formDetails fieldset .container .section2Label{
-      gap: 2.6em;
-    }
-    main .formDetails fieldset .container .section3Label{
-      gap: 2.56em;
-    }
+  header .section1 .container .navbar2 button {
+    font-size: 0.7rem;
   }
 
-
-  @media (max-width:793px){
-    main .formDetails fieldset .container .name {
-      font-size: 0.8rem;
-    }
-    main .formDetails fieldset .container .section{
-      font-size: 0.8rem;
-    }
+  main .section1 {
+    font-size: 0.7rem;
   }
-  @media (max-width:739px) {
-    main .formDetails fieldset .container .name input{
-     width: 100px;
-    }
-    main .formDetails fieldset .container .section .section3Label {
- margin-left: auto;
-     }
-    main .formDetails fieldset .container .section input {
-     width: 100px;
-    }
-  } */
+
+  main .section1 .container .a2b>h4 {
+    font-size: 0.8rem;
+  }
+
+  main .section2 fieldset .container legend {
+    font-size: 0.9rem;
+  }
+
+  main .section2 fieldset .container .name,
+  input {
+    font-size: 0.7rem;
+    gap: 3em;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress,
+  .emailAndAddress input,
+  .textarea {
+    font-size: 0.7rem;
+
+  }
+
+  main .section2 fieldset .container .details .moblAndGender,
+  .moblAndGender input {
+    font-size: 0.7rem;
+
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems,
+  #menu {
+    font-size: 0.7rem;
+
+  }
+
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    font-size: 0.7rem;
+  }
+
+  main .section2 fieldset .container .details .disabled,
+  #slotdate,
+  #slottime {
+
+    font-size: 0.5rem;
+    gap: 10em;
+
+  }
+
+  footer .section1 {
+    font-size: 0.5rem;
+
+  }
+}
+
+@media (max-width:502px) {
+  main .section2 fieldset .container legend {
+    font-size: 0.8rem;
+  }
+
+  main .section2 fieldset .container .name,
+  .name input {
+    font-size: 0.6rem;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress,
+  .emailAndAddress input,
+  .textarea {
+    font-size: 0.6rem;
+
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress #email {
+    width: 135px;
+  }
+
+  main .section2 fieldset .container .details .emailAndAddress #address {
+    width: 235px;
+  }
+
+  main .section2 fieldset .container .details .moblAndGender,
+  .moblAndGender input {
+    font-size: 0.6rem;
+
+  }
+
+  main .section2 fieldset .container .details .moblAndGender #mobl {
+    width: 110px;
+  }
+
+  main .section2 fieldset .container .details .menuAndMenuitems,
+  #menu {
+    font-size: 0.6rem;
+
+  }
+
+  main .section2 fieldset .container .details .eventdateAndEventslottime {
+    font-size: 0.6rem;
+  }
+
+  main .section2 fieldset .container .details .disabled,
+  #slotdate,
+  #slottime {
+
+    font-size: 0.5rem;
+    gap: 5em;
+
+  }
+}
+
+@media (max-width:418px) {
+  main .section2 fieldset .container .details .emailAndAddress #address {
+    width: 185px;
+  }
+
+  main .section2 fieldset .container .details .disabled,
+  #slotdate,
+  #slottime {
+
+    font-size: 0.5rem;
+    gap: 2em;
+
+  }
+}
