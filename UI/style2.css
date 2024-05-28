@@ -1,281 +1,716 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-   
+
     font-family: 'Outfit';
 }
-.container{
+
+.container {
     margin: 0 auto;
     max-width: 90%;
 }
-header{
-background-color: white;
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 1000;
-box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-letter-spacing: 1px; 
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    letter-spacing: 1px;
 }
-header .section1 .container .navigation{
+
+header .section1 .container .navigation {
     display: flex;
-    }
-    header .section1 .container .navigation .nav1{ 
-        display: flex;
-        align-items: center;
-        font-size: 1.4rem;
-     }
-     header .section1 .container .navigation .nav1 i{
-        color: blueviolet;
-     }
-     header .section1 .container .navigation .nav1 h5{
-        font-weight: 100;
-    }
-    header .section1 .container .navigation .nav2{
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-    }
-    header .section1 .container .navigation .nav2 a{
-        margin: 0 7.5px;
-        position: relative;
-        color: black;
-        text-decoration: none;
-        font-size: 1.1rem;
-        }
-        header .section1 .container .navigation .nav2 a::after{
-            content: '';
-            width: 0;
-            height: 3px;
-            position: absolute;
-            left: 0;
-            bottom: -6px;
-            background: blueviolet;
-            transition: 0.5s;
-           }
-           header .section1 .container .navigation .nav2 a:hover::after{
-            width: 100%;
-              }
-              main .section1{ 
-                margin: 45px 0;
-                padding-top: 140px;
-                padding-bottom: 50px;
-                word-spacing: 2px;
-                letter-spacing: 1px;
-                }
-                main .section1 .container .whoAmI{
-                 display: flex;
-                }
-                main .section1 .container .whoAmI .bio h4{  
-                    font-weight: 100;
-                    color: grey;
-                }
-                
-                main .section1 .container .whoAmI .bio h1{
-                    font-size: 2rem;
-                }
-                
-                main .section1 .container .whoAmI .bio h1 span:first-child{
-                    color: grey;  
-                }
-                main .section1 .container .whoAmI .bio p{
-                    color: rgb(83, 82, 82);  
-                    width: 85%;
-                    line-height: 30px;
-                    
-                }
-                
-                main .section1 .container .whoAmI .bio button{
-                    margin: 10px 0;
-                    border-radius: 10px;
-                border: 1px solid blueviolet;
-                width: 12%;
-                height: 9.5%;
-                background-color: rgb(244, 244, 250);
-                color: blueviolet;
-                }
-                
-                main .section1 .container .whoAmI .bio p+button{
-                    background-color: blueviolet;
-                    color: white;
-                }
-                
-                main .section1 .container .whoAmI .myPic{
-                margin: 30px 0;
-                
-                }
-                
-                main .section1 .container .whoAmI .myPic img{
-                width: 270px;
-                border-radius: 15px;
-                box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-                }
-                main .section2{
-                    margin:5px 0;
-                    padding:70px 0;
-                    word-spacing: 2px;
-                    letter-spacing: 1px;
-                    line-height: 30px;
-                }
-                main .section2 .container .skill{
-                    display: flex;    
-                }
-                
-                main .section2 .container .skill .logoGroup{
-                    margin: 50px 0;
-                    display: flex;
-                    flex-direction: column;
-                }
-                main .section2 .container .skill .logoGroup .logoGroup1,.logoGroup2,.logoGroup3{
-                    margin: 20px 0;
-                }
-                main .section2 .container .skill .logoGroup .logoGroup1 img,.logoGroup3 img{
-                    width: 240px;
-                    border-radius: 15px;
-                box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-                }
-                main .section2 .container .skill .logoGroup .logoGroup2{
-                padding: 10px 30px 10px 30px;
-                background-color: rgb(255, 246, 246);
-                box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-                border-radius: 15px;
-                }
-                main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,.logoGroup2 img:nth-child(2){
-                    width: 50px;
-                }
-                main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3){
-                    width: 62px;
-                }
-                main .section2 .container .skill .expertise{
-                   margin-left: 140px;
-                }
-                main .section2 .container .skill .expertise h4{
-                    font-weight: 100;
-                    color: grey;
-                    font-size: 1.1rem;
-                }
-                .section2 .container .skill .expertise li,.expertise p{
-                    color: rgb(83, 82, 82);  
-                    width: 92%;
-                }
-                main .section2 .container .skill .expertise li::first-letter{
-                font-weight: 1000;
-                }
-                main .section2 .container .skill .expertise button{
-                    width: 16%;
-                    height: 8%;
-                    border-radius: 10px;
-                    border: none;
-                    color: white;
-                    background-color: blueviolet;
-                }
-                main .switching{
-                  margin:5px 0;
-                    padding: 95px 0;
-                    word-spacing: 2px;
-                    letter-spacing: 1px;
-                    line-height: 30px;
-                    border-radius: 20px;
-                    background-color: rgb(244, 244, 250);
-                }
-                main .switching .switch{
-                display: flex;
-                justify-content:space-evenly;
-                border-radius: 25px;
-                background-color: white;
-                }
-                main .switching .switch h5{
-                    margin: 10px 0;
-                    color: rgb(83, 82, 82); 
-                    font-size: 1.2rem; 
-                   
-                }
-                main .switching .switch i{
-                    color: blueviolet;
-                }
-                main .switching .switch span{
-                    position: absolute;
-                    top: 65%;
-                    left: 37%;
-                    color: grey;
-                    font-size: 0.9rem;
-                 
-                }
-                main .switching .switch .switch1::after, .switch2::after{
-                    content: '';
-                    width: 0;
-                    position: absolute;
-                top: 88%;
-                    height: 2.5px;
-                    left: 36.5%;
-                    background: blueviolet;
-                    transition: 0.5s;
-                }
-                main .switching .switch .switch1:hover::after, .switch2:hover::after{
-                    width: 19%;
-                
-                }
-                main .switching .container .switch .switch1,.switch .switch2{
-                    display: flex;
-                    align-items: center;
-                padding: 30px 105px;
-                position: relative;
-                cursor: pointer;
-                border-radius: 20px;
-                }
-                
-                main .switching .container .switch .switch1:hover, .switch2:hover{
-                    background-color:  rgb(154, 237, 237);
-                    transition: 0.3s;
-                }
-                main .section5{
-                    word-spacing: 2px;
-                    letter-spacing: 1px;
-                    line-height: 30px; 
-                }
-                main .section5 .container .preUniversity{
-                    display: flex;
-                    margin: 95px 0;
+}
 
-                }
-                main .section5 .container .preUniversity .preUniversityImage{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content:center;
-                }
-                main .section5 .container .preUniversity .preUniversityImage img{
-                   /* display: flex;
-                   flex-direction: column;
-                   justify-content: center; */
-                   /* align-items: center; */
-                    width: 300px;
-                    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-                    border-radius: 15px;
+header .section1 .container .navigation .nav1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
 
-                }
-                main .section5 .container .preUniversity .preUniversityDetail{
-                    margin-left: 140px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-                main .section5 .container .preUniversity .preUniversityDetail h4{
-                    margin: 5px 0;
-color: grey;
-font-weight: 100;
-                }
-                main .section5 .container .preUniversity .preUniversityDetail h2{
-                    margin: 5px 0;
-                }
-                main .section5 .container .preUniversity .preUniversityDetail p{
-                    color: rgb(83, 82, 82);   
-                }
-                main .section5 .container .preUniversity .preUniversityDetail a{
-                    display: inline-block;
+header .section1 .container .navigation .nav1 i {
+    color: blueviolet;
+}
+
+header .section1 .container .navigation .nav1 h5 {
+    font-weight: 100;
+}
+
+header .section1 .container .navigation .nav2 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header .section1 .container .navigation .nav2 a {
+    margin: 0 7.5px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header .section1 .container .navigation .nav2 a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+header .section1 .container .navigation .nav2 a:hover::after {
+    width: 100%;
+}
+
+main .section1 {
+    margin: 5px 0;
+    padding: 140px 0 0 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+main .section1 .container .whoAmI {
+    display: flex;
+}
+
+main .section1 .container .whoAmI .bio h4 {
+    font-weight: 100;
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio h1 {
+    font-size: 2rem;
+}
+
+main .section1 .container .whoAmI .bio h1 span:first-child {
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio p {
+    color: rgb(83, 82, 82);
+    width: 85%;
+    line-height: 30px;
+
+}
+
+main .section1 .container .whoAmI .bio button {
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    width: 12%;
+    height: 9.5%;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+}
+
+main .section1 .container .whoAmI .bio p+button {
+    background-color: blueviolet;
+    color: white;
+}
+
+main .section1 .container .whoAmI .myPic {
+    margin: 30px 0;
+
+}
+
+main .section1 .container .whoAmI .myPic img {
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section2 .container .skill {
+    display: flex;
+}
+
+main .section2 .container .skill .logoGroup {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1,
+.logoGroup2,
+.logoGroup3 {
+    margin: 20px 0;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1 img,
+.logoGroup3 img {
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 {
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 246, 246);
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+.logoGroup2 img:nth-child(2) {
+    width: 50px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 62px;
+}
+
+main .section2 .container .skill .expertise {
+    margin-left: 140px;
+}
+
+main .section2 .container .skill .expertise h4 {
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.section2 .container .skill .expertise li,
+.expertise p {
+    color: rgb(83, 82, 82);
+    width: 92%;
+}
+
+main .section2 .container .skill .expertise li::first-letter {
+    font-weight: 1000;
+}
+
+main .section2 .container .skill .expertise button {
+    width: 16%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+main .switching1 {
+    padding: 90px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+main .switching2 {
+    padding: 90px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-radius: 20px;
+    /* background-color: rgb(244, 244, 250); */
+}
+
+main .switching3 {
+    padding: 90px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+main .switching1 .container .switch,
+.switching2 .container .switch,
+.switching3 .container .switch {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+
+main .switching1 .container .switch h5,
+.switching2 .container .switch h5,
+.switching3 .container .switch h5 {
+    margin: 10px 0;
+    color: rgb(83, 82, 82);
+    font-size: 1.2rem;
+
+}
+
+main .switching1 .container .switch i,
+.switching2 .container .switch i,
+.switching3 .container .switch i {
+    color: blueviolet;
+}
+
+main .switching1 .switch span,
+.switching2 .container .switch span,
+.switching3 .container .switch span {
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    color: grey;
+    font-size: 0.9rem;
+
+}
+
+main .switching1 .container .switch .switch1::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 2.5px;
+    left: 36.5%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+main .switching1 .container .switch .switch2::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 2.5px;
+    left: 36.5%;
+    background: blueviolet;
+    transition: 0.5s; 
+}
+
+main .switching2 .container .switch .switch1::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 3px;
+    left: 36.7%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+main .switching2 .container .switch .switch2::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 3px;
+    left: 36.7%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+main .switching3 .container .switch .switch1::after {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 2.5px;
+    left: 36.5%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+main .switching3 .container .switch .switch2::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 2.5px;
+    left: 36.5%;
+    background: blueviolet;
+    transition: 0.5s;  
+}
+
+main .switching1 .container .switch .switch1:hover::after {
+    width: 23%;
+
+}
+
+main .switching1 .container .switch .switch2:hover::after{
+    width: 19.6%;
+}
+
+main .switching2 .container .switch .switch1:hover::after {
+    width: 22%;
+}
+
+main .switching2 .container .switch .switch2:hover::after {
+    width: 17%;
+}
+
+main .switching3 .container .switch .switch1:hover::after,
+.switch2:hover::after {
+    width: 19%;
+}
+main .switching3 .container .switch
+.switch2:hover::after {
+    width: 19.5%;
+}
+
+main .switching1 .container .switch .switch1,
+.switch .switch2 {
+    display: flex;
+    align-items: center;
+    padding: 30px 105px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main .switching2 .container .switch .switch1,
+.switch .switch2 {
+    display: flex;
+    align-items: center;
+    padding: 30px 105px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main .switching3 .container .switch .switch1,
+.switch .switch2 {
+    display: flex;
+    align-items: center;
+    padding: 30px 105px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main .switching1 .container .switch .switch1:hover,
+.switch2:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.3s;
+}
+
+main .switching2 .container .switch .switch1:hover,
+.switch2:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.3s;
+}
+
+main .switching3 .container .switch .switch1:hover,
+.switch2:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.3s;
+}
+
+main .section3 {
+    /* background-color: rgb(244, 244, 250); */
+    /* padding: 70px 0 0 0; */
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section3 .container .industryRecognization .awards {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0;
+}
+
+main .section3 .container .industryRecognization .awards .awardsImage img {
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+
+}
+
+main .section3 .container .industryRecognization .awards .awardsImage img:nth-child(2),
+.awardsImage img:nth-child(3) {
+    padding: 20px 0;
+}
+
+main .section3 .container .industryRecognization .awards .awardsDetail {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section3 .container .industryRecognization .awards .awardsDetail h4 {
+    margin: 0 0 30px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+/* main .section3 .container .industryRecognization .awards .awardsDetail h2 {
+    margin-top: 60px;
+}
+
+main .section3 .container .awards .awardsDetail h2:nth-of-type(2) {
+    margin-top: 125px;
+}
+
+main .section3 .container .awards .awardsDetail h2:nth-of-type(3) {
+    margin-top: 110px;
+} */
+
+main .section3 .container .awards .awardsDetail p {
+    color: rgb(83, 82, 82);
+}
+
+main .section3 .container .awards .awardsDetail a {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 13px;
+    margin-left: 0;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+main .section4{
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+main .section4 .container .certifications h4{
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+    text-align: center;
+}
+main .section4 .container .certifications h2:nth-of-type(1){
+    margin: 40px 0 0 0;
+    text-align: center;   
+}
+main .section4 .container .certifications h2:nth-of-type(2),.certifications h2:nth-of-type(3),.certifications h2:nth-of-type(4),.certifications h2:nth-of-type(5),.certifications h2:nth-of-type(6),.certifications h2:nth-of-type(7),.certifications h2:nth-of-type(8){
+    margin: 70px 0 0 0;
+    text-align: center; 
+}
+
+main .section4 .container .certifications .udemyProfessional{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    /* gap: 8em; */
+    /* justify-content: center; */
+}
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage img{
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+}
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+/* main .section4 .container .certifications .htmlCssBootstrap{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+main .section4 .container .certifications .htmlCssBootstrap .htmlCssBootstrapImage img{
+    width: 370px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+}
+main .section4 .container .certifications .htmlCssBootstrap .htmlCssBootstrapImage a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-decoration: none;
+     border-radius: 10px;
+     background-color: blueviolet;
+     color: white;
+ } */
+ main .section4 .container .certifications .fullStack{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+main .section4 .container .certifications  .fullStack .fullStackImage img{
+    width: 350px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+}
+main .section4 .container .certifications .fullStack .fullStackImage a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-decoration: none;
+     border-radius: 10px;
+     background-color: blueviolet;
+     color: white;
+ }
+
+main .section5 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section5 .container h4 {
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+}
+
+main .section5 .container .project {
+    /* padding: 10px 0; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+main .section5 .container .project:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(154, 237, 237);
+    position: relative;
+}
+
+main .section5 .container .project::after {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 72%;
+    height: 2px;
+    left: 44.7%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+main .section5 .container .project:hover::after {
+    width: 10.5%;
+}
+
+main .section5 .container .projectDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section6 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section6 .container h4 {
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+}
+
+main .section6 .container .project {
+    /* padding: 10px 0; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+main .section6 .container .project:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(154, 237, 237);
+    position: relative;
+}
+
+main .section6 .container .project::after {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 78%;
+    height: 2px;
+    left: 44.7%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+main .section6 .container .project:hover::after {
+    width: 10.5%;
+}
+
+main .section6 .container .projectDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section7 {
+    /* padding: 70px 0; */
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section7 .container .education .school {
+    display: flex;
+    margin: 95px 0;
+
+}
+
+main .section7 .container .education .school .schoolImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section7 .container .education .school .schoolImage img {
+    width: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(122, 121, 121);
+    border-radius: 15px;
+
+}
+
+main .section7 .container .education .school .schoolDetail {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section7 .container .education .school .schoolDetail h4 {
+    margin: 5px 0;
+    color: grey;
+    font-weight: 100;
+}
+
+main .section7 .container .education .school .schoolDetail h2 {
+    margin: 5px 0;
+}
+
+main .section7 .container .education .school .schoolDetail p,
+ul {
+    color: rgb(83, 82, 82);
+}
+
+main .section7 .container .education .school .schoolDetail a {
+    display: inline-block;
     padding: 5px 13px;
     text-decoration: none;
     text-align: center;
@@ -283,120 +718,55 @@ font-weight: 100;
     background-color: blueviolet;
     border: none;
     color: white;
-                }
-                main .section5 .container .highSchool,.higherSecondary1,.higherSecondary2{
-                    display: flex;
-                    margin: 95px 0;
-                }
+}
 
-                main .section5 .container .highSchool .highSchoolImage img,.higherSecondary1 .higherSecondary1Image img,.higherSecondary2 .higherSecondary2Image img{
-                    width: 300px;
-                    padding: 10px 10px;
-                    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-                    border-radius: 15px;
-                }
-                main .section5 .container .highSchool .highSchoolDetail,.higherSecondary1 .higherSecondary1Detail,.higherSecondary2 .higherSecondary2Detail{
-margin-left: 140px;
-display: flex;
-flex-direction: column;
-justify-content:center;
-position: relative;
+main .section8 {
+    /* padding: 70px 0; */
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
 
-                }
-                main .section5 .container .highSchool .highSchoolDetail::after{
-                    content: '';
-                    width: 0;
-                    height: 2.5px;
-                    position: absolute;
-                    top:34%;
-                    left: 2%;
-                    background: blueviolet;
-                    transition: 0.5s;
+main .section8 .container .university {
+    display: flex;
+    margin: 95px 0;
+}
 
-                }
-                main .section5 .container .higherSecondary1 .higherSecondary1Detail::after,.higherSecondary2 .higherSecondary2Detail::after{
-                    content: '';
-                    width: 0;
-                    height: 2px;
-                    position: absolute;
-                    top:32%;
-                    left: 2%;
-                    background: blueviolet;
-                    transition: 0.5s;
-                }
-
-                main .section5 .container .highSchool .highSchoolDetail:hover::after{
-                    width: 22%;
-                }
-                main .section5 .container .higherSecondary1 .higherSecondary1Detail:hover::after,.higherSecondary2 .higherSecondary2Detail:hover::after{
-                    width: 17%;
-                }
-                main .section5 .container .highSchool .highSchoolDetail h4,.higherSecondary1 .higherSecondary1Detail h4,.higherSecondary2 .higherSecondary2Detail h4{
-                    margin: 10px;
-                    font-size: 1.4rem;
-                }
-                main .section5 .container .highSchool .highSchoolDetail ul,.higherSecondary1 .higherSecondary1Detail ul,.higherSecondary2 .higherSecondary2Detail ul{
-                    color: rgb(83, 82, 82);  
-                }
-                main .section5 .container .highSchool .highSchoolDetail a{
-                    display: inline-block;
-    padding: 5px 13px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    background-color: blueviolet;
-    border: none;
-    color: white; 
-                }
-                main .section5 .container .higherSecondary1 .higherSecondary1Detail a,.higherSecondary2 .higherSecondary2Detail a{
-                    display: inline-block;
-                    padding: 5px 13px;
-                    width: 85%;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 10px;
-                    background-color: blueviolet;
-                    border: none;
-                    color: white; 
-                                }
-
-          main .section6{
-            word-spacing: 2px;
-            letter-spacing: 1px;
-            line-height: 30px;
-          }     
-   main .section6 .container .university{
-display: flex;
-margin: 95px 0;
-   }    
-   main .section6 .container .university .universityImage{
+main .section8 .container .university .universityImage {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   }    
-   main .section6 .container .university .universityImage img{
+}
+
+main .section8 .container .university .universityImage img {
     width: 300px;
     box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-    border-radius: 15px 
-   }    
-   main .section6 .container .university .universityDetail{
-margin-left: 140px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-   }   
-   main .section6 .container .university .universityDetail h4{
+    border-radius: 15px
+}
+
+main .section8 .container .university .universityDetail {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section8 .container .university .universityDetail h4 {
     margin: 5px 0;
     color: grey;
     font-weight: 100;
-   }   
-   main .section6 .container .university .universityDetail h2{
+}
+
+main .section8 .container .university .universityDetail h2 {
     margin: 5px 0;
-   }     
-   main .section6 .container .university .universityDetail p{
+}
+
+main .section8 .container .university .universityDetail p {
     color: rgb(83, 82, 82);
-   } 
-   main .section6 .container .university .universityDetail a{
+}
+
+main .section8 .container .university .universityDetail a {
     display: inline-block;
     padding: 5px 13px;
     text-align: center;
@@ -404,81 +774,50 @@ justify-content: center;
     border-radius: 10px;
     background-color: blueviolet;
     border: none;
-    color: white; 
-   }   
-   main .section6 .container .degree{
+    color: white;
+}
+
+main .section8 .container .sem {
     display: flex;
-    margin: 95px 0;
-   }
-   main .section6 .container .degree .degreeImage{
-display: flex;
-flex-direction: column;
-justify-content: center;
-   }
-   main .section6 .container .degree .degreeImage img{
+    margin: 55px 0;
+}
+
+main .section8 .container .sem .semImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section8 .container .sem .semImage img {
     width: 300px;
-box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-border-radius: 15px 
-   }
-   main .section6 .container .degree .degreeDetail{
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px
+}
+
+main .section8 .container .sem .semDetail {
     margin-left: 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   }
-   main .section6 .container .degree .degreeDetail h4{
-   color: grey;
-    font-weight: 100;
-   }    
-   main .section6 .container .degree .degreeDetail p{
+}
+
+main .section8 .container .sem .semDetail h4 {
+    margin: 5px 0;
+    font-size: 1.4rem;
+}
+
+main .section8 .container .sem .semDetail p,
+ul {
     color: rgb(83, 82, 82);
-   }
-   main .section6 .container .degree .degreeDetail a{
-   display: inline-block;
+}
+
+main .section8 .container .sem .semDetail a {
+    display: inline-block;
     padding: 5px 13px;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
     background-color: blueviolet;
     border: none;
-    color: white; }
-
-    main .section6 .container  .sem{
-        display: flex;
-    }
-
-    main .section6 .container .sem .semImage{
-margin-bottom: 50px;
-    }
-    main .section6 .container .sem .semImage img{
-        width: 300px;
-        box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
-border-radius: 15px 
-
-    }
-    main .section6 .container .sem .semDetail{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    margin-left: 140px;
-    }
-    main .section6 .container .sem .semDetail h4{
-      font-size: 1.4rem;
-    }
-    main .section6 .container .sem .semDetail p{
-        color: rgb(83, 82, 82);
-    }
-    main .section6 .container .sem .semDetail ul{
-        color: rgb(83, 82, 82);
-    }
-    main .section6 .container .sem .semDetail a{
-        display: inline-block;
-        padding: 5px 13px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 10px;
-        background-color: blueviolet;
-        border: none;
-        color: white; 
-    }
-
+    color: white;
+}
