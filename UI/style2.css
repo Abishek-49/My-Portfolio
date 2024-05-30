@@ -821,3 +821,104 @@ main .section8 .container .sem .semDetail a {
     border: none;
     color: white;
 }
+
+footer .section1{
+    margin: 5px 0;
+    padding: 80px 0 10px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+footer .section1 .container .contact{
+    display: flex;
+    justify-content: space-between;
+}
+footer .section1 .container .contact .socialIcons + a{
+    margin: 30px 0 0 0;
+    display: inline-block;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+footer .section1 .container .contact .contactLeft p{
+    margin-top: 50px;
+}
+footer .section1 .container .contact .contactLeft p i{
+   color: blueviolet;
+   font-size: 1.2rem;
+   margin: 0 5px;
+ 
+}
+footer .section1 .container .contact .socialIcons a{
+font-size: 2rem;
+display: inline-block;
+margin: 0 5px;
+margin-top: 20px;
+transition: transform 0.5s;
+color: black;
+}
+footer .section1 .container .contact .socialIcons a:hover{
+    color: blueviolet;
+    transform: translateY(-5px);
+}
+footer .section1 .container .contact .contactRight{
+    display: flex;
+    flex-direction: column;
+}
+footer .section1 .container .contact .contactRight form input,textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+footer .section1 .container .contact .contactRight form button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+/* hr{
+ margin: 40px 40px 15px 40px;
+} */
+footer .section2{
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+footer .section2 .container .copyRight{
+    display: flex;
+    justify-content: center;
+}
+footer .section2 .container .copyRight p i{
+    color: blueviolet;
+}
+footer .section2 .container .copyRight p span{
+    color: blueviolet;
+}
+
+/* @media  (max-width:768px){
+main .section1 .container .whoAmI .bio button{
+    font-size: 0.6rem;
+}
+}
+@media  (max-width:425px){
+    main .section1 .container .whoAmI .bio button{
+        font-size: 2rem;
+    }
+} */
