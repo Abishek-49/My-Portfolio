@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body>
+    <header>
+
+
+        <section class="section1">
+            <div class="container">
+                <div class="navigation">
+                    <div class="nav1">
+                        <i class='bx bx-laptop'></i>
+                        <h5>Write Less Code More :)</h5>
+
+                    </div>
+                    <div class="nav2">
+                        <a href="#me">Who am i</a>
+                        <a href="#expertise">Expertise</a>
+                        <a href="#education">Education</a>
+                        <a href="#awards">Awards</a>
+                        <a href="#Projects">Projects</a>
+                        <a href="#contact">contact</a>
+                        <i class='bx bx-x' onclick="closeMenu()"></i>
+                    </div>
+                    <i class='bx bx-menu' onclick="openMenu()" ></i>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <p id="me"></p>
+        <section class="section1">
+            <div class="container">
+                <div class="whoAmI">
+                    <div class="bio">
+                        <h4>HELLO</h4>
+                        <h1><span>I'm </span><span>Abishek Narayan V</span></h1>
+                        <p>I am a Full Stack Engineer Currently Working @ Cognizant Technology Solutions as Programmer
+                            Analyst Trainee, I was selected through On-Campus Placement Recruitment during my
+                            UnderGraduate Degree Program, I Began as an Intern on my seventh semester into the
+                            oraganization, Excelling through three stages of evaluation: Qualifier, Interim-Check and
+                            Final SME which held in Bangalore. Post successful Completion of all the evaluation, I
+                            became a Full-Time Employee on september 1, 2023 </p>
+                        <button>Hire</button>
+                        <button>Portfolio</button>
+                    </div>
+
+                    <div class="myPic">
+                        <img src="assets/College/clgPic3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         
+        <p id="expertise"></p>
+        <section class="section2">
+            <div class="container">
+                <div class="skill">
+                    <div class="logoGroup">
+                        <div class="logoGroup1">
+                            <img src="assets/images/expertise.jpg" alt="">
+                        </div>
+                        <div class="logoGroup2">
+                            <img src="assets/images/ts.jpg" alt="">
+                            <img src="assets/images/bootstrap.jpg" alt="">
+                            <img src="assets/images/saas.jpg" alt="">
+                        </div>
+                        <div class="logoGroup3">
+                            <img src="assets/images/mean.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="expertise">
+                        <h4>WHAT AM I EXPERTISE WITH ?</h4>
+                        <h2>I Specialize in developing Web and Mobile Application Using MEAN as Key Technology Stack
+                        </h2>
+                        <ul>
+                            <li>MongoDB for database management</li>
+                            <li>Express.js for backend web framework</li>
+                            <li>Angular for client-side frontend framework</li>
+                            <li>Node.js for the backend runtime environment</li>
+                        </ul>
+                        <p>In addition to my expertise with frameworks, I have experience creating dynamic and
+                            responsive web pages without them, using pure HTML5 and CSS3 for responsive web design
+                            (RWD). I can also build frontend web applications with native JavaScript and Vanilla
+                            JavaScript for simple user interfaces.</p>
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <p id="awards"></p>
+
+        <section class="switching1">
+            <div class="container">
+                <div class="switch">
+                    <div class="switch1">
+                        <h5>Recognition</h5>
+                        <i class='bx bx-award'></i>
+                        <span>click here</span>
+
+                    </div>
+                    <div class="switch2">
+                        <h5>Certification</h5>
+                        <i class='bx bx-certification'></i>
+                        <span>click here</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p id="Projects"></p>
+
+        <section class="switching2">
+            <div class="container">
+                <div class="switch">
+                    <div class="switch1">
+                        <h5>Hands On Projects</h5>
+                        <i class='bx bx-code-alt'></i>
+                        <span>click here</span>
+
+                    </div>
+                    <div class="switch2">
+                        <h5>University Projects</h5>
+                        <i class='bx bxl-product-hunt'></i>
+                        <span>click here</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p id="education"></p>
+
+        <section class="switching3">
+            <div class="container">
+                <div class="switch">
+                    <div class="switch1">
+                        <h5>Undergraduate</h5>
+                        <i class='bx bxs-graduation'></i>
+                        <span>click here</span>
+
+                    </div>
+                    <div class="switch2">
+                        <h5>Pre-University</h5>
+                        <i class='bx bxs-school'></i>
+                        <span>click here</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- 
+        <section class="section3">
+            <div class="container">
+                <div class="industryRecognition">
+                    <div class="awards">
+                        <div class="awardsImage">
+                            <img src="assets/images/awards.jpg" alt="">
+                        </div>
+                        <div class="awardsDetail">
+                            <h4>AWARDS AND RECOGNIZATION</h4>
+                            <h2>At Cognizant</h2>
+                            <p>In Bangalore, based on my outstanding performance, I was recognized and received a
+                                certificate of appreciation from the Leaders at Cognizat Technology Solution in 2023</p>
+                            <a target="_blank"
+                                href="https://news.cognizant.com/2019-08-23-Cognizant-Wins-22-Awards-for-Excellence-in-Learning-from-the-Brandon-Hall-Group">Search</a>
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awardsImage">
+
+                            <img src="assets/Awards & Recognization/GenC-TechieAward.png" alt="">
+
+                        </div>
+                        <div class="awardsDetail">
+                            <h2>Techie Award</h2>
+                            <p>The award recognizes exemplary performance in the qualifier assessment, Interim-checks
+                                and Final SME-evaluations within the INTDX23CA001 Cohort in Channels Angular.I achieved
+                                the top position among all locations in india</p>
+                            <a href="assets/Awards & Recognization/GenC-TechieAward.png" download>Download Award <i
+                                    class='bx bxs-file-png bx-xm'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="awards">
+                        <div class="awardsImage">
+                            <img src="assets/Awards & Recognization/GenC-SuperSqaudAward.png" alt="">
+                        </div>
+                        <div class="awardsDetail">
+                            <h2>Super Squad Award</h2>
+                            <p>The award recognizes demonstrating high level of integrity in completing the training
+                                period from INTDX23CA001 Cohort</p>
+                            <a href="assets/Awards & Recognization/GenC-SuperSqaudAward.png" download>Download Award <i
+                                    class='bx bxs-file-png bx-xm'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <script>
+            let sideMenu = document.querySelector('header .section1 .container .navigation .nav2')
+    
+            function openMenu(){
+    sideMenu.style.right='0';
+            }
+            function closeMenu(){
+                sideMenu.style.right='-200px';
+            }
+        </script>

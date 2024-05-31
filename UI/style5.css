@@ -1,0 +1,807 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+    font-family: 'Outfit';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    letter-spacing: 1px;
+}
+
+header .section1 .container .navigation {
+    display: flex;
+}
+
+header .section1 .container .navigation .nav1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+header .section1 .container .navigation .nav1 i {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+header .section1 .container .navigation .nav1 h5 {
+    font-weight: 100;
+}
+
+header .section1 .container .navigation .nav2 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+header .section1 .container .navigation .nav2 i,.nav2+i{
+    color: blueviolet;
+    font-size: 2rem; 
+}
+
+header .section1 .container .navigation .nav2 a {
+    margin: 0 7.5px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header .section1 .container .navigation .nav2 a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+header .section1 .container .navigation .nav2 a:hover::after {
+    width: 100%;
+}
+header .section1 .container .navigation .nav2 i,
+header .section1 .container .navigation .nav2 + i{
+    display: none;
+}
+main .section1 {
+    margin: 5px 0;
+    padding: 140px 0 0 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+main .section1 .container .whoAmI {
+    display: flex;
+}
+
+main .section1 .container .whoAmI .bio h4 {
+    font-weight: 100;
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio h1 {
+    font-size: 2rem;
+}
+
+main .section1 .container .whoAmI .bio h1 span:first-child {
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio p {
+    color: rgb(83, 82, 82);
+    width: 85%;
+    line-height: 30px;
+}
+main .section1 .container .whoAmI .bio button {
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    width: 12%;
+    height: 9.5%;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+main .section1 .container .whoAmI .bio button:hover{
+cursor: pointer;
+color: white;
+background-color: blueviolet;
+}
+
+main .section1 .container .whoAmI .myPic {
+    margin: 30px 0;
+}
+
+main .section1 .container .whoAmI .myPic img {
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+main .section2 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section2 .container .skill {
+    display: flex;
+}
+
+main .section2 .container .skill .logoGroup {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1,
+.logoGroup2,
+.logoGroup3 {
+    margin: 20px 0;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1 img,
+.logoGroup3 img {
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 {
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 246, 246);
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+.logoGroup2 img:nth-child(2) {
+    width: 50px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 62px;
+}
+
+main .section2 .container .skill .expertise {
+    margin-left: 140px;
+}
+
+main .section2 .container .skill .expertise h4 {
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.section2 .container .skill .expertise li,
+.expertise p {
+    color: rgb(83, 82, 82);
+    width: 92%;
+}
+
+main .section2 .container .skill .expertise li::first-letter {
+    font-weight: 1000;
+}
+
+main .section2 .container .skill .expertise button {
+    width: 16%;
+    height: 8%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+    
+}
+main .section2 .container .skill .expertise button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    }
+
+    main .switching1,
+    main .switching2, 
+    main .switching3  {
+        padding: 90px 0 0 0;
+        margin: 5px 0;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        border-radius: 20px;
+    }
+    
+    main .switching1 .container .switch,
+    main .switching2 .container .switch,
+    main .switching3 .container .switch {
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 25px;
+    }
+    
+    main .switching1 .container .switch h5,
+    main .switching2 .container .switch h5,
+    main .switching3 .container .switch h5 {
+        margin: 10px 0;
+        color: rgb(83, 82, 82);
+        font-size: 1.2rem;
+    
+    }
+    
+    main .switching1 .container .switch i,
+    main .switching2 .container .switch i,
+    main .switching3 .container .switch i {
+        color: blueviolet;
+        font-size: 2rem;
+    }
+    
+    main .switching1 .container .switch span,
+    main .switching2 .container .switch span,
+    main .switching3 .container .switch span {
+        position: absolute;
+        top: 65%;
+        left: 37%;
+        color: grey;
+        font-size: 0.9rem;
+    
+    }
+    
+    main .switching1 .container .switch .switch1::after,
+    main .switching1 .container .switch .switch2::after,
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after,
+    main .switching3 .container .switch .switch1::after,
+    main .switching3 .container .switch .switch2::after{
+        content: '';
+        width: 0;
+        position: absolute;
+        top: 88%;
+        height: 2.5px;
+        left: 36.5%;
+        background: blueviolet;
+        transition: 0.5s;
+    }
+    
+    main .switching1 .container .switch .switch1:hover::after,
+    main .switching1 .container .switch .switch2:hover::after{
+        width: 20%;
+    
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 17.5%;
+    }
+
+ main .switching3 .container .switch .switch1:hover::after,
+    main .switching3 .container .switch .switch2:hover::after {
+        width: 19%;
+    }
+    
+    main .switching1 .container .switch .switch1,
+    main .switching1 .container .switch .switch2,
+    main .switching2 .container .switch .switch1,
+    main .switching2 .container .switch .switch2,
+    main .switching3 .container .switch .switch1,
+    main .switching3 .container .switch .switch2 {
+        display: flex;
+        align-items: center;
+        padding: 30px 105px;
+        position: relative;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+    main .switching1 .container .switch .switch1:hover, 
+    main .switching1 .container .switch .switch2:hover,
+    main .switching2 .container .switch .switch1:hover,
+    main .switching2 .container .switch .switch2:hover,
+    main .switching3 .container .switch .switch1:hover,
+    main .switching3 .container .switch .switch2:hover {
+        background-color: rgb(154, 237, 237);
+        transition: 0.3s;
+    }
+
+    @media (max-width:887px){
+        header .section1 .container .navigation .nav2{
+            background-color: aliceblue;
+            position: fixed;
+            top: 0;
+            right: 0px;
+            width: 200px;
+            height: 100vh;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            z-index: 2;
+    
+        }
+        header .section1 .container .navigation .nav2 a{
+            margin: 20px 0;
+        }
+        header .section1 .container .navigation .nav2 i,
+        header .section1 .container .navigation .nav2 + i{
+            display: block;
+            font-size: 2rem;
+    
+        }
+        header .section1 .container .navigation .nav2 i,
+        header .section1 .container .navigation .nav2 + i{
+            position: absolute;
+            top: 25px;
+            right: 0px;
+            cursor: pointer;
+        }
+    }
+
+    
+    @media (max-width:1024px){
+        header .section1 .container .navigation .nav1 {
+            font-size: 1.3rem;
+        }
+        header .section1 .container .navigation .nav2 a {
+            font-size: 1rem;
+        }
+        main .section1 .container .whoAmI .bio h4{
+            font-size: 0.9rem;
+        }
+        main .section1 .container .whoAmI .bio h1 {
+            font-size: 1.7rem;
+        }
+        main .section1 .container .whoAmI .bio p{
+            font-size: 0.9rem;
+        }
+        main .section1 .container .whoAmI .bio p{
+            width: auto;
+        }
+        main .section1 .container .whoAmI .myPic img {
+            width: 220px;
+         }
+        main .section1 .container .whoAmI .bio button:nth-of-type(1){
+            font-size: 0.8rem;
+            width: auto;
+            padding: 0 40px;
+        }
+        main .section1 .container .whoAmI .bio button:nth-of-type(2){
+            font-size: 0.8rem;
+            width: auto;
+            padding: 0 27px;
+    
+        }
+        main .section2 .container .skill .expertise h4{
+            font-size: 0.9rem;
+        }
+
+       main .section2 .container .skill .expertise h2{
+        font-size: 1.2rem;
+       }
+       main .section2 .container .skill .expertise ul{
+        font-size: 0.9rem;
+       }
+       main .section2 .container .skill .expertise p{
+        font-size: 0.9rem;
+       }
+       main .section2 .container .skill .expertise button{
+       font-size: 0.8rem;
+       width: auto;
+       padding: 0 20px;
+       height: 38px;
+       }
+       main .section2 .container .skill .logoGroup .logoGroup1 img,
+.logoGroup3 img {
+    width: 220px;
+}
+main .section2 .container .skill .logoGroup .logoGroup2 {
+    padding: 10px 0 10px 30px;
+}
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+.logoGroup2 img:nth-child(2) {
+    width: 50px;
+}
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 57px;
+}
+main .switching1 .container .switch h5,
+main .switching2 .container .switch h5,
+main .switching3 .container .switch h5 {
+    font-size: 1.1rem;
+   text-align: center;
+}
+main .switching1 .container .switch span,
+main .switching2 .container .switch span,
+main .switching3 .container .switch span {
+    font-size: 0.8rem;
+}
+main .switching1 .container .switch .switch1:hover::after,
+main .switching1 .container .switch .switch2:hover::after{
+    width: 23%;
+}
+main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 19.5%;
+}
+main .switching3 .container .switch .switch1:hover::after,
+main .switching3 .container .switch .switch2:hover::after {
+    width: 21.5%;
+}
+main .switching1 .container .switch .switch1,
+main .switching1 .container .switch .switch2,
+main .switching2 .container .switch .switch1,
+main .switching2 .container .switch .switch2,
+main .switching3 .container .switch .switch1,
+main .switching3 .container .switch .switch2 {
+    padding: 30px 75px;
+
+}
+    }
+
+@media(max-width:783px){
+    main .switching1 .container .switch h5,
+    main .switching2 .container .switch h5,
+    main .switching3 .container .switch h5 {
+        font-size: 0.9rem;
+    
+    }
+    
+    main .switching1 .container .switch span,
+    main .switching2 .container .switch span,
+    main .switching3 .container .switch span {
+        font-size: 0.7rem;
+    
+    }
+}
+
+    @media (max-width:768px){
+        header .section1 .container .navigation .nav1 {
+            font-size: 1.1rem;
+        }
+        header .section1 .container .navigation .nav2 a {
+            font-size: 0.9rem;
+        }
+        header .section1 .container .navigation .nav2 i,
+        header .section1 .container .navigation .nav2 + i{
+            display: block;
+            font-size: 1.7rem;
+        }
+        main .section1 .container .whoAmI .bio h4{
+            font-size: 0.8rem;
+        }
+        main .section1 .container .whoAmI .bio h1 {
+            font-size: 1.4rem;
+        }
+        main .section1 .container .whoAmI .bio p{
+            font-size: 0.7rem;
+            width: auto;
+            line-height: 25px;
+        }
+        main .section1 .container .whoAmI .myPic img {
+           width: 170px;
+        }
+        main .section1 .container .whoAmI .bio button:nth-of-type(1){
+            font-size: 0.8rem;
+            width: auto;
+            padding: 0 30px;
+        }
+        main .section1 .container .whoAmI .bio button:nth-of-type(2){
+            font-size: 0.8rem;
+            width: auto;
+            padding: 0 17px;
+    
+        }
+        main .section2{
+            line-height: 25px;
+        }
+        main .section2 .container .skill .expertise{
+            margin-left: 60px;
+        }
+        main .section2 .container .skill .expertise h4{
+            font-size: 0.8rem;
+        }
+    
+       main .section2 .container .skill .expertise h2{
+        font-size: 1rem;
+       }
+       main .section2 .container .skill .expertise ul{
+        font-size: 0.7rem;
+       }
+       main .section2 .container .skill .expertise p{
+        font-size: 0.7rem;
+       }
+       main .section2 .container .skill .expertise button{
+       font-size: 0.8rem;
+       width: auto;
+       padding: 0 20px;
+       height: 38px;
+       }
+       main .section2 .container .skill .logoGroup{
+        margin-top: 50px;
+    } 
+       main .section2 .container .skill .logoGroup .logoGroup1 img,
+    .logoGroup3 img {
+    width: 205px;
+    }
+    main .section2 .container .skill .logoGroup .logoGroup2 {
+    padding: 10px 0 10px 30px;
+    }
+    main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+    .logoGroup2 img:nth-child(2) {
+    width: 45px;
+    }
+    main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 50px;
+    }
+    
+        }
+        @media (max-width:715px){
+            main .switching2 .container .switch span{
+                top: 70%;
+                left: 36%;
+            }
+            
+            main .switching2 .container .switch .switch1::after,
+            main .switching2 .container .switch .switch2::after{
+                left: 36%;
+            }
+        }
+        
+        @media (max-width:600px){
+            main .section1{
+                padding: 10px 0 0 0;
+            }
+            main .section1 .container .whoAmI{
+               flex-wrap: wrap;
+               flex-direction: column-reverse;
+            align-items: center;
+               
+            }
+            main .section1 .container .whoAmI .bio button:nth-of-type(1){
+                font-size: 0.8rem;
+                width: auto;
+                padding: 0 30px;
+                height: 35px;
+            }
+            main .section1 .container .whoAmI .bio button:nth-of-type(2){
+                font-size: 0.8rem;
+                width: auto;
+                padding: 0 17px;
+                height: 35px;
+        
+            }
+            main .section2{
+                padding: 40px 0 0 0;
+            }
+            main .section2 .container .skill{
+                flex-wrap: wrap;
+            justify-content: center;
+            }
+            main .section2 .container .skill .logoGroup{
+                margin: 10px;
+            }
+            main .section2 .container .skill .logoGroup .logoGroup1{
+                margin-bottom: 0;
+            }
+            main .section2 .container .skill .logoGroup .logoGroup2,
+            main .section2 .container .skill .logoGroup .logoGroup3{
+                margin: 5px 0;
+            }
+            main .section2 .container .skill .expertise{
+                margin-left: 0;
+            }
+            main .section2 .container .skill .expertise h4{
+    margin:0 0;
+            }
+            main .section2 .container .skill .expertise h2{
+                margin: 5px 0;
+            }
+            main .section2 .container .skill .expertise p{
+                width: 100%;
+            }
+        }
+
+                @media (max-width:578px){
+                        main .switching1 .container .switch h5,
+                        main .switching2 .container .switch h5,
+                        main .switching3 .container .switch h5 {
+                            font-size: 0.7rem;
+                        
+                        }
+                        
+                        main .switching1 .container .switch span,
+                        main .switching2 .container .switch span,
+                        main .switching3 .container .switch span {
+                            top: 60%;
+                            left: 34%;
+                            font-size: 0.5rem;
+                        
+                        }
+                        main .switching1 .container .switch i,
+                        main .switching2 .container .switch i,
+                        main .switching3 .container .switch i {
+                           
+                            font-size: 1.7rem;
+                        }
+                        main .switching1 .container .switch .switch1:hover::after,
+main .switching1 .container .switch .switch2:hover::after{
+    width: 27%;
+
+}
+
+main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 22%;
+}
+
+main .switching3 .container .switch .switch1:hover::after,
+main .switching3 .container .switch .switch2:hover::after {
+    width: 23.8%;
+}
+
+main .switching1 .container .switch .switch1::after,
+main .switching1 .container .switch .switch2::after{
+    top: 90%;
+    left: 33.5%;
+}
+main .switching2 .container .switch .switch1::after,
+main .switching2 .container .switch .switch2::after,
+main .switching3 .container .switch .switch1::after,
+main .switching3 .container .switch .switch2::after{
+    top: 90%;
+    left: 33.5%;
+}
+
+main .switching1 .container .switch .switch1,
+main .switching1 .container .switch .switch2,
+main .switching2 .container .switch .switch1,
+main .switching2 .container .switch .switch2,
+main .switching3 .container .switch .switch1,
+main .switching3 .container .switch .switch2 {
+    padding: 10px 35px;
+}
+                }
+                @media (max-width:500px){
+                    header .section1 .container .navigation .nav1 {
+                        font-size: 1rem;
+                    }
+                    header .section1 .container .navigation .nav2 a {
+                        font-size: 0.8rem;
+                    }
+                    header .section1 .container .navigation .nav2 i,
+                    header .section1 .container .navigation .nav2 + i{
+                        display: block;
+                        font-size: 1.4rem;
+                
+                    }
+                    }
+@media (max-width:468px){
+    main .switching2 .container .switch span {
+        top: 71%;
+        left: 33.5%;
+    
+    }
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after{
+        top: 92%;
+        left: 33.5%;
+      
+    }
+    main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 22%;
+}
+
+}
+@media (max-width:412px){
+    main .switching3 .container .switch span{
+        top: 70%;
+    }
+    main .switching2 .container .switch .switch1::after,
+main .switching2 .container .switch .switch2::after{
+    top: 92%;
+    left: 31.5%;
+  
+}
+main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 24%;
+}
+}
+@media (max-width:356px){
+    main .switching1 .container .switch .switch1,
+main .switching1 .container .switch .switch2,
+main .switching2 .container .switch .switch1,
+main .switching2 .container .switch .switch2,
+main .switching3 .container .switch .switch1,
+main .switching3 .container .switch .switch2 {
+
+    padding: 10px 15px;
+
+
+}
+main .switching1 .container .switch span {
+    top: 60%;
+    left: 28%;
+
+}
+main .switching1 .container .switch .switch1::after,
+main .switching1 .container .switch .switch2::after{
+    top: 90%;
+    left: 28.5%;
+  
+}
+main .switching1 .container .switch .switch1:hover::after,
+main .switching1 .container .switch .switch2:hover::after {
+    width: 33.5%;
+}
+main .switching2 .container .switch span {
+    top: 70%;
+    left: 27%;
+
+}
+main .switching2 .container .switch .switch1::after,
+main .switching2 .container .switch .switch2::after{
+    top: 90%;
+    left: 26.5%;
+  
+}
+main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 29%;
+}
+main .switching3 .container .switch span {
+    top: 60%;
+    left: 32%;
+
+}
+main .switching3 .container .switch .switch1::after,
+main .switching3 .container .switch .switch2::after{
+    top: 90%;
+    left: 31.5%;
+  
+}
+main .switching3 .container .switch .switch1:hover::after,
+main .switching3 .container .switch .switch2:hover::after {
+    width: 29%;
+}
+}
+@media (max-width:325px){
+
+main .switching3 .container .switch span {
+    top: 66%;
+    left: 26%;
+
+}
+main .switching3 .container .switch .switch1::after,
+main .switching3 .container .switch .switch2::after{
+    top: 86%;
+    left: 26.5%;
+  
+}
+main .switching3 .container .switch .switch1:hover::after,
+main .switching3 .container .switch .switch2:hover::after {
+    width: 30%;
+
+}
+}
+                    
+
+                  
+                
+             
+        

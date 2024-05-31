@@ -686,7 +686,6 @@ header .section1 .container .navigation .nav2 + i{
         flex-direction: column;
         z-index: 2;
 
-
     }
     header .section1 .container .navigation .nav2 a{
         margin: 20px 0;
@@ -697,9 +696,6 @@ header .section1 .container .navigation .nav2 + i{
         font-size: 2rem;
 
 
-    }
-    header .section1 .container .navigation .nav2 + i{
-       /* right: 0px; */
     }
     header .section1 .container .navigation .nav2 i,
     header .section1 .container .navigation .nav2 + i{
