@@ -319,6 +319,67 @@ main .section2 .container .skill .expertise button:hover{
         transition: 0.3s;
     }
 
+    main .section3 {
+        margin: 5px 0;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    
+    main .section3 .container .industryRecognition .awards {
+        display: flex;
+        justify-content: center;
+        margin: 65px 0;
+    }
+    
+    main .section3 .container .industryRecognition .awards .awardsImage img {
+        width: 290px;
+        box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+        border-radius: 15px;
+        margin-top: 60px;
+    
+    }
+    
+    main .section3 .container .industryRecognition .awards .awardsImage img:nth-child(2),
+    .awardsImage img:nth-child(3) {
+        padding: 20px 0;
+    }
+    
+    main .section3 .container .industryRecognition .awards .awardsDetail {
+        margin-left: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    main .section3 .container .industryRecognition .awards .awardsDetail h4 {
+        margin: 0 0 30px 0;
+        font-weight: 100;
+        color: grey;
+        font-size: 1.1rem;
+    }
+    
+    main .section3 .container .awards .awardsDetail p {
+        color: rgb(83, 82, 82);
+    }
+    
+    main .section3 .container .awards .awardsDetail a {
+        text-align: center;
+        display: inline-block;
+        padding: 5px 0;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: rgb(244, 244, 250);
+        color: blueviolet;
+        box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+    }
+
+    main .section3 .container .awards .awardsDetail a:hover{
+cursor: pointer;
+color: white;
+background-color: blueviolet;
+}
+
     @media (max-width:887px){
         header .section1 .container .navigation .nav2{
             background-color: aliceblue;
@@ -368,38 +429,39 @@ main .section2 .container .skill .expertise button:hover{
         main .section1 .container .whoAmI .bio p{
             font-size: 0.9rem;
         }
-        main .section1 .container .whoAmI .bio p{
-            width: auto;
-        }
         main .section1 .container .whoAmI .myPic img {
-            width: 220px;
+            width: 255px;
          }
         main .section1 .container .whoAmI .bio button:nth-of-type(1){
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             width: auto;
             padding: 0 40px;
         }
         main .section1 .container .whoAmI .bio button:nth-of-type(2){
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             width: auto;
             padding: 0 27px;
     
+        }
+        main .section2 .container .skill .expertise{
+            margin-left: 60px;
         }
         main .section2 .container .skill .expertise h4{
             font-size: 0.9rem;
         }
 
        main .section2 .container .skill .expertise h2{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
        }
        main .section2 .container .skill .expertise ul{
         font-size: 0.9rem;
        }
-       main .section2 .container .skill .expertise p{
+       main .section2 .container .skill .expertise li, .expertise p{
         font-size: 0.9rem;
+        width: auto;
        }
        main .section2 .container .skill .expertise button{
-       font-size: 0.8rem;
+       font-size: 0.9rem;
        width: auto;
        padding: 0 20px;
        height: 38px;
@@ -418,6 +480,27 @@ main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
 main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
     width: 57px;
 }
+
+main .section3 .container .industryRecognition .awards .awardsImage img {
+    width: 250px;
+
+}
+/* main .section3 .container .industryRecognition .awards .awardsImage img:nth-child(2),
+.awardsImage img:nth-child(3) {
+    padding: 20px 0;
+} */
+
+main .section3 .container .industryRecognition .awards .awardsDetail {
+    margin-left: 60px;
+    font-size: 0.9rem;
+  
+}
+
+main .section3 .container .industryRecognition .awards .awardsDetail h4 {
+    font-size: 0.9rem;
+}
+
+
 main .switching1 .container .switch h5,
 main .switching2 .container .switch h5,
 main .switching3 .container .switch h5 {
@@ -487,12 +570,11 @@ main .switching3 .container .switch .switch2 {
             font-size: 1.4rem;
         }
         main .section1 .container .whoAmI .bio p{
-            font-size: 0.7rem;
-            width: auto;
+            font-size: 0.8rem;
             line-height: 25px;
         }
         main .section1 .container .whoAmI .myPic img {
-           width: 170px;
+           width: 240px;
         }
         main .section1 .container .whoAmI .bio button:nth-of-type(1){
             font-size: 0.8rem;
@@ -509,21 +591,27 @@ main .switching3 .container .switch .switch2 {
             line-height: 25px;
         }
         main .section2 .container .skill .expertise{
-            margin-left: 60px;
-        }
-        main .section2 .container .skill .expertise h4{
+            /* margin-left: 60px; */
             font-size: 0.8rem;
         }
+        main .section2 .container .skill .expertise h4,
+        main .section2 .container .skill .expertise ul li,
+        main .section2 .container .skill .expertise p{
+            font-size: 0.8rem;
+        }
+        main .section2 .container .skill .expertise h2{
+            font-size: 1rem;
+           }
     
-       main .section2 .container .skill .expertise h2{
-        font-size: 1rem;
-       }
-       main .section2 .container .skill .expertise ul{
+       /* main .section2 .container .skill .expertise h2{
+        font-size: 0.8rem;
+       } */
+       /* main .section2 .container .skill .expertise ul{
         font-size: 0.7rem;
        }
        main .section2 .container .skill .expertise p{
         font-size: 0.7rem;
-       }
+       } */
        main .section2 .container .skill .expertise button{
        font-size: 0.8rem;
        width: auto;
@@ -547,6 +635,26 @@ main .switching3 .container .switch .switch2 {
     main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
     width: 50px;
     }
+    main .section3 .container .industryRecognition .awards .awardsImage img {
+        width: 235px;
+    
+    }
+    
+    /* main .section3 .container .industryRecognition .awards .awardsImage img:nth-child(2),
+    .awardsImage img:nth-child(3) {
+        padding: 20px 0;
+    } */
+    
+    main .section3 .container .industryRecognition .awards .awardsDetail {
+        /* margin-left: 60px; */
+        font-size: 0.8rem;
+      
+    }
+    
+    main .section3 .container .industryRecognition .awards .awardsDetail h4 {
+        font-size: 0.8rem;
+    }
+    
     
         }
         @media (max-width:715px){
@@ -563,13 +671,27 @@ main .switching3 .container .switch .switch2 {
         
         @media (max-width:600px){
             main .section1{
-                padding: 10px 0 0 0;
+                padding: 50px 0 0 0;
             }
             main .section1 .container .whoAmI{
                flex-wrap: wrap;
                flex-direction: column-reverse;
             align-items: center;
                
+            }
+            main .section1 .container .whoAmI .bio{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            main .section1 .container .whoAmI .bio h4,
+            main .section1 .container .whoAmI .bio h1,
+            main .section1 .container .whoAmI .myPic{
+                margin: 15px 0 0 0 ;
+                /* text-align: center; */
+            }
+            main .section1 .container .whoAmI .bio p{
+                width: auto;  
             }
             main .section1 .container .whoAmI .bio button:nth-of-type(1){
                 font-size: 0.8rem;
@@ -591,31 +713,129 @@ main .switching3 .container .switch .switch2 {
                 flex-wrap: wrap;
             justify-content: center;
             }
-            main .section2 .container .skill .logoGroup{
-                margin: 10px;
-            }
-            main .section2 .container .skill .logoGroup .logoGroup1{
+            /* main .section2 .container .skill .logoGroup{
+                margin-bottom: 0;
+            } */
+            /* main .section2 .container .skill .logoGroup .logoGroup1{
                 margin-bottom: 0;
             }
             main .section2 .container .skill .logoGroup .logoGroup2,
             main .section2 .container .skill .logoGroup .logoGroup3{
                 margin: 5px 0;
-            }
+            } */
             main .section2 .container .skill .expertise{
+                /* justify-content: center; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 margin-left: 0;
+                /* position: relative; */
             }
-            main .section2 .container .skill .expertise h4{
-    margin:0 0;
+            main .section2 .container .skill .expertise h4,
+            main .section2 .container .skill .expertise h2,
+            main .section2 .container .skill .logoGroup,
+            main .section2 .container .skill .logoGroup .logoGroup1,
+            main .section2 .container .skill .logoGroup .logoGroup2,
+            main .section2 .container .skill .logoGroup .logoGroup3{
+    margin:15px 0 0 0;
+    /* text-align: center; */
+    /* position: absolute; */
             }
             main .section2 .container .skill .expertise h2{
+                /* text-align: center; */
                 margin: 5px 0;
             }
             main .section2 .container .skill .expertise p{
                 width: 100%;
             }
+            main .section3 .container .industryRecognition .awards{
+                flex-wrap: wrap;
+            justify-content: center;
+                /* display: flex;
+                flex-direction: column;
+                align-items: center; */
+                /* text-align: center; */
+                /* justify-content: center; */
+                /* margin: 65px 0; */
+            }
+            /* main .section3 {
+                margin: 5px 0;
+                word-spacing: 2px;
+                letter-spacing: 1px;
+                line-height: 30px;
+            } */
+            
+            main .section3 .container .industryRecognition .awards {
+                /* display: flex;
+                justify-content: center; */
+                margin: 40px 0;
+            }
+            
+            main .section3 .container .industryRecognition .awards .awardsImage img {
+                /* width: 290px;
+                box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+                border-radius: 15px; */
+                margin-top: 0px;
+            
+            }
+            
+            /* main .section3 .container .industryRecognition .awards .awardsImage img:nth-child(2),
+            .awardsImage img:nth-child(3) {
+                padding: 20px 0;
+            } */
+            
+            main .section3 .container .industryRecognition .awards .awardsDetail {
+                margin-left: 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /* display: flex;
+                flex-direction: column;
+                justify-content: center; */
+            }
+            
+            main .section3 .container .industryRecognition .awards .awardsDetail h4,
+            main .section3 .container .industryRecognition .awards .awardsDetail h2 {
+                margin: 5px 0 0px 0;
+                /* text-align: center; */
+                /* font-weight: 100;
+                color: grey;
+                font-size: 1.1rem; */
+            }
+            
+            /* main .section3 .container .awards .awardsDetail p {
+                color: rgb(83, 82, 82);
+            } */
+            
+            main .section3 .container .awards .awardsDetail a {
+                /* text-align: center;
+                display: inline-block; */
+                padding: 5px 35px;
+                /* text-decoration: none;
+                border-radius: 5px;
+                background-color: rgb(244, 244, 250);
+                color: blueviolet;
+                box-shadow: 0px 0px 3px 1px rgb(219, 215, 215); */
+            }
+        
+            /* main .section3 .container .awards .awardsDetail a:hover{
+        cursor: pointer;
+        color: white;
+        background-color: blueviolet;
+        } */
+        main .switching1,
+        main .switching2,
+        main .switching3{
+            padding: 70px 0 0 0;
+        }
+        /* main .switching1 .container .switch .switch1,
+        main .switching1 .container .switch .switch2{
+padding: 40px 40px 40px 40px;
+        } */
+
         }
 
-                @media (max-width:578px){
+                @media (max-width:600px){
                         main .switching1 .container .switch h5,
                         main .switching2 .container .switch h5,
                         main .switching3 .container .switch h5 {

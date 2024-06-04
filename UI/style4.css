@@ -440,14 +440,6 @@ main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
 main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
     width: 57px;
 }
-/* main .switching1 .container .switch .switch1,
-main .switching1 .container .switch .switch2{
-    padding: 10px 55px 10px 55px;
-    justify-content: center;
-} */
-/* main .switching1 .container .switch{
-    flex-wrap: wrap;
-} */
 main .switching1,
 main .switching2, 
 main .switching3  {
@@ -550,8 +542,6 @@ main .switching3 .container .switch .switch2:hover {
     transition: 0.3s;
 }
 
-
-
     }
     
     @media (max-width:946px){
@@ -607,57 +597,6 @@ main .switching3 .container .switch .switch2:hover {
             margin-left: 80px;
         }
     }
-    /* @media (max-width:824px){
-    main .switching1 .container .switch .switch1,
-main .switching1 .container .switch .switch2{
-    padding: 10px 55px 20px 55px;
-    justify-content: center;
-}
-main .switching1 .container .switch h5,
-main .switching2 .container .switch h5,
-main .switching3 .container .switch h5{
-    font-size: 1rem;
-}
-main .switching1 .container .switch span,
-main .switching2 .container .switch span,
-main .switching3 .container .switch span{
-    position: absolute;
-    top: 60%;
-    left: 32%;
-    color: grey;
-    font-size: 0.8rem;
-}
-main .switching1 .container .switch .switch1::after,
-main .switching1 .container .switch .switch2::after,
-main .switching2 .container .switch .switch1::after,
-main .switching2 .container .switch .switch2::after,
-main .switching3 .container .switch .switch1::after,
-main .switching3 .container .switch .switch2::after{
-    content: '';
-    width: 0;
-    position: absolute;
-    top: 89%;
-    height: 2.6px;
-    left: 32.5%;
-    background: blueviolet;
-    transition: 0.5s;
-}
-main .switching1 .container .switch .switch1:hover::after,
-    main .switching1 .container .switch .switch2:hover::after{
-        width: 26%;
-    
-    }
-
-    main .switching2 .container .switch .switch1:hover::after,
-    main .switching2 .container .switch .switch2:hover::after {
-        width: 17.5%;
-    }
-
- main .switching3 .container .switch .switch1:hover::after,
-    main .switching3 .container .switch .switch2:hover::after {
-        width: 19%;
-    }
-    } */
     @media (max-width:806px){
         main .section1 .container .whoAmI .myPic {
             margin: 70px 0 0 0;
@@ -828,17 +767,6 @@ main .switching2 .container .switch .switch2::after{
         }
         
     }
-/* @media (max-width:771px){
-    main .switching1 .container .switch h5,
-main .switching2 .container .switch h5,
-main .switching3 .container .switch h5 {
-    margin: 10px 0;
-    color: rgb(83, 82, 82);
-    font-size: 0.rem;
-   text-align: center;
-
-}
-    } */
     @media (max-width:790px){
         main .section2 .container .skill .logoGroup{
             margin-top: 130px;
@@ -1130,61 +1058,7 @@ main .switching3 .container .switch .switch2:hover {
     transition: 0.3s;
 }
     }
-    /* @media (max-width:563px){
-        main .switching1 .container .switch .switch1,
-main .switching1 .container .switch .switch2,
-main .switching2 .container .switch .switch1,
-main .switching2 .container .switch .switch2,
-main .switching3 .container .switch .switch1,
-main .switching3 .container .switch .switch2{
-    padding: 20px 20px;
-    justify-content: center;
-}
-main .switching1 .container .switch h5,
-main .switching2 .container .switch h5,
-main .switching3 .container .switch h5{
-    font-size: 0.8rem;
-}
-main .switching1 .container .switch span,
-main .switching2 .container .switch span,
-main .switching3 .container .switch span{
-    position: absolute;
-    top: 65%;
-    left: 26%;
-    color: grey;
-    font-size: 0.6rem;
-}
-main .switching1 .container .switch .switch1::after,
-main .switching1 .container .switch .switch2::after,
-main .switching2 .container .switch .switch1::after,
-main .switching2 .container .switch .switch2::after,
-main .switching3 .container .switch .switch1::after,
-main .switching3 .container .switch .switch2::after{
-    content: '';
-    width: 0;
-    position: absolute;
-    top: 91%;
-    height: 2.5px;
-    left: 26.5%;
-    background: blueviolet;
-    transition: 0.5s;
-}
-main .switching1 .container .switch .switch1:hover::after,
-    main .switching1 .container .switch .switch2:hover::after{
-        width: 33%;
     
-    }
-
-    main .switching2 .container .switch .switch1:hover::after,
-    main .switching2 .container .switch .switch2:hover::after {
-        width: 17.5%;
-    }
-
- main .switching3 .container .switch .switch1:hover::after,
-    main .switching3 .container .switch .switch2:hover::after {
-        width: 19%;
-    } 
-    } */
     @media (max-width:600px){
         main .section1{
             padding: 10px 0 0 0;
