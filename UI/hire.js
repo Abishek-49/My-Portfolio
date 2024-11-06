@@ -1,50 +1,69 @@
-// function updateHireStatus(anchor) {
-    
-//     anchor.innerText = "Hired";
+// function handleClick(event) {
+//   event.preventDefault();
+  
+//   // Change the anchor text to "Hired"
+//   let anchor = document.getElementById('hireLink');
+//   anchor.innerText = 'Hired';
+//   anchor.onclick = null;
+//   anchor.style.pointerEvents = 'none';
 
-    
-//     var xhr = new XMLHttpRequest();
-//     var url = "https://script.google.com/macros/s/AKfycbzpqlWaSPpqTH9qolmWBPX2A3UOjMI0-i0qq7A_TCe_bDpyQl1q8WjX8bWJSS01N5kW7A/exec";
-//     xhr.open("POST", url, true);
-//     xhr.setRequestHeader("Content-Type", "application/json");
-//     xhr.onreadystatechange = function () {
-//       if (xhr.readyState === 4 && xhr.status === 200) {
-//         console.log("Data sent successfully");
-//       }
-//     };
-//     var data = JSON.stringify({"message": "hired"});
-//     xhr.send(data);
-//   }
+//   // Define your email ID and message
+//   let email = "abisheknarayan49@gmail.com"; // Replace with your email address
+//   let subject = "Exciting Opportunity - Next Steps";
+//   let body = "Hi,\n\nAfter reviewing your background in [specific skills or technologies], we’re excited to move forward with you for our [Job Title] role at [Company Name]. Your experience aligns perfectly with what we’re looking for, and we believe you’d be a great addition to our team.\n\nCould we schedule a quick call to finalize next steps? Please let me know a convenient time.\n\nLooking forward to welcoming you aboard!\n\nBest,\n[Recruiter’s Name]\n[Contact Information]";
+
+//   // Construct the mailto URL
+//   let mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  
+//   // Open the mail client with prefilled details
+//   window.location.href = mailtoURL;
+
+//   // Log the click
+//   let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec'; // Replace with your script URL
+  
+//   fetch(scriptURL, {
+//       method: 'GET'
+//   })
+//   .then(response => response.text())
+//   .then(data => console.log('Click recorded successfully: ' + data))
+//   .catch(error => console.error('Error:', error));
+// }
 
 function handleClick(event) {
+  event.preventDefault();
 
-    event.preventDefault();
-    // Change the anchor text to "Hired"
-    let anchor = document.getElementById('hireLink');
-    anchor.innerText = 'Hired';
+  // Define email details
+  let email = "your-email@example.com"; // Replace with your email address
+  let subject = "Exciting Opportunity - Next Steps";
+  let body = "Hi,\n\nAfter reviewing your background in [specific skills or technologies], we’re excited to move forward with you for our [Job Title] role at [Company Name]. Your experience aligns perfectly with what we’re looking for, and we believe you’d be a great addition to our team.\n\nCould we schedule a quick call to finalize next steps? Please let me know a convenient time.\n\nLooking forward to welcoming you aboard!\n\nBest,\n[Recruiter’s Name]\n[Contact Information]";
 
-    anchor.onclick=null;
-    anchor.style.pointerEvents='none';
-  
-    // Show an alert box
-    // alert('Hired');
-  
-    let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec'; // Replace this with your deployed web app URL
-    
-    fetch(scriptURL, {
-      method: 'GET'
-    })
-    // .then(response => {
-    //     if(!response.ok){
-    //         throw new Error ('network response was not ok ' + response.statusText);
-    //     }
-    //        return response.text();
-    //     })
-    .then(response => response.text())
-    .then(data => console.log('Click recorded successfully: ' + data))
-    .catch(error => console.error('Error:', error));
+
+  // Construct the mailto URL
+  let mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  // Try to open the mailto link, with a fallback if unsuccessful
+  try {
+      // Attempt to open the user's default mail client
+      window.location.href = mailtoURL;
+
+      // Optional: Log the click if needed
+      let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec';
+      fetch(scriptURL, { method: 'GET' })
+          .then(response => response.text())
+          .then(data => console.log('Click recorded successfully: ' + data))
+          .catch(error => console.error('Error:', error));
+
+  } catch (error) {
+      console.error('Mailto link failed:', error);
+
+      // Fallback: Alert the user if the mail client didn't open
+      alert("We couldn't open your mail client. Please email us directly at your-email@example.com.");
   }
-  
+}
+
+
+
+
   
 
 

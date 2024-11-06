@@ -86,7 +86,7 @@ header .section1 .container .navigation .nav2+i {
 
 main .section1 {
     margin: 5px 0;
-    padding: 140px 0 0 0;
+    padding: 100px 0 0 0;
     word-spacing: 2px;
     letter-spacing: 1px;
 }
@@ -142,6 +142,9 @@ main .section1 .container .whoAmI .bio a:hover {
 
 main .section1 .container .whoAmI .myPic {
     margin: 30px 0;
+    display: flex;
+    align-items: center;
+    
 }
 
 main .section1 .container .whoAmI .myPic img {
@@ -448,6 +451,11 @@ main .section6 .container .projectDetail {
     align-items: center;
 }
 
+main .section5 .container .projectDetail p{
+   color: brown;
+   font-style: italic;
+}
+
 main .section7,
 main .section8 {
     margin: 5px 0;
@@ -536,6 +544,10 @@ main .section8 .container .sem .semDetail a:hover {
     cursor: pointer;
     color: white;
     background-color: blueviolet;
+}
+
+main .section8 .container .university .universityDetail a + a{
+    margin-top: 15px;
 }
 
 main .switching1,
