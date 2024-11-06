@@ -1,0 +1,555 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: white;
+    font-family: 'Outfit';
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+header {
+    background-color: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    letter-spacing: 1px;
+}
+
+header .section1 .container .navigation {
+    padding: 5px 0;
+    display: flex;
+}
+
+header .section1 .container .navigation .nav1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+header .section1 .container .navigation .nav1 span {
+    color: blueviolet;
+}
+
+header .section1 .container .navigation .nav1 h5 {
+    font-weight: 100;
+}
+
+header .section1 .container .navigation .nav2 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+header .section1 .container .navigation .nav2 a {
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+header .section1 .container .navigation .nav2 a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background: blueviolet;
+    position: absolute;
+    transition: 0.5s;
+}
+
+header .section1 .container .navigation .nav2 a:hover::after {
+    width: 100%;
+}
+
+main .section1 {
+    background-color: rgb(244, 244, 250);
+    margin-top: 55px;
+    padding-top: 140px;
+    padding-bottom: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+main .section1 .container .whoAmI {
+    display: flex;
+}
+
+main .section1 .container .whoAmI .bio h4 {
+    font-weight: 100;
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio h1 {
+    font-size: 2rem;
+}
+
+main .section1 .container .whoAmI .bio h1 span:first-child {
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio p {
+    color: rgb(83, 82, 82);
+    width: 85%;
+    line-height: 30px;
+
+}
+
+main .section1 .container .whoAmI .bio button {
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    width: 12%;
+    height: 9.5%;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+}
+
+main .section1 .container .whoAmI .bio p+button {
+    background-color: blueviolet;
+    color: white;
+}
+
+main .section1 .container .whoAmI .myPic {
+    margin-left: auto;
+    margin: 30px 0;
+}
+
+main .section1 .container .whoAmI .myPic img {
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 {
+    margin-top: 50px;
+    padding-top: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+main .section2 .container .skill {
+    display: flex;
+
+}
+
+main .section2 .container .skill .logoGroup {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1 {
+    margin: 20px 0;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1 img,
+.logoGroup3 img {
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 {
+    margin: 20px 0;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 246, 246);
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+.logoGroup2 img:nth-child(2) {
+    width: 50px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 62px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup3 {
+    margin: 20px 0;
+}
+
+main .section2 .container .skill .expertise {
+    margin-left: auto;
+    width: 70%;
+}
+
+main .section2 .container .skill .expertise h4 {
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+main .section2 .container .skill .expertise li::first-letter {
+    font-weight: 800;
+}
+
+.section2 .container .skill .expertise li,
+.expertise p {
+    color: rgb(83, 82, 82);
+    width: 82%;
+    line-height: 30px;
+}
+
+main .section2 .container .skill .expertise button {
+    border-radius: 10px;
+    width: 16%;
+    height: 8%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+main .section3 {
+    padding-top: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section3 .container .education .marksheets {
+    margin: 65px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section3 .container .education .marksheets img {
+    width: 250px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+}
+
+main .section3 .container .education .marksheets img:first-child {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+main .section3 .container .education .marksheets img:nth-child(2),
+.education .marksheets img:nth-child(3),
+.education .marksheets img:last-child {
+    margin: 20px 0;
+    padding: 20px;
+
+}
+
+main .section3 .container .education {
+    display: flex;
+}
+
+main .section3 .container .education .school {
+    margin-left: 140px;
+}
+
+main .section3 .container .education .school h4 {
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+
+}
+
+main .section3 .container .education .school h2 {
+    margin-top: 50px;
+}
+
+main .section3 .container .education .school p {
+
+    color: rgb(83, 82, 82);
+    margin: 25px 0;
+
+}
+
+main .section3 .container .education .school p+a {
+    margin-left: 0;
+}
+
+main .section3 .container .education .school span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+main .section3 .container .education .school li {
+    margin-top: 10px;
+    color: rgb(83, 82, 82);
+}
+
+main .section3 .container .education .school a {
+    display: inline-block;
+    padding: 5px 13px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+
+}
+
+main .section3 .container .education .school .highSchool {
+    margin-top: 120px;
+}
+
+main .section3 .container .education .school .higherSecondary1 {
+    margin-top: 130px;
+}
+
+main .section3 .container .education .school .higherSecondary2 {
+    margin-top: 130px;
+}
+
+main .section4 {
+    padding-top: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section4 .container .ugDegree {
+    display: flex;
+}
+
+main .section4 .container .ugDegree .marksheets {
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section4 .container .ugDegree .marksheets img {
+    margin-top: 100px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+}
+
+main .section4 .container .ugDegree .marksheets img:first-child,
+.ugDegree .marksheets img:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+main .section4 .container .ugDegree .semesters {
+    margin-left: 140px;
+}
+
+main .section4 .container .ugDegree .semesters h4 {
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+main .section4 .container .ugDegree .semesters h2 {
+    margin-top: 50px;
+}
+
+main .section4 .container .ugDegree .semesters p {
+    color: rgb(83, 82, 82);
+    margin: 20px 0;
+}
+
+main .section4 .container .ugDegree .semesters p+a {
+    margin-left: 0;
+}
+
+main .section4 .container .ugDegree .semesters span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+main .section4 .container .ugDegree .semesters li {
+    margin-top: 10px;
+    color: rgb(83, 82, 82);
+}
+
+main .section4 .container .ugDegree .semesters a {
+    display: inline-block;
+    padding: 5px 13px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+
+}
+
+main .section4 .container .ugDegree .semesters .degree {
+    margin-top: 210px;
+}
+
+main .section4 .container .ugDegree .semesters .sem1 {
+    margin-top: 210px;
+}
+
+main .section4 .container .ugDegree .semesters .sem2 {
+    margin-top: 160px;
+}
+
+main .section4 .container .ugDegree .semesters .sem3 {
+    margin-top: 200px;
+}
+
+main .section4 .container .ugDegree .semesters .sem4 {
+    margin-top: 165px;
+}
+
+main .section4 .container .ugDegree .semesters .sem5 {
+    margin-top: 145px;
+}
+
+main .section4 .container .ugDegree .semesters .sem6 {
+    margin-top: 170px;
+}
+
+main .section4 .container .ugDegree .semesters .sem7 {
+    margin-top: 175px;
+}
+
+main .section4 .container .ugDegree .semesters .sem8 {
+    margin-top: 230PX;
+}
+
+main .switching {
+
+    padding-top: 105px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .switching .switch {
+    background-color: rgb(244, 244, 250);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .switching .switch h5 {
+    font-size: 1.2rem;
+    color: rgb(83, 82, 82);
+    margin: 10px 0;
+}
+
+main .switching .switch i {
+    color: blueviolet;
+}
+
+main .switching .switch .switch1::after,
+.switch2::after {
+    content: '';
+    width: 0;
+    top: 68%;
+    height: 2.5px;
+    left: 26%;
+    background: blueviolet;
+    position: absolute;
+    transition: 0.5s;
+}
+
+main .switching .switch .switch1:hover::after,
+.switch2:hover::after {
+    width: 46.9%;
+
+}
+
+main .switching .container .switch .switch1,
+.switch .switch2 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px 105px;
+    cursor: pointer;
+    position: relative;
+}
+
+main .switching .container .switch .switch1:hover,
+.switch2:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.3s;
+}
+
+main .section5 {
+    background-color: rgb(244, 244, 250);
+    padding-top: 70px;
+    margin-top: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section5 .container .awards {
+    display: flex;
+}
+
+main .section5 .container .awards .awardsImage {
+    display: flex;
+    flex-direction: column;
+}
+
+main .section5 .container .awards .awardsImage img {
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 15px;
+    margin-top: 60px;
+
+}
+
+main .section5 .container .awards .awardsImage img:nth-child(2),
+.awardsImage img:nth-child(3) {
+    padding: 20px 0;
+}
+
+main .section5 .container .awards .awardsDetail {
+    margin-left: 140px;
+}
+
+main .section5 .container .awards .awardsDetail h4 {
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+main .section5 .container .awards .awardsDetail h2 {
+    margin-top: 60px;
+}
+
+main .section5 .container .awards .awardsDetail h2:nth-of-type(2) {
+    margin-top: 125px;
+}
+
+main .section5 .container .awards .awardsDetail h2:nth-of-type(3) {
+    margin-top: 110px;
+}
+
+main .section5 .container .awards .awardsDetail p {
+    color: rgb(83, 82, 82);
+}
+
+main .section5 .container .awards .awardsDetail a {
+    display: inline-block;
+    padding: 5px 13px;
+    margin-left: 0;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}

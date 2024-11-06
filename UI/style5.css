@@ -1,0 +1,1561 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+    font-family: 'Outfit';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    letter-spacing: 1px;
+}
+
+header .section1 .container .navigation {
+    display: flex;
+}
+
+header .section1 .container .navigation .nav1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+header .section1 .container .navigation .nav1 i {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+header .section1 .container .navigation .nav1 h5 {
+    font-weight: 100;
+}
+
+header .section1 .container .navigation .nav2 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header .section1 .container .navigation .nav2 i,
+.nav2+i {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+header .section1 .container .navigation .nav2 a {
+    margin: 0 7.5px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header .section1 .container .navigation .nav2 a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+header .section1 .container .navigation .nav2 a:hover::after {
+    width: 100%;
+}
+
+header .section1 .container .navigation .nav2 i,
+header .section1 .container .navigation .nav2+i {
+    display: none;
+}
+
+main .section1 {
+    margin: 5px 0;
+    padding: 140px 0 0 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+main .section1 .container .whoAmI {
+    display: flex;
+}
+
+main .section1 .container .whoAmI .bio h4 {
+    font-weight: 100;
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio h1 {
+    font-size: 2rem;
+}
+
+main .section1 .container .whoAmI .bio h1 span:first-child {
+    color: grey;
+}
+
+main .section1 .container .whoAmI .bio p {
+    color: rgb(83, 82, 82);
+    width: 85%;
+    line-height: 30px;
+}
+
+main .section1 .container .whoAmI .bio a {
+    margin: 10px 5px;
+    text-align: center;
+    /* padding: 10px 30px; */
+    display:inline-block;
+    /* flex-direction: column; */
+    /* width: 20%; */
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+main .section1 .container .whoAmI .bio a:nth-of-type(1){
+    padding: 12px 40px;
+}
+main .section1 .container .whoAmI .bio a:nth-of-type(2){
+    padding: 12px 25px;
+}
+
+main .section1 .container .whoAmI .bio a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+main .section1 .container .whoAmI .myPic {
+    margin: 30px 0;
+}
+
+main .section1 .container .whoAmI .myPic img {
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section2 .container .skill {
+    display: flex;
+}
+
+main .section2 .container .skill .logoGroup {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1,
+.logoGroup2,
+.logoGroup3 {
+    margin: 20px 0;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup1 img,
+.logoGroup3 img {
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 {
+    padding: 10px 0;
+    width: auto;
+    background-color: rgb(255, 246, 246);
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:first-child,
+.logoGroup2 img:nth-child(2) {
+    width: 50px;
+}
+
+main .section2 .container .skill .logoGroup .logoGroup2 img:nth-child(3) {
+    width: 62px;
+}
+
+main .section2 .container .skill .expertise {
+    margin-left: 140px;
+}
+
+main .section2 .container .skill .expertise h4 {
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.section2 .container .skill .expertise li,
+.expertise p {
+    color: rgb(83, 82, 82);
+    width: 92%;
+}
+
+main .section2 .container .skill .expertise li::first-letter {
+    font-weight: 1000;
+}
+
+main .section2 .container .skill .expertise a {
+    margin: 10px 5px;
+    padding: 9px 25px;
+    text-align: center;
+    /* padding: 10px 30px; */
+    display:inline-block;
+    /* flex-direction: column; */
+    /* width: 20%; */
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+
+}
+
+main .section2 .container .skill .expertise a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+main .section3 {
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section3 .container .industryRecognition .awards {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0;
+}
+
+main .section3 .container .industryRecognition .awards .awardsImage img {
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 5px;
+    margin-top: 60px;
+
+}
+
+main .section3 .container .industryRecognition .awards .awardsImage img:nth-child(2),
+.awardsImage img:nth-child(3) {
+    padding: 20px 0;
+}
+
+main .section3 .container .industryRecognition .awards .awardsDetail {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section3 .container .industryRecognition .awards .awardsDetail h4 {
+    margin: 0 0 30px 0;
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+main .section3 .container .awards .awardsDetail p {
+    color: rgb(83, 82, 82);
+}
+
+main .section3 .container .awards .awardsDetail a {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+
+main .section3 .container .awards .awardsDetail a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+main .section4 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section4 .container .certifications h4 {
+    font-weight: 100;
+    color: grey;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+main .section4 .container .certifications h2:nth-of-type(1) {
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+main .section4 .container .certifications h2:nth-of-type(2),
+.certifications h2:nth-of-type(3),
+.certifications h2:nth-of-type(4),
+.certifications h2:nth-of-type(5),
+.certifications h2:nth-of-type(6),
+.certifications h2:nth-of-type(7),
+.certifications h2:nth-of-type(8) {
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+main .section4 .container .certifications .udemyProfessional {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage img {
+    width: 290px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+
+main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+main .section4 .container .certifications .fullStack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .section4 .container .certifications .fullStack .fullStackImage {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .section4 .container .certifications .fullStack .fullStackImage img {
+    width: 350px;
+    box-shadow: 0px 0px 10px 1px rgb(155, 155, 155);
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+main .section4 .container .certifications .fullStack .fullStackImage a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+
+main .section4 .container .certifications .fullStack .fullStackImage a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+main .section5,
+main .section6 {
+    padding: 70px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section5 .container h4,
+main .section6 .container h4 {
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+}
+
+main .section5 .container .project,
+main .section6 .container .project {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+main .section5 .container .project:hover,
+main .section6 .container .project:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(154, 237, 237);
+    position: relative;
+}
+
+main .section5 .container .projectDetail,
+main .section6 .container .projectDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section7,
+main .section8 {
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+main .section7 .container .education .school,
+main .section8 .container .university {
+    display: flex;
+    margin: 95px 0;
+
+}
+
+main .section8 .container .sem {
+    display: flex;
+    margin: 55px 0;
+}
+
+main .section7 .container .education .school .schoolImage,
+main .section8 .container .university .universityImage,
+main .section8 .container .sem .semImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section7 .container .education .school .schoolImage img,
+main .section8 .container .university .universityImage img,
+main .section8 .container .sem .semImage img {
+    width: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(122, 121, 121);
+    border-radius: 5px;
+
+}
+
+main .section7 .container .education .school .schoolDetail,
+main .section8 .container .university .universityDetail,
+main .section8 .container .sem .semDetail {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section7 .container .education .school .schoolDetail h4,
+main .section8 .container .university .universityDetail h4 {
+    margin: 5px 0;
+    color: grey;
+    font-weight: 100;
+}
+
+main .section7 .container .education .school .schoolDetail h2,
+main .section8 .container .university .universityDetail h2 {
+    margin: 5px 0;
+}
+
+main .section7 .container .education .school .schoolDetail p,
+main .section7 .container .education .school .schoolDetail ul,
+main .section8 .container .university .universityDetail p,
+main .section8 .container .sem .semDetail p,
+main .section8 .container .sem .semDetail ul {
+    color: rgb(83, 82, 82);
+}
+
+main .section7 .container .education .school .schoolDetail a,
+main .section8 .container .university .universityDetail a,
+main .section8 .container .sem .semDetail a {
+    display: inline-block;
+    padding: 5px 0;
+    /* width: 100%; */
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 250);
+    color: blueviolet;
+    border: none;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px rgb(219, 215, 215);
+}
+
+main .section7 .container .education .school .schoolDetail a:hover,
+main .section8 .container .university .universityDetail a:hover,
+main .section8 .container .sem .semDetail a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+main .switching1,
+main .switching2,
+main .switching3 {
+    padding: 90px 0 0 0;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+main .switching1 .container .switch,
+main .switching2 .container .switch,
+main .switching3 .container .switch {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+
+main .switching1 .container .switch h5,
+main .switching2 .container .switch h5,
+main .switching3 .container .switch h5 {
+    margin: 10px 0;
+    color: rgb(83, 82, 82);
+    font-size: 1.2rem;
+
+}
+
+main .switching1 .container .switch i,
+main .switching2 .container .switch i,
+main .switching3 .container .switch i {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+main .switching1 .container .switch span,
+main .switching2 .container .switch span,
+main .switching3 .container .switch span {
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    color: grey;
+    font-size: 0.9rem;
+
+}
+
+main .switching1 .container .switch .switch1::after,
+main .switching1 .container .switch .switch2::after,
+main .switching2 .container .switch .switch1::after,
+main .switching2 .container .switch .switch2::after,
+main .switching3 .container .switch .switch1::after,
+main .switching3 .container .switch .switch2::after {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 88%;
+    height: 2.5px;
+    left: 36.5%;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+main .switching1 .container .switch .switch1:hover::after,
+main .switching1 .container .switch .switch2:hover::after {
+    width: 20%;
+
+}
+
+main .switching2 .container .switch .switch1:hover::after,
+main .switching2 .container .switch .switch2:hover::after {
+    width: 17.5%;
+}
+
+main .switching3 .container .switch .switch1:hover::after,
+main .switching3 .container .switch .switch2:hover::after {
+    width: 19%;
+}
+
+main .switching1 .container .switch .switch1,
+main .switching1 .container .switch .switch2,
+main .switching2 .container .switch .switch1,
+main .switching2 .container .switch .switch2,
+main .switching3 .container .switch .switch1,
+main .switching3 .container .switch .switch2 {
+    display: flex;
+    align-items: center;
+    padding: 30px 105px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main .switching1 .container .switch .switch1:hover,
+main .switching1 .container .switch .switch2:hover,
+main .switching2 .container .switch .switch1:hover,
+main .switching2 .container .switch .switch2:hover,
+main .switching3 .container .switch .switch1:hover,
+main .switching3 .container .switch .switch2:hover {
+    background-color: rgb(154, 237, 237);
+    transition: 0.3s;
+}
+
+footer .section1 {
+    margin: 5px 0;
+    padding: 80px 0 5px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+footer .section1 .container .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .section1 .container .contact .socialIcons+a {
+    margin: 30px 0 0 0;
+    display: inline-block;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+footer .section1 .container .contact .contactLeft p {
+    margin-top: 50px;
+}
+
+footer .section1 .container .contact .contactLeft p i {
+    color: blueviolet;
+    font-size: 2rem;
+    margin: 0 5px;
+
+}
+
+footer .section1 .container .contact .socialIcons a {
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+    color: black;
+}
+
+footer .section1 .container .contact .socialIcons a:hover {
+    color: blueviolet;
+    transform: translateY(-5px);
+}
+
+footer .section1 .container .contact .contactRight {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section1 .container .contact .contactRight form input,
+textarea {
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+footer .section1 .container .contact .contactRight form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+footer .section2 {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+footer .section2 .container .copyRight {
+    display: flex;
+    justify-content: center;
+}
+
+footer .section2 .container .copyRight p i {
+    color: blueviolet;
+}
+
+footer .section2 .container .copyRight p span {
+    color: blueviolet;
+}
+
+@media (max-width:1024px) {
+
+    header .section1 .container .navigation .nav1,
+    main .section2 .container .skill .expertise h2 {
+        font-size: 1.3rem;
+    }
+
+    header .section1 .container .navigation .nav2 a {
+        font-size: 1rem;
+    }
+
+    main .section1 .container .whoAmI .bio h1 {
+        font-size: 1.7rem;
+    }
+
+    main .section1 .container .whoAmI .bio h4,
+    main .section1 .container .whoAmI .bio p,
+    main .section1 .container .whoAmI .bio a:nth-of-type(1),
+    main .section1 .container .whoAmI .bio a:nth-of-type(2),
+    main .section2 .container .skill .expertise h4,
+    main .section2 .container .skill .expertise ul,
+    main .section2 .container .skill .expertise p,
+    main .section2 .container .skill .expertise a,
+    main .section3 .container .industryRecognition .awards .awardsDetail,
+    main .section3 .container .industryRecognition .awards .awardsDetail h4,
+    main .section4 .container .certifications,
+    main .section4 .container .certifications h4,
+    main .section5 .container h4,
+    main .section6 .container h4,
+    main .section5 .container .project,
+    main .section6 .container .project,
+    main .section5 .container .projectDetail,
+    main .section6 .container .projectDetail,
+    main .section7 .container .education .school .schoolDetail,
+    main .section8 .container .university .universityDetail,
+    main .section8 .container .sem .semDetail {
+        font-size: 0.9rem;
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(1),
+    main .section1 .container .whoAmI .bio a:nth-of-type(2),
+    main .section2 .container .skill .expertise ul,
+    main .section2 .container .skill .expertise p,
+    main .section2 .container .skill .expertise a{
+        width: auto;
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(1) {
+        padding: 12px 30px;
+        /* height: 45px; */
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(2),
+    main .section2 .container .skill .expertise a {
+        padding: 12px 15px;
+        /* height: 45px; */
+
+    }
+
+    main .section2 .container .skill .expertise,
+    main .section3 .container .industryRecognition .awards .awardsDetail,
+    main .section7 .container .education .school .schoolDetail,
+    main .section8 .container .university .universityDetail,
+    main .section8 .container .sem .semDetail {
+        margin-left: 60px;
+    }
+
+    main .section1 .container .whoAmI .myPic img,
+    main .section2 .container .skill .logoGroup .logoGroup1 img,
+    main .section2 .container .skill .logoGroup .logoGroup3 img,
+    main .section3 .container .industryRecognition .awards .awardsImage img,
+    main .section4 .container .certifications .fullStack .fullStackImage img,
+    main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage img,
+    main .section7 .container .education .school .schoolImage img,
+    main .section8 .container .university .universityImage img,
+    main .section8 .container .sem .semImage img {
+        width: 250px;
+    }
+
+    main .switching1 .container .switch h5,
+    main .switching2 .container .switch h5,
+    main .switching3 .container .switch h5 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    main .switching1 .container .switch span,
+    main .switching2 .container .switch span,
+    main .switching3 .container .switch span {
+        font-size: 0.8rem;
+    }
+
+    main .switching1 .container .switch .switch1:hover::after,
+    main .switching1 .container .switch .switch2:hover::after {
+        width: 23%;
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 19.5%;
+    }
+
+    main .switching3 .container .switch .switch1:hover::after,
+    main .switching3 .container .switch .switch2:hover::after {
+        width: 21.5%;
+    }
+
+    main .switching1 .container .switch .switch1,
+    main .switching1 .container .switch .switch2,
+    main .switching2 .container .switch .switch1,
+    main .switching2 .container .switch .switch2,
+    main .switching3 .container .switch .switch1,
+    main .switching3 .container .switch .switch2 {
+        padding: 30px 75px;
+
+    }
+    footer .section1 {
+        /* margin: 5px 0;
+        padding: 80px 0 5px 0;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 30px; */
+        /* font-size: 0.9rem; */
+    }
+    
+    /* footer .section1 .container .contact {
+        display: flex;
+        justify-content: space-between;
+    } */
+    footer .section1 .container .contact .contactLeft h2{
+        font-size: 1.3rem;
+    }
+    footer .section1 .container .contact .contactLeft p,
+    footer .section1 .container .contact .socialIcons+a{
+font-size: 0.9rem;
+    }
+    footer .section1 .container .contact .contactLeft p i{
+        font-size: 1.8rem;
+    }
+    
+    footer .section1 .container .contact .socialIcons+a {
+        /* margin: 30px 0 0 0;
+        display: inline-block;
+        padding: 10px 13px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: blueviolet;
+        border: none;
+        color: white; */
+        /* font-size: 0.9rem; */
+    }
+    
+    /* footer .section1 .container .contact .contactLeft p {
+        margin-top: 50px;
+    } */
+    
+    /* footer .section1 .container .contact .contactLeft p i {
+        color: blueviolet;
+        font-size: 1.2rem;
+        margin: 0 5px;
+    
+    } */
+    
+    footer .section1 .container .contact .socialIcons a {
+        font-size: 1.8rem;
+        /* display: inline-block;
+        margin: 0 5px;
+        margin-top: 20px;
+        transition: 0.5s;
+        color: black; */
+    }
+    
+    /* footer .section1 .container .contact .socialIcons a:hover {
+        color: blueviolet;
+        transform: translateY(-5px);
+    } */
+    
+    /* footer .section1 .container .contact .contactRight {
+        display: flex;
+        flex-direction: column;
+    } */
+    
+    footer .section1 .container .contact .contactRight form input,
+    textarea {
+        /* width: 100%; */
+        /* outline: none;
+        border: 0;
+        background-color: aliceblue;
+        border-radius: 6px; */
+        /* padding: px; */
+        /* margin: 25px 0; */
+        font-size: 0.8rem;
+    }
+    
+    footer .section1 .container .contact .contactRight form button {
+        /* display: inline-block;
+        padding: 10px 20px; */
+        font-size: 0.9rem;
+        /* text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        margin-top: 40px;
+        cursor: pointer; */
+    
+    }
+    
+    footer .section2 {
+        /* word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 30px; */
+        font-size: 0.9rem;
+    }
+    
+    /* footer .section2 .container .copyRight {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .section2 .container .copyRight p i {
+        color: blueviolet;
+    }
+    
+    footer .section2 .container .copyRight p span {
+        color: blueviolet;
+    } */
+
+}
+
+@media (max-width:768px){
+    footer .section1 .container .contact .contactLeft h2{
+        font-size: 1.2rem;
+    }
+    footer .section1 .container .contact .contactLeft p,
+    footer .section1 .container .contact .socialIcons+a{
+font-size: 0.8rem;
+    }
+    footer .section1 .container .contact .contactLeft p i{
+        font-size: 1.6rem;
+    }
+    footer .section1 .container .contact .socialIcons a{
+        font-size: 1.6rem;
+    }
+    footer .section1 .container .contact .contactRight form input,
+    textarea {
+        font-size: 0.7rem;
+    }
+    footer .section1 .container .contact .contactRight form button{
+        font-size: 0.8rem;
+    }
+    footer .section2 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:887px) {
+    header .section1 .container .navigation .nav2 {
+        background-color: aliceblue;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+
+    }
+
+    header .section1 .container .navigation .nav2 a {
+        margin: 20px 0;
+    }
+
+    header .section1 .container .navigation .nav2 i,
+    header .section1 .container .navigation .nav2+i {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    header .section1 .container .navigation .nav2 i,
+    header .section1 .container .navigation .nav2+i {
+        position: absolute;
+        top: 25px;
+        right: 0px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:783px) {
+
+    main .switching1 .container .switch h5,
+    main .switching2 .container .switch h5,
+    main .switching3 .container .switch h5 {
+        font-size: 0.9rem;
+
+    }
+
+    main .switching1 .container .switch span,
+    main .switching2 .container .switch span,
+    main .switching3 .container .switch span {
+        font-size: 0.7rem;
+
+    }
+}
+
+@media (max-width:768px) {
+    header .section1 .container .navigation .nav1 {
+        font-size: 1.1rem;
+    }
+
+    header .section1 .container .navigation .nav2 a {
+        font-size: 0.9rem;
+    }
+
+    header .section1 .container .navigation .nav2 i,
+    header .section1 .container .navigation .nav2+i {
+        display: block;
+        font-size: 1.7rem;
+    }
+
+    main .section1,
+    main .section1 .container .whoAmI .bio p,
+    main .section2,
+    main .section3,
+    main .section4,
+    main .section5,
+    main .section6,
+    main .section7,
+    main .section8 {
+        line-height: 25px;
+    }
+
+    main .section1 .container .whoAmI .bio h1 {
+        font-size: 1.4rem;
+    }
+
+    main .section2 .container .skill .expertise h2 {
+        font-size: 1rem;
+    }
+
+    main .section1 .container .whoAmI .bio h4,
+    main .section1 .container .whoAmI .bio p,
+    main .section1 .container .whoAmI .bio a:nth-of-type(1),
+    main .section1 .container .whoAmI .bio a:nth-of-type(2),
+    main .section2 .container .skill .expertise,
+    main .section2 .container .skill .expertise h4,
+    main .section2 .container .skill .expertise ul,
+    main .section2 .container .skill .expertise p,
+    main .section2 .container .skill .expertise a,
+    main .section3 .container .industryRecognition .awards .awardsDetail,
+    main .section3 .container .industryRecognition .awards .awardsDetail h4,
+    main .section4 .container .certifications,
+    main .section4 .container .certifications h4,
+    main .section5 .container h4,
+    main .section6 .container h4,
+    main .section5 .container .project,
+    main .section6 .container .project,
+    main .section5 .container .projectDetail,
+    main .section6 .container .projectDetail,
+    main .section7 .container .education .school .schoolDetail,
+    main .section8 .container .university .universityDetail,
+    main .section8 .container .sem .semDetail {
+        font-size: 0.8rem;
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(1) {
+        padding: 7px 27px;
+        /* height: 45px; */
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(2),
+    main .section2 .container .skill .expertise a {
+        padding: 7px 13px;
+        /* height: 45px; */
+
+    }
+
+    main .section2 .container .skill .logoGroup {
+        margin-top: 50px;
+    }
+
+    main .section1 .container .whoAmI .myPic img,
+    main .section2 .container .skill .logoGroup .logoGroup1 img,
+    main .section2 .container .skill .logoGroup .logoGroup3 img,
+    main .section3 .container .industryRecognition .awards .awardsImage img,
+    main .section4 .container .certifications .fullStack .fullStackImage img,
+    main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage img,
+    main .section7 .container .education .school .schoolImage img,
+    main .section8 .container .university .universityImage img,
+    main .section8 .container .sem .semImage img {
+        width: 235px;
+    }
+
+    main .section4 .container .certifications h2:nth-of-type(2),
+    .certifications h2:nth-of-type(3),
+    .certifications h2:nth-of-type(4),
+    .certifications h2:nth-of-type(5),
+    .certifications h2:nth-of-type(6),
+    .certifications h2:nth-of-type(7),
+    .certifications h2:nth-of-type(8) {
+        margin: 40px 0 0 0;
+        text-align: center;
+    }
+
+    main .section4 .container .certifications .fullStack .fullStackImage img,
+    main .section4 .container .certifications .udemyProfessional .udemyProfessionalImage img {
+        margin-top: 40px;
+    }
+
+    main .section5,
+    main .section6 {
+        padding: 10px 0 0 0;
+
+    }
+}
+
+@media (max-width:715px) {
+    main .switching2 .container .switch span {
+        top: 70%;
+        left: 36%;
+    }
+
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after {
+        left: 36%;
+    }
+}
+
+@media (max-width:700px) {
+    main .section1 {
+        padding: 67px 0 0 0;
+    }
+
+    main .section1 .container .whoAmI {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    main .section1 .container .whoAmI .bio h4,
+    main .section1 .container .whoAmI .bio h1,
+    main .section1 .container .whoAmI .myPic,
+    main .section3 .container .industryRecognition .awards .awardsDetail h4,
+    main .section3 .container .industryRecognition .awards .awardsDetail h2 {
+        margin: 5px 0 0 0;
+    }
+
+    main .section1 .container .whoAmI .bio p,
+    main .section2 .container .skill .expertise p,
+    main .section3 .container .awards .awardsDetail p {
+        width: auto;
+        text-align: center;
+    }
+
+    main .section1 .container .whoAmI .bio a:nth-of-type(1),
+    main .section1 .container .whoAmI .bio a:nth-of-type(2) {
+        font-size: 0.8rem;
+        width: 100%;
+        /* height: 35px; */
+        /* border-radius: 5px; */
+    }
+
+    main .section2 {
+        padding: 43px 0 0 0;
+    }
+
+    main .section2 .container .skill,
+    main .section3 .container .industryRecognition .awards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main .section2 .container .skill .expertise,
+    main .section3 .container .industryRecognition .awards .awardsDetail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    main .section2 .container .skill .expertise h4,
+    main .section2 .container .skill .expertise h2,
+    main .section2 .container .skill .logoGroup,
+    main .section2 .container .skill .logoGroup .logoGroup1,
+    main .section2 .container .skill .logoGroup .logoGroup3 {
+        margin: 15px 0 0 0;
+
+    }
+
+    main .section2 .container .skill .logoGroup .logoGroup2 {
+        margin: 9px 0 0 0;
+    }
+
+    main .section2 .container .skill .expertise h4,
+    main .section2 .container .skill .expertise h2 {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    main .section2 .container .skill .expertise a,
+    main .section3 .container .awards .awardsDetail a,
+    main .section7 .container .education .school .schoolDetail a,
+    main .section8 .container .university .universityDetail a,
+    main .section8 .container .sem .semDetail a {
+        width: 100%;
+        /* height: 35px; */
+    }
+
+    main .section3 .container .industryRecognition .awards {
+        margin: 40px 0;
+    }
+
+    main .section3 .container .industryRecognition .awards .awardsImage img {
+        margin-top: 0px;
+
+    }
+
+    main .section4 {
+        padding: 10px 0 0 0;
+    }
+
+    main .section4 .container .certifications h2:nth-of-type(1) {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    main .section7 .container .education .school,
+    main .section8 .container .university,
+    main .section8 .container .sem {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 40px 0;
+
+    }
+
+    main .section7 .container .education .school .schoolImage,
+    main .section8 .container .university .universityImage,
+    main .section8 .container .sem .semImage {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .section7 .container .education .school .schoolImage img,
+    main .section8 .container .university .universityImage img,
+    main .section8 .container .sem .semImage img {
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    main .section7 .container .education .school .schoolDetail,
+    main .section8 .container .university .universityDetail,
+    main .section8 .container .sem .semDetail {
+        margin-left: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .section7 .container .education .school .schoolDetail h4,
+    main .section8 .container .university .universityDetail h4 {
+        margin: 10px 0;
+    }
+
+    main .section7 .container .education .school .schoolDetail h2,
+    main .section8 .container .university .universityDetail h2 {
+        margin: 5px 0;
+    }
+
+    main .section7 .container .education .school .schoolDetail p,
+    main .section7 .container .education .school .schoolDetail ul,
+    main .section8 .container .university .universityDetail p,
+    main .section8 .container .sem .semDetail p,
+    main .section8 .container .sem .semDetail ul {
+        color: rgb(83, 82, 82);
+    }
+
+    main .section7 .container .education .school .schoolDetail a:hover,
+    main .section8 .container .university .universityDetail a:hover,
+    main .section8 .container .sem .semDetail a:hover {
+        cursor: pointer;
+        color: white;
+        background-color: blueviolet;
+    }
+
+    main .switching1,
+    main .switching2,
+    main .switching3 {
+        padding: 70px 0 0 0;
+    }
+
+    main .switching1 .container .switch h5,
+    main .switching2 .container .switch h5,
+    main .switching3 .container .switch h5 {
+        font-size: 0.7rem;
+
+    }
+
+    main .switching1 .container .switch span,
+    main .switching2 .container .switch span,
+    main .switching3 .container .switch span {
+        top: 60%;
+        left: 34%;
+        font-size: 0.5rem;
+
+    }
+
+    main .switching1 .container .switch i,
+    main .switching2 .container .switch i,
+    main .switching3 .container .switch i {
+
+        font-size: 1.7rem;
+    }
+
+    main .switching1 .container .switch .switch1:hover::after,
+    main .switching1 .container .switch .switch2:hover::after {
+        width: 27%;
+
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 22%;
+    }
+
+    main .switching3 .container .switch .switch1:hover::after,
+    main .switching3 .container .switch .switch2:hover::after {
+        width: 23.8%;
+    }
+
+    main .switching1 .container .switch .switch1::after,
+    main .switching1 .container .switch .switch2::after {
+        top: 90%;
+        left: 33.5%;
+    }
+
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after,
+    main .switching3 .container .switch .switch1::after,
+    main .switching3 .container .switch .switch2::after {
+        top: 90%;
+        left: 33.5%;
+    }
+
+    main .switching1 .container .switch .switch1,
+    main .switching1 .container .switch .switch2,
+    main .switching2 .container .switch .switch1,
+    main .switching2 .container .switch .switch2,
+    main .switching3 .container .switch .switch1,
+    main .switching3 .container .switch .switch2 {
+        padding: 10px 35px;
+    }
+
+}
+
+@media (max-width:500px) {
+    header .section1 .container .navigation .nav1 {
+        font-size: 1rem;
+    }
+
+    header .section1 .container .navigation .nav2 a {
+        font-size: 0.8rem;
+    }
+
+    header .section1 .container .navigation .nav2 i,
+    header .section1 .container .navigation .nav2+i {
+        display: block;
+        font-size: 1.4rem;
+
+    }
+    footer .section1 .container .contact {
+        flex-wrap: wrap;
+        gap: 2rem;
+            }
+}
+
+/* @media(max-width:535px){
+    footer .section1 .container .contact {
+        flex-wrap: wrap;
+        justify-content: center;
+            }
+} */
+
+@media (max-width:468px) {
+    main .switching2 .container .switch span {
+        top: 71%;
+        left: 33.5%;
+
+    }
+
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after {
+        top: 92%;
+        left: 33.5%;
+
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 22%;
+    }
+
+}
+
+@media (max-width:412px) {
+    main .switching3 .container .switch span {
+        top: 70%;
+    }
+
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after {
+        top: 92%;
+        left: 31.5%;
+
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 24%;
+    }
+ 
+}
+
+@media (max-width:356px) {
+
+    main .switching1 .container .switch .switch1,
+    main .switching1 .container .switch .switch2,
+    main .switching2 .container .switch .switch1,
+    main .switching2 .container .switch .switch2,
+    main .switching3 .container .switch .switch1,
+    main .switching3 .container .switch .switch2 {
+
+        padding: 10px 15px;
+
+
+    }
+
+    main .switching1 .container .switch span {
+        top: 60%;
+        left: 28%;
+
+    }
+
+    main .switching1 .container .switch .switch1::after,
+    main .switching1 .container .switch .switch2::after {
+        top: 90%;
+        left: 28.5%;
+
+    }
+
+    main .switching1 .container .switch .switch1:hover::after,
+    main .switching1 .container .switch .switch2:hover::after {
+        width: 33.5%;
+    }
+
+    main .switching2 .container .switch span {
+        top: 70%;
+        left: 27%;
+
+    }
+
+    main .switching2 .container .switch .switch1::after,
+    main .switching2 .container .switch .switch2::after {
+        top: 90%;
+        left: 26.5%;
+
+    }
+
+    main .switching2 .container .switch .switch1:hover::after,
+    main .switching2 .container .switch .switch2:hover::after {
+        width: 29%;
+    }
+
+    main .switching3 .container .switch span {
+        top: 60%;
+        left: 32%;
+
+    }
+
+    main .switching3 .container .switch .switch1::after,
+    main .switching3 .container .switch .switch2::after {
+        top: 90%;
+        left: 31.5%;
+
+    }
+
+    main .switching3 .container .switch .switch1:hover::after,
+    main .switching3 .container .switch .switch2:hover::after {
+        width: 29%;
+    }
+}
+
+@media (max-width:325px) {
+
+    main .switching3 .container .switch span {
+        top: 66%;
+        left: 26%;
+
+    }
+
+    main .switching3 .container .switch .switch1::after,
+    main .switching3 .container .switch .switch2::after {
+        top: 86%;
+        left: 26.5%;
+
+    }
+
+    main .switching3 .container .switch .switch1:hover::after,
+    main .switching3 .container .switch .switch2:hover::after {
+        width: 30%;
+
+    }
+}
