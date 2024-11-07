@@ -460,9 +460,9 @@
                     <h3>PROJECT - 1</h3>
                 </div>
                 <div class="projectDetail" id="projectDetail1">
-                    <video controls autoplay muted loop style="margin-top: 30px;" width="320">
-                        <source src="assets/HandsOnProjects/PayEase-App.mp4" type="video/mp4">
+                    <video class="lazy-video" controls autoplay muted loop style="margin-top: 30px;" width="320">
                         <source src="assets/HandsOnProjects/PayEase-App - Copy.webm" type="video/webm">
+                        <source src="assets/HandsOnProjects/PayEase-App.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
 
@@ -474,11 +474,11 @@
 
                 </div>
                 <div class="projectDetail" id="projectDetail2">
-                    <video controls autoplay muted loop style="margin-top: 30px;" width="320">
-                        <source src="assets/HandsOnProjects/UI-A2B Restaurant Event Registration App.mp4"
-                            type="video/mp4">
+                    <video class="lazy-video" controls autoplay muted loop style="margin-top: 30px;" width="320">
                         <source src="assets/HandsOnProjects/UI-A2B Restaurant Event Registration App - Copy.webm"
                             type="video/webm">
+                        <source src="assets/HandsOnProjects/UI-A2B Restaurant Event Registration App.mp4"
+                            type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                     <p>UI-A2B Restaurant Event Registration App</p>
@@ -489,8 +489,14 @@
                     <h3>PROJECT - 3</h3>
                 </div>
                 <div class="projectDetail" id="projectDetail3">
-                    <video src=""></video>
-                    <p>Uploading...</p>
+                    <video class="lazy-video" controls autoplay muted loop style="margin-top: 30px;" width="320">
+                        <source src="assets/HandsOnProjects/MyPortfolio - Copy.webm"
+                            type="video/webm">
+                        <source src="assets/HandsOnProjects/MyPortfolio.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Portfolio Application</p>
                 </div>
             </div>
         </section>
@@ -924,3 +930,43 @@
     <script src="hire.js"></script>
     <script src="switchingTabs.js"></script>
     <script src="contactForm.js"></script>
+
+    <script>
+        // Lazy load video when it comes into view
+const lazyVideos = document.querySelectorAll('.lazy-video');
+
+const loadVideo = (video) => {
+  const source = video.querySelector('source');
+  source.src = source.dataset.src;
+  video.load(); // Load the video content
+};
+
+const handleLazyLoad = () => {
+  lazyVideos.forEach((video) => {
+    if (video.getBoundingClientRect().top < window.innerHeight) {
+      loadVideo(video);
+    }
+  });
+};
+
+window.addEventListener('scroll', handleLazyLoad);
+window.addEventListener('resize', handleLazyLoad);
+
+handleLazyLoad(); // Initial check
+
+    </script>
+
+    <script>
+        const videoElement = document.querySelector('video');
+const lowResVideo = 'video/my-video-low.mp4';
+const highResVideo = 'video/my-video-high.mp4';
+
+if (window.innerWidth < 768) {
+  // If screen size is small (e.g., mobile), use the lower resolution video
+  videoElement.src = lowResVideo;
+} else {
+  // Otherwise, use the high resolution video
+  videoElement.src = highResVideo;
+}
+
+    </script>
