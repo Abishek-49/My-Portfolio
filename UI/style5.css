@@ -446,12 +446,21 @@ main .section6 .container .project:hover {
 
 main .section5 .container .projectDetail,
 main .section6 .container .projectDetail {
-    display: flex;
-    flex-direction: column;
+    display: none; /* Hidden by default */
+    flex-direction: column; /* or row based on your layout */
     align-items: center;
 }
+#projectDetail1 {
+    display: flex; /* Visible by default */
+}
 
-main .section5 .container .projectDetail p{
+#ugProjectDetail1 {
+    display: flex; /* Show only the first project's details */
+    flex-direction: column; /* Modify as per layout requirements */
+}
+
+main .section5 .container .projectDetail p,
+main .section6 .container .projectDetail .project-file p{
    color: brown;
    font-style: italic;
 }

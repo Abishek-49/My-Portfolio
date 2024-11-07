@@ -64,3 +64,25 @@ document.addEventListener("DOMContentLoaded", function () {
         section7.style.display = 'block';
     });
 });
+
+function toggleProject(projectNumber) {
+    // Hide all projectDetail sections
+    const allDetails = document.querySelectorAll('.projectDetail');
+    allDetails.forEach(detail => detail.style.display = 'none');
+
+    // Show the selected project detail
+    const selectedDetail = document.getElementById(`projectDetail${projectNumber}`);
+    selectedDetail.style.display = 'flex';
+
+}
+
+function toggleUgProject(projectNumber) {
+    // Hide all projectDetail sections within section6
+    const allDetails = document.querySelectorAll('.section6 .projectDetail');
+    allDetails.forEach(detail => detail.style.display = 'none');
+
+    // Show only the selected project detail
+    const selectedDetail = document.getElementById(`ugProjectDetail${projectNumber}`);
+    selectedDetail.style.display = 'flex';
+}
+
