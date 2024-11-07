@@ -22,27 +22,39 @@ This portfolio web app is a personal project to showcase my professional achieve
 ## Technologies Used
 
 - **HTML5** and **CSS3**  
-  - Used for structuring and styling content, ensuring that the layout is clean, responsive, and works well on all devices.
+  - Structured content with HTML5 and styled using CSS3, ensuring a clean, responsive design across devices.
 
 - **JavaScript (ES6)**  
   - Implements dynamic and interactive features within the portfolio, such as form validation, interactive elements, and responsive content updates.
 
-- **Native JavaScript**  
-  - Handles interactive features such as form validation, real-time feedback, and other client-side logic without the need for external libraries.
-  
-  Example of form validation in JavaScript:
-  
-  ```javascript
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
-      event.preventDefault();
-      
-      let name = document.getElementById("name").value;
-      let email = document.getElementById("email").value;
-      let message = document.getElementById("message").value;
-      
-      if (name && email && message) {
-          alert("Thank you for your message, " + name + "!");
-      } else {
-          alert("Please fill out all fields.");
-      }
-  });
+- **Responsive Web Design (RWD) with Flexbox**  
+  - Utilizes Flexbox to create a fluid layout that adapts to different screen sizes and orientations, ensuring the portfolio is mobile-friendly and looks great on desktops, tablets, and phones.
+
+- **Video Streaming**  
+  - Embedded video demos showcase my working prototype projects, giving recruiters and visitors a clear understanding of the applications and functionalities I've worked on. Videos are streamed using standard HTML5 `<video>` tags.
+
+## Code Examples
+
+### Form Validation in JavaScript
+
+Example of form validation using native JavaScript to handle input requirements:
+
+```javascript
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+    
+    if (name && email && message) {
+        alert("Thank you for your message, " + name + "!");
+    } else {
+        alert("Please fill out all fields.");
+    }
+});
+### Video Embedding
+Example of embedding videos using the HTML5 <video> tag:
+
+html
+Copy code
