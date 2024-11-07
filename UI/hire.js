@@ -1,6 +1,6 @@
 // function handleClick(event) {
 //   event.preventDefault();
-  
+
 //   // Change the anchor text to "Hired"
 //   let anchor = document.getElementById('hireLink');
 //   anchor.innerText = 'Hired';
@@ -14,13 +14,13 @@
 
 //   // Construct the mailto URL
 //   let mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  
+
 //   // Open the mail client with prefilled details
 //   window.location.href = mailtoURL;
 
 //   // Log the click
 //   let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec'; // Replace with your script URL
-  
+
 //   fetch(scriptURL, {
 //       method: 'GET'
 //   })
@@ -43,28 +43,28 @@ function handleClick(event) {
 
   // Try to open the mailto link, with a fallback if unsuccessful
   try {
-      // Attempt to open the user's default mail client
-      window.location.href = mailtoURL;
+    // Attempt to open the user's default mail client
+    window.location.href = mailtoURL;
 
-      // Optional: Log the click if needed
-      let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec';
-      fetch(scriptURL, { method: 'GET' })
-          .then(response => response.text())
-          .then(data => console.log('Click recorded successfully: ' + data))
-          .catch(error => console.error('Error:', error));
+    // Optional: Log the click if needed
+    let scriptURL = 'https://script.google.com/macros/s/AKfycbzH_OoT7Z48YDfeICviqf3GwPN45t1ZTWVr5OpQ6zVOyyUySDpmy7DLjdX-9acCrNzmIw/exec';
+    fetch(scriptURL, { method: 'GET' })
+      .then(response => response.text())
+      .then(data => console.log('Click recorded successfully: ' + data))
+      .catch(error => console.error('Error:', error));
 
   } catch (error) {
-      console.error('Mailto link failed:', error);
+    console.error('Mailto link failed:', error);
 
-      // Fallback: Alert the user if the mail client didn't open
-      alert("We couldn't open your mail client. Please email us directly at your-email@example.com.");
+    // Fallback: Alert the user if the mail client didn't open
+    alert("We couldn't open your mail client. Please email us directly at your-email@example.com.");
   }
 }
 
 
 
 
-  
+
 
 
 
