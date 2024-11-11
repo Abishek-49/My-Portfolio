@@ -952,16 +952,12 @@ footer .section2 .container .copyRight p span {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
         z-index: 2;
 
     }
 
     header .section1 .container .navigation .nav2 a {
         margin: 40px 0;
-        /* flex-direction: column-reverse; */
-        /* display: flex;
-        align-items: center; */
     }
 
     header .section1 .container .navigation .nav2 i,
@@ -972,6 +968,7 @@ footer .section2 .container .copyRight p span {
         top: 19px;
         right: 0px;
         cursor: pointer;
+         padding-right: 30px;
          padding-right: 30px;
     }
 }
