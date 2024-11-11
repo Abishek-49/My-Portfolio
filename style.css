@@ -940,7 +940,7 @@ footer .section2 .container .copyRight p span {
     }
 }
 
-@media (max-width:887px) {
+@media (max-width:994px) {
     header .section1 .container .navigation .nav2 {
         background-color: aliceblue;
         position: fixed;
@@ -951,27 +951,28 @@ footer .section2 .container .copyRight p span {
         padding-top: 50px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
         z-index: 2;
 
     }
 
     header .section1 .container .navigation .nav2 a {
-        margin: 20px 0;
+        margin: 40px 0;
+        /* flex-direction: column-reverse; */
+        /* display: flex;
+        align-items: center; */
     }
 
     header .section1 .container .navigation .nav2 i,
     header .section1 .container .navigation .nav2+i {
         display: block;
-        font-size: 2rem;
-
-    }
-
-    header .section1 .container .navigation .nav2 i,
-    header .section1 .container .navigation .nav2+i {
+        font-size: 2.5rem;
         position: absolute;
-        top: 25px;
+        top: 19px;
         right: 0px;
         cursor: pointer;
+         padding-right: 30px;
     }
 }
 
@@ -1004,7 +1005,8 @@ footer .section2 .container .copyRight p span {
     header .section1 .container .navigation .nav2 i,
     header .section1 .container .navigation .nav2+i {
         display: block;
-        font-size: 1.7rem;
+        top: 17px;
+        font-size: 2.2rem;
     }
 
     main .section1,
@@ -1350,7 +1352,8 @@ footer .section2 .container .copyRight p span {
     header .section1 .container .navigation .nav2 i,
     header .section1 .container .navigation .nav2+i {
         display: block;
-        font-size: 1.4rem;
+        top: 15px;
+        font-size: 2rem;
 
     }
 
