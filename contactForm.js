@@ -5,6 +5,7 @@ const loadingIndicator = document.getElementById('loading');
 form.addEventListener('submit', e => {
     e.preventDefault();
     loadingIndicator.style.display = 'block';
+
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             if (response.ok) {
@@ -12,12 +13,12 @@ form.addEventListener('submit', e => {
                 alert('Form Submitted Successfully');
                 form.reset();
             } else {
-                throw new error('network response was not ok.')
+                throw new Error('Network response was not ok.');
             }
         })
         .catch(error => {
             console.error('Error!', error.message);
-            alert('There was an error submitting the form. ;Please try again');
+            alert('There was an error submitting the form. Please try again.');
         })
         .finally(() => {
             loadingIndicator.style.display = 'none';
